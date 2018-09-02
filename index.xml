@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Rank minimization for snapshot compressive imaging</title>
+      <link>/publication/sci_rank_minimization/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/sci_rank_minimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-pixel phase and fluorescence microscope</title>
+      <link>/publication/spi_qfm/</link>
+      <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/spi_qfm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
       <link>/publication/spi_fluo_qpi/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
