@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Computational ghost imaging (CGI) achieves single-pixel imaging by using a Spatial Light Modulator (SLM) to generate structured illuminations for spatially resolved information encoding. The imaging speed of CGI is limited by the modulation frequency of available SLMs, and sets back its practical applications. This paper proposes to bypass this limitation by trading off SLM’s redundant spatial resolution for multiplication of the modulation frequency. Specifically, a pair of galvanic mirrors sweeping across the high resolution SLM multiply the modulation frequency within the spatial resolution gap between SLM and the final reconstruction. A proof-of-principle setup with two middle end galvanic mirrors achieves ghost imaging as fast as **42 Hz** at 80 × 80-pixel resolution, **5** times faster than state-of-the-arts, and holds potential for one magnitude further multiplication by hardware upgrading. Our approach brings a significant improvement in the imaging speed of ghost imaging and pushes ghost imaging towards practical applications.">
+  <meta name="description" content="Snapshot compressive imaging (SCI) refers to compressive imaging systems where multiple frames are mapped into a single measurement, with video compressive imaging and hyperspectral compressive imaging as two representative applications. Though exciting results of high-speed videos and hyperspectral images have been demonstrated, the poor reconstruction quality precludes SCI from wide applications.This paper aims to boost the reconstruction quality of SCI via exploiting the high-dimensional structure in the desired signal. We build a joint model to integrate the nonlocal self-similarity of video/hyperspectral frames and the rank minimization approach with the SCI sensing process. Following this, an alternating minimization algorithm is developed to solve this non-convex problem. We further investigate the special structure of the sampling process in SCI to tackle the computational workload and memory issues in SCI reconstruction. Both simulation and real data (captured by four different SCI cameras) results demonstrate that our proposed algorithm leads to significant improvements compared with current state-of-the-art algorithms. We hope our results will encourage the researchers and engineers to pursue further in compressive imaging for real applications.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/publication/spi_high_speed/">
+  <link rel="alternate" hreflang="en-us" href="/publication/sci_rank_minimization/">
 
   
 
@@ -98,26 +98,26 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/publication/spi_high_speed/">
+  <link rel="canonical" href="/publication/sci_rank_minimization/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yang Liu">
-  <meta property="og:url" content="/publication/spi_high_speed/">
-  <meta property="og:title" content="High-speed computational ghost imaging via spatial sweeping | Yang Liu">
-  <meta property="og:description" content="Computational ghost imaging (CGI) achieves single-pixel imaging by using a Spatial Light Modulator (SLM) to generate structured illuminations for spatially resolved information encoding. The imaging speed of CGI is limited by the modulation frequency of available SLMs, and sets back its practical applications. This paper proposes to bypass this limitation by trading off SLM’s redundant spatial resolution for multiplication of the modulation frequency. Specifically, a pair of galvanic mirrors sweeping across the high resolution SLM multiply the modulation frequency within the spatial resolution gap between SLM and the final reconstruction. A proof-of-principle setup with two middle end galvanic mirrors achieves ghost imaging as fast as **42 Hz** at 80 × 80-pixel resolution, **5** times faster than state-of-the-arts, and holds potential for one magnitude further multiplication by hardware upgrading. Our approach brings a significant improvement in the imaging speed of ghost imaging and pushes ghost imaging towards practical applications.">
+  <meta property="og:url" content="/publication/sci_rank_minimization/">
+  <meta property="og:title" content="Rank Minimization for Snapshot Compressive Imaging | Yang Liu">
+  <meta property="og:description" content="Snapshot compressive imaging (SCI) refers to compressive imaging systems where multiple frames are mapped into a single measurement, with video compressive imaging and hyperspectral compressive imaging as two representative applications. Though exciting results of high-speed videos and hyperspectral images have been demonstrated, the poor reconstruction quality precludes SCI from wide applications.This paper aims to boost the reconstruction quality of SCI via exploiting the high-dimensional structure in the desired signal. We build a joint model to integrate the nonlocal self-similarity of video/hyperspectral frames and the rank minimization approach with the SCI sensing process. Following this, an alternating minimization algorithm is developed to solve this non-convex problem. We further investigate the special structure of the sampling process in SCI to tackle the computational workload and memory issues in SCI reconstruction. Both simulation and real data (captured by four different SCI cameras) results demonstrate that our proposed algorithm leads to significant improvements compared with current state-of-the-art algorithms. We hope our results will encourage the researchers and engineers to pursue further in compressive imaging for real applications.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-03-30T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-12-30T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2017-03-30T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-12-30T00:00:00&#43;00:00">
   
 
   
 
-  <title>High-speed computational ghost imaging via spatial sweeping | Yang Liu</title>
+  
+
+  <title>Rank Minimization for Snapshot Compressive Imaging | Yang Liu</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -199,10 +199,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">High-speed computational ghost imaging via spatial sweeping</h1>
+    <h1 itemprop="name">Rank Minimization for Snapshot Compressive Imaging</h1>
     <span class="pub-authors" itemprop="author">
       
-      <a href="https://www.researchgate.net/profile/Yuwang_Wang" target="_blank">Yuwang Wang</a>, <a href="https://liuyang12.github.io" target="_blank"><strong>Yang Liu</strong></a>, <a href="https://sites.google.com/site/suojinli" target="_blank">Jinli Suo</a>, <a href="http://www.escience.cn/people/situ/" target="_blank">Guohai Situ</a>, Chang Qiao, <a href="http://media.au.tsinghua.edu.cn" target="_blank">Qionghai Dai</a>
+      <a href="https://liuyang12.github.io" target="_blank"><strong>Yang Liu</strong></a>&ast;, <a href="https://www.bell-labs.com/usr/x.yuan" target="_blank">Xin Yuan</a>&ast;, <a href="https://sites.google.com/site/suojinli" target="_blank">Jinli Suo</a>, <a href="https://ece.duke.edu/faculty/david-brady" target="_blank">David J. Brady</a>, <a href="http://media.au.tsinghua.edu.cn" target="_blank">Qionghai Dai</a>
       
     </span>
     <span class="pull-right">
@@ -211,35 +211,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=High-speed%20computational%20ghost%20imaging%20via%20spatial%20sweeping&amp;url=%2fpublication%2fspi_high_speed%2f"
+         href="https://twitter.com/intent/tweet?text=Rank%20Minimization%20for%20Snapshot%20Compressive%20Imaging&amp;url=%2fpublication%2fsci_rank_minimization%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fspi_high_speed%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fsci_rank_minimization%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fspi_high_speed%2f&amp;title=High-speed%20computational%20ghost%20imaging%20via%20spatial%20sweeping"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fsci_rank_minimization%2f&amp;title=Rank%20Minimization%20for%20Snapshot%20Compressive%20Imaging"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fspi_high_speed%2f&amp;title=High-speed%20computational%20ghost%20imaging%20via%20spatial%20sweeping"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fsci_rank_minimization%2f&amp;title=Rank%20Minimization%20for%20Snapshot%20Compressive%20Imaging"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=High-speed%20computational%20ghost%20imaging%20via%20spatial%20sweeping&amp;body=%2fpublication%2fspi_high_speed%2f">
+         href="mailto:?subject=Rank%20Minimization%20for%20Snapshot%20Compressive%20Imaging&amp;body=%2fpublication%2fsci_rank_minimization%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -253,7 +253,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Computational ghost imaging (CGI) achieves single-pixel imaging by using a Spatial Light Modulator (SLM) to generate structured illuminations for spatially resolved information encoding. The imaging speed of CGI is limited by the modulation frequency of available SLMs, and sets back its practical applications. This paper proposes to bypass this limitation by trading off SLM’s redundant spatial resolution for multiplication of the modulation frequency. Specifically, a pair of galvanic mirrors sweeping across the high resolution SLM multiply the modulation frequency within the spatial resolution gap between SLM and the final reconstruction. A proof-of-principle setup with two middle end galvanic mirrors achieves ghost imaging as fast as <strong>42 Hz</strong> at 80 × 80-pixel resolution, <strong>5</strong> times faster than state-of-the-arts, and holds potential for one magnitude further multiplication by hardware upgrading. Our approach brings a significant improvement in the imaging speed of ghost imaging and pushes ghost imaging towards practical applications.</p>
+    <p class="pub-abstract" itemprop="text">Snapshot compressive imaging (SCI) refers to compressive imaging systems where multiple frames are mapped into a single measurement, with video compressive imaging and hyperspectral compressive imaging as two representative applications. Though exciting results of high-speed videos and hyperspectral images have been demonstrated, the poor reconstruction quality precludes SCI from wide applications.This paper aims to boost the reconstruction quality of SCI via exploiting the high-dimensional structure in the desired signal. We build a joint model to integrate the nonlocal self-similarity of video/hyperspectral frames and the rank minimization approach with the SCI sensing process. Following this, an alternating minimization algorithm is developed to solve this non-convex problem. We further investigate the special structure of the sampling process in SCI to tackle the computational workload and memory issues in SCI reconstruction. Both simulation and real data (captured by four different SCI cameras) results demonstrate that our proposed algorithm leads to significant improvements compared with current state-of-the-art algorithms. We hope our results will encourage the researchers and engineers to pursue further in compressive imaging for real applications.</p>
     
 
     
@@ -282,7 +282,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9"><em>Scientific Reports</em> <strong>7</strong>, 45325</div>
+          <div class="col-xs-12 col-sm-9"><strong><em>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</em></strong>, doi: 10.1109/TPAMI.2018.2873587</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -296,7 +296,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            March, 2017
+            December, 2018
           </div>
         </div>
       </div>
@@ -329,23 +329,23 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="/publication/spi_high_speed" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="/publication/sci_rank_minimization" target="_blank" rel="noopener">
   details
 </a>
 
-<a class="btn btn-primary btn-outline" href="https://www.nature.com/articles/srep45325.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1807.07837" target="_blank" rel="noopener">
+  arXiv
+</a>
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/1807.07837" target="_blank" rel="noopener">
   pdf
 </a>
 
-<a class="btn btn-primary btn-outline" href="https://media.nature.com/original/nature-assets/srep/2017/170330/srep45325/extref/srep45325-s1.mov" target="_blank" rel="noopener">
-  video
+<a class="btn btn-primary btn-outline" href="https://github.com/liuyang12/DeSCI" target="_blank" rel="noopener">
+  code
 </a>
 
-<a class="btn btn-primary btn-outline" href="https://media.nature.com/original/nature-assets/srep/2017/170330/srep45325/extref/srep45325-s2.pdf" target="_blank" rel="noopener">
-  supp
-</a>
-
-<a class="btn btn-primary btn-outline" href="https://doi.org/10.1038/srep45325" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://doi.org/10.1109/TPAMI.2018.2873587" target="_blank" rel="noopener">
   doi
 </a>
 
@@ -372,11 +372,11 @@
 <div class="article-container article-widget">
   <div class="post-nav">
   
-  <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/publication/spi_fluo_qpi/" rel="next">Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</a>
-  </div>
   
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/publication/spi_qfm/" rel="prev">Single-pixel phase and fluorescence microscope</a>
+  </div>
   
 </div>
 
