@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[__Yang Liu__](https://liuyang12.github.io)&amp;ast; | Yang Liu</title>
+    <link>/authors/__yang-liu__https/liuyang12.github.ioast/</link>
+      <atom:link href="/authors/__yang-liu__https/liuyang12.github.ioast/index.xml" rel="self" type="application/rss+xml" />
+    <description>[__Yang Liu__](https://liuyang12.github.io)&amp;ast;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[__Yang Liu__](https://liuyang12.github.io)&amp;ast;</title>
+      <link>/authors/__yang-liu__https/liuyang12.github.ioast/</link>
+    </image>
+    
+    <item>
+      <title>Rank Minimization for Snapshot Compressive Imaging</title>
+      <link>/publication/sci_rank_minimization/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_rank_minimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,197 +1,129 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <loc>/publication/sci_rank_minimization/</loc>
-      <lastmod>2018-12-30T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication/spi_qfm/</loc>
-      <lastmod>2018-12-10T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/__yang-liu__https/liuyang12.github.ioast/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication/spi_fluo_qpi/</loc>
-      <lastmod>2018-01-29T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2018-01-20T20:45:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/jinli-suohttps/sites.google.com/site/suojinli/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/publication/spi_high_speed/</loc>
-      <lastmod>2017-03-30T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/sci_rank_minimization/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-12-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/__yang-liu__https/liuyang12.github.io/</loc>
+    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</loc>
+    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/spi_qfm/</loc>
+    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2018-01-29T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/spi_fluo_qpi/</loc>
+    <lastmod>2018-01-29T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/guohai-situhttp/www.escience.cn/people/situ/</loc>
+    <lastmod>2017-03-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/yuwang-wanghttps/www.researchgate.net/profile/yuwang_wang/</loc>
+    <lastmod>2017-03-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/chang-qiao/</loc>
+    <lastmod>2017-03-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/spi_high_speed/</loc>
+    <lastmod>2017-03-30T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/admin/</loc>
+  </url>
   
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/yliu/</loc>
+  </url>
   
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
   
 </urlset>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan)&amp;ast; | Yang Liu</title>
+    <link>/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/</link>
+      <atom:link href="/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan)&amp;ast;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan)&amp;ast;</title>
+      <link>/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/</link>
+    </image>
+    
+    <item>
+      <title>Rank Minimization for Snapshot Compressive Imaging</title>
+      <link>/publication/sci_rank_minimization/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_rank_minimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

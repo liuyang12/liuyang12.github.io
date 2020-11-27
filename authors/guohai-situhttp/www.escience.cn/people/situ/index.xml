@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Guohai Situ](http://www.escience.cn/people/situ/) | Yang Liu</title>
+    <link>/authors/guohai-situhttp/www.escience.cn/people/situ/</link>
+      <atom:link href="/authors/guohai-situhttp/www.escience.cn/people/situ/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Guohai Situ](http://www.escience.cn/people/situ/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Guohai Situ](http://www.escience.cn/people/situ/)</title>
+      <link>/authors/guohai-situhttp/www.escience.cn/people/situ/</link>
+    </image>
+    
+    <item>
+      <title>High-speed computational ghost imaging via spatial sweeping</title>
+      <link>/publication/spi_high_speed/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/spi_high_speed/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
