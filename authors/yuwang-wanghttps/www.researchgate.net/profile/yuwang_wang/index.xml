@@ -17,7 +17,25 @@
       <link>https://liuyang12.github.io/publication/spi_high_speed/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://liuyang12.github.io/publication/spi_high_speed/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Wang17Highspeed,
+   author    = {Wang, Yuwang and Liu, Yang and Suo, Jinli and Situ, Guohai and Qiao, Chang and Dai, Qionghai},
+   title     = {High Speed Computational Ghost Imaging via Spatial Sweeping},
+   journal   = {Scientific Reports},
+   doi       = {10.1038/srep45325},
+   year      = {2017},
+   month     = {3},
+   volume    = {7},
+   pages     = {45325},
+   url       = {https://doi.org/10.1038/srep45325},
+   publisher = {Nature Publishing Group},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

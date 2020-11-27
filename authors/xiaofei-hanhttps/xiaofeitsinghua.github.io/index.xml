@@ -17,7 +17,21 @@
       <link>https://liuyang12.github.io/publication/sci_light-sheet/</link>
       <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://liuyang12.github.io/publication/sci_light-sheet/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Wang19Snapshot,
+  author       = {Wang, Xukang and Liu, Yang and Han, Xiaofei and Suo, Jinli and Dai, Qionghai},
+  title        = {Snapshot Compressive Volumetric Light-sheet Microscopy},
+  booktitle    = {OSA Biophotonics Congress},
+  volume       = {Bio-Optics: Design and Application (BODA)},
+  pages        = {JW5A.5},
+  year         = {2019},
+  organization = {Optical Society of America}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

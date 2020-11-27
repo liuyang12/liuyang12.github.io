@@ -17,7 +17,26 @@
       <link>https://liuyang12.github.io/publication/sci_rank_minimization/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://liuyang12.github.io/publication/sci_rank_minimization/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu19DeSCI,
+   author    = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
+   title     = {Rank Minimization for Snapshot Compressive Imaging},
+   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   doi       = {10.1109/TPAMI.2018.2873587},
+   year      = {2019},
+   month     = {12},
+   volume    = {41},
+   number    = {12},
+   pages     = {2990 -- 3006},
+   url       = {https://doi.org/10.1109/TPAMI.2018.2873587},
+   publisher = {IEEE},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

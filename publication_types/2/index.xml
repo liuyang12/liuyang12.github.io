@@ -17,7 +17,22 @@
       <link>https://liuyang12.github.io/publication/sci_pnp_spectral/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://liuyang12.github.io/publication/sci_pnp_spectral/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Zheng20PnPCASSI,
+   author    = {Zheng, Siming and Liu, Yang and Meng, Ziyi and Qiao, Mu and Tong, Zhishen and Yang, Xiaoyu and Han, Shensheng and Yuan, Xin},
+   title     = {Deep Plug-and-Play Priors for Spectral Snapshot Compressive Imaging},
+   journal   = {Photonics Research},
+   doi       = {10.1364/PRJ.411745},
+   year      = {2020},
+   url       = {https://doi.org/10.1364/PRJ.411745},
+   publisher = {Optical Society of America},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +40,26 @@
       <link>https://liuyang12.github.io/publication/sci_rank_minimization/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://liuyang12.github.io/publication/sci_rank_minimization/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu19DeSCI,
+   author    = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
+   title     = {Rank Minimization for Snapshot Compressive Imaging},
+   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   doi       = {10.1109/TPAMI.2018.2873587},
+   year      = {2019},
+   month     = {12},
+   volume    = {41},
+   number    = {12},
+   pages     = {2990 -- 3006},
+   url       = {https://doi.org/10.1109/TPAMI.2018.2873587},
+   publisher = {IEEE},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +67,26 @@
       <link>https://liuyang12.github.io/publication/spi_qfm/</link>
       <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://liuyang12.github.io/publication/spi_qfm/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu18Singlepixel,
+   author    = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+   title     = {Single-pixel phase and fluorescence microscope},
+   journal   = {Optics Express},
+   doi       = {10.1364/OE.26.032451},
+   year      = {2018},
+   month     = {12},
+   volume    = {26},
+   number    = {25},
+   pages     = {32451 -- 32462},
+   url       = {https://doi.org/10.1364/OE.26.032451},
+   publisher = {Optical Society of America},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +94,25 @@
       <link>https://liuyang12.github.io/publication/spi_high_speed/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://liuyang12.github.io/publication/spi_high_speed/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Wang17Highspeed,
+   author    = {Wang, Yuwang and Liu, Yang and Suo, Jinli and Situ, Guohai and Qiao, Chang and Dai, Qionghai},
+   title     = {High Speed Computational Ghost Imaging via Spatial Sweeping},
+   journal   = {Scientific Reports},
+   doi       = {10.1038/srep45325},
+   year      = {2017},
+   month     = {3},
+   volume    = {7},
+   pages     = {45325},
+   url       = {https://doi.org/10.1038/srep45325},
+   publisher = {Nature Publishing Group},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>
