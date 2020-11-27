@@ -2,45 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[Qionghai Dai](http://media.au.tsinghua.edu.cn) | Yang Liu</title>
-    <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
-      <atom:link href="/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://liuyang12.github.io/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
+      <atom:link href="https://liuyang12.github.io/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/index.xml" rel="self" type="application/rss+xml" />
     <description>[Qionghai Dai](http://media.au.tsinghua.edu.cn)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://liuyang12.github.io/img/icon-192.png</url>
       <title>[Qionghai Dai](http://media.au.tsinghua.edu.cn)</title>
-      <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
+      <link>https://liuyang12.github.io/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
     </image>
     
     <item>
+      <title>Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging</title>
+      <link>https://liuyang12.github.io/publication/sci_pnp/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/publication/sci_pnp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rank Minimization for Snapshot Compressive Imaging</title>
-      <link>/publication/sci_rank_minimization/</link>
-      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_rank_minimization/</guid>
+      <link>https://liuyang12.github.io/publication/sci_rank_minimization/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/publication/sci_rank_minimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Snapshot Compressive Volumetric Light-sheet Microscopy</title>
+      <link>https://liuyang12.github.io/publication/sci_light-sheet/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/publication/sci_light-sheet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Single-pixel phase and fluorescence microscope</title>
-      <link>/publication/spi_qfm/</link>
+      <link>https://liuyang12.github.io/publication/spi_qfm/</link>
       <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_qfm/</guid>
+      <guid>https://liuyang12.github.io/publication/spi_qfm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
-      <link>/publication/spi_fluo_qpi/</link>
+      <link>https://liuyang12.github.io/publication/spi_fluo_qpi/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_fluo_qpi/</guid>
+      <guid>https://liuyang12.github.io/publication/spi_fluo_qpi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>High-speed computational ghost imaging via spatial sweeping</title>
-      <link>/publication/spi_high_speed/</link>
+      <link>https://liuyang12.github.io/publication/spi_high_speed/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_high_speed/</guid>
+      <guid>https://liuyang12.github.io/publication/spi_high_speed/</guid>
       <description></description>
     </item>
     

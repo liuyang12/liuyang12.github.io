@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp) | Yang Liu</title>
-    <link>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
-      <atom:link href="/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://liuyang12.github.io/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
+      <atom:link href="https://liuyang12.github.io/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/index.xml" rel="self" type="application/rss+xml" />
     <description>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://liuyang12.github.io/img/icon-192.png</url>
       <title>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</title>
-      <link>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
+      <link>https://liuyang12.github.io/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
     </image>
     
     <item>
       <title>Single-pixel phase and fluorescence microscope</title>
-      <link>/publication/spi_qfm/</link>
+      <link>https://liuyang12.github.io/publication/spi_qfm/</link>
       <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_qfm/</guid>
+      <guid>https://liuyang12.github.io/publication/spi_qfm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
-      <link>/publication/spi_fluo_qpi/</link>
+      <link>https://liuyang12.github.io/publication/spi_fluo_qpi/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_fluo_qpi/</guid>
+      <guid>https://liuyang12.github.io/publication/spi_fluo_qpi/</guid>
       <description></description>
     </item>
     

@@ -2,101 +2,173 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Yang Liu</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://liuyang12.github.io/authors/</link>
+      <atom:link href="https://liuyang12.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://liuyang12.github.io/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://liuyang12.github.io/authors/</link>
     </image>
     
     <item>
-      <title>[__Yang Liu__](https://liuyang12.github.io)&amp;ast;</title>
-      <link>/authors/__yang-liu__https/liuyang12.github.ioast/</link>
-      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/__yang-liu__https/liuyang12.github.ioast/</guid>
+      <title>[__Yang Liu__](https://liuyang12.github.io)</title>
+      <link>https://liuyang12.github.io/authors/__yang-liu__https/liuyang12.github.io/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/__yang-liu__https/liuyang12.github.io/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[David J. Brady](https://ece.duke.edu/faculty/david-brady)</title>
-      <link>/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</link>
-      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</guid>
+      <title>[Mu Qiao](https://scholar.google.com/citations?user=-QMH8oAAAAAJ)</title>
+      <link>https://liuyang12.github.io/authors/mu-qiaohttps/scholar.google.com/citationsuser-qmh8oaaaaaj/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/mu-qiaohttps/scholar.google.com/citationsuser-qmh8oaaaaaj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan)</title>
+      <link>https://liuyang12.github.io/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Ziyi Meng](https://scholar.google.com/citations?user=hfEq8gYAAAAJ)</title>
+      <link>https://liuyang12.github.io/authors/ziyi-menghttps/scholar.google.com/citationsuserhfeq8gyaaaaj/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/ziyi-menghttps/scholar.google.com/citationsuserhfeq8gyaaaaj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shensheng Han</title>
+      <link>https://liuyang12.github.io/authors/shensheng-han/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/shensheng-han/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Siming Zheng*</title>
+      <link>https://liuyang12.github.io/authors/siming-zheng/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/siming-zheng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaoyu Yang</title>
+      <link>https://liuyang12.github.io/authors/xiaoyu-yang/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/xiaoyu-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhishen Tong</title>
+      <link>https://liuyang12.github.io/authors/zhishen-tong/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/zhishen-tong/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Jinli Suo](https://sites.google.com/site/suojinli)</title>
-      <link>/authors/jinli-suohttps/sites.google.com/site/suojinli/</link>
-      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/jinli-suohttps/sites.google.com/site/suojinli/</guid>
+      <link>https://liuyang12.github.io/authors/jinli-suohttps/sites.google.com/site/suojinli/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/jinli-suohttps/sites.google.com/site/suojinli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Qionghai Dai](http://media.au.tsinghua.edu.cn)</title>
-      <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
-      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</guid>
+      <link>https://liuyang12.github.io/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[__Yang Liu__](https://liuyang12.github.io)&amp;ast;</title>
+      <link>https://liuyang12.github.io/authors/__yang-liu__https/liuyang12.github.ioast/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/__yang-liu__https/liuyang12.github.ioast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[David J. Brady](https://ece.duke.edu/faculty/david-brady)</title>
+      <link>https://liuyang12.github.io/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan)&amp;ast;</title>
-      <link>/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/</link>
-      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/</guid>
+      <link>https://liuyang12.github.io/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuanast/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[__Yang Liu__](https://liuyang12.github.io)</title>
-      <link>/authors/__yang-liu__https/liuyang12.github.io/</link>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/__yang-liu__https/liuyang12.github.io/</guid>
+      <title>[Xiaofei Han](https://xiaofeitsinghua.github.io/)</title>
+      <link>https://liuyang12.github.io/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xukang Wang</title>
+      <link>https://liuyang12.github.io/authors/xukang-wang/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/authors/xukang-wang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</title>
-      <link>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
+      <link>https://liuyang12.github.io/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
       <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</guid>
+      <guid>https://liuyang12.github.io/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Guohai Situ](http://www.escience.cn/people/situ/)</title>
-      <link>/authors/guohai-situhttp/www.escience.cn/people/situ/</link>
+      <link>https://liuyang12.github.io/authors/guohai-situhttp/www.escience.cn/people/situ/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/authors/guohai-situhttp/www.escience.cn/people/situ/</guid>
+      <guid>https://liuyang12.github.io/authors/guohai-situhttp/www.escience.cn/people/situ/</guid>
       <description></description>
     </item>
     
     <item>
       <title>[Yuwang Wang](https://www.researchgate.net/profile/Yuwang_Wang)</title>
-      <link>/authors/yuwang-wanghttps/www.researchgate.net/profile/yuwang_wang/</link>
+      <link>https://liuyang12.github.io/authors/yuwang-wanghttps/www.researchgate.net/profile/yuwang_wang/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/authors/yuwang-wanghttps/www.researchgate.net/profile/yuwang_wang/</guid>
+      <guid>https://liuyang12.github.io/authors/yuwang-wanghttps/www.researchgate.net/profile/yuwang_wang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chang Qiao</title>
-      <link>/authors/chang-qiao/</link>
+      <link>https://liuyang12.github.io/authors/chang-qiao/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/authors/chang-qiao/</guid>
+      <guid>https://liuyang12.github.io/authors/chang-qiao/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://liuyang12.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>https://liuyang12.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
@@ -105,10 +177,10 @@
     
     <item>
       <title></title>
-      <link>/authors/yliu/</link>
+      <link>https://liuyang12.github.io/authors/yliu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/yliu/</guid>
-      <description>&lt;p&gt;Yang Liu is a PhD student at MIT CSAIL, advised by &lt;a href=&#34;http://people.csail.mit.edu/fredo/&#34; title=&#34;Prof. Frédo Durand&#34;&gt;Prof. Frédo Durand&lt;/a&gt;. He emphasizes on computational imaging and photography combined with compressive sensing and machine learning techniques. His current interests include non-line-of-sight imaging and high-thoughput imaging.&lt;/p&gt;
+      <guid>https://liuyang12.github.io/authors/yliu/</guid>
+      <description>&lt;p&gt;Yang Liu is a PhD student at MIT CSAIL, advised by &lt;a href=&#34;http://people.csail.mit.edu/fredo/&#34; title=&#34;Prof. Frédo Durand&#34;&gt;Prof. Frédo Durand&lt;/a&gt;. He emphasizes on computational imaging and photography combined with compressive sensing and machine learning techniques. His current interests include non-line-of-sight imaging and high-throughput imaging.&lt;/p&gt;
 
 &lt;p&gt;Prior to this, he spent a wonderful time as a master student at the &lt;a href=&#34;http://media.au.tsinghua.edu.cn&#34; title=&#34;BBNC lab&#34;&gt;Broadband and Digital Media Lab&lt;/a&gt;, Department of Automation, Tsinghua University, advised by &lt;a href=&#34;http://media.au.tsinghua.edu.cn&#34; title=&#34;Prof. Qionghai Dai, member of CAE&#34;&gt;Prof. Qionghai Dai&lt;/a&gt;. He also worked closely with &lt;a href=&#34;https://sites.google.com/site/suojinli/&#34; title=&#34;Prof. Jinli Suo&#34;&gt;Prof. Jinli Suo&lt;/a&gt;.&lt;/p&gt;
 </description>

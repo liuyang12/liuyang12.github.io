@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yang Liu</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://liuyang12.github.io/</link>
+      <atom:link href="https://liuyang12.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yang Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sun, 30 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://liuyang12.github.io/img/icon-192.png</url>
       <title>Yang Liu</title>
-      <link>/</link>
+      <link>https://liuyang12.github.io/</link>
     </image>
     
     <item>
-      <title>Rank Minimization for Snapshot Compressive Imaging</title>
-      <link>/publication/sci_rank_minimization/</link>
-      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_rank_minimization/</guid>
+      <title>Publications</title>
+      <link>https://liuyang12.github.io/publication/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/publication/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Single-pixel phase and fluorescence microscope</title>
-      <link>/publication/spi_qfm/</link>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_qfm/</guid>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
       <description></description>
     </item>
     
     <item>
-      <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
-      <link>/publication/spi_fluo_qpi/</link>
-      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_fluo_qpi/</guid>
+      <title>Posts</title>
+      <link>https://liuyang12.github.io/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/post/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>High-speed computational ghost imaging via spatial sweeping</title>
-      <link>/publication/spi_high_speed/</link>
-      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_high_speed/</guid>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://liuyang12.github.io/talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://liuyang12.github.io/talk/</guid>
       <description></description>
     </item>
     
