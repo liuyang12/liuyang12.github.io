@@ -65,5 +65,31 @@
 </description>
     </item>
     
+    <item>
+      <title>Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging</title>
+      <link>/publication/sci_pnp/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_pnp/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Yuan20PnPSCI,
+   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Dai, Qionghai},
+   title     = {Plug-and-Play Algorithms for Large-scale Snapshot Compressive Imaging},
+   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+   doi       = {10.1109/CVPR42600.2020.00152},
+   year      = {2020},
+   month     = {6},
+   pages     = {1447 -- 1457},
+   arxiv     = {2003.13654},
+   url       = {https://doi.org/10.1109/CVPR42600.2020.00152},
+   publisher = {IEEE/CVF},
+   type      = {Conference Proceedings}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
