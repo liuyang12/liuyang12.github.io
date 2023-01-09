@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yang Liu</title>
-    <link>https://liuyang12.github.io/authors/admin/</link>
-      <atom:link href="https://liuyang12.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/admin/</link>
+      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Yang Liu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Yang Liu</title>
-      <link>https://liuyang12.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
     </image>
     
   </channel>

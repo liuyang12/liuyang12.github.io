@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[Xiaofei Han](https://xiaofeitsinghua.github.io/) | Yang Liu</title>
-    <link>https://liuyang12.github.io/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</link>
-      <atom:link href="https://liuyang12.github.io/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</link>
+      <atom:link href="/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>[Xiaofei Han](https://xiaofeitsinghua.github.io/)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sun, 14 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sun, 14 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>[Xiaofei Han](https://xiaofeitsinghua.github.io/)</title>
-      <link>https://liuyang12.github.io/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</link>
+      <link>/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</link>
     </image>
     
     <item>
       <title>Snapshot Compressive Volumetric Light-sheet Microscopy</title>
-      <link>https://liuyang12.github.io/publication/sci_light-sheet/</link>
+      <link>/publication/sci_light-sheet/</link>
       <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/sci_light-sheet/</guid>
+      <guid>/publication/sci_light-sheet/</guid>
       <description>
 
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;

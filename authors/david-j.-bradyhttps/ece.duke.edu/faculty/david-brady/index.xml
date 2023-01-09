@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[David J. Brady](https://ece.duke.edu/faculty/david-brady) | Yang Liu</title>
-    <link>https://liuyang12.github.io/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</link>
-      <atom:link href="https://liuyang12.github.io/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</link>
+      <atom:link href="/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/index.xml" rel="self" type="application/rss+xml" />
     <description>[David J. Brady](https://ece.duke.edu/faculty/david-brady)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>[David J. Brady](https://ece.duke.edu/faculty/david-brady)</title>
-      <link>https://liuyang12.github.io/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</link>
+      <link>/authors/david-j.-bradyhttps/ece.duke.edu/faculty/david-brady/</link>
     </image>
     
     <item>
       <title>Rank Minimization for Snapshot Compressive Imaging</title>
-      <link>https://liuyang12.github.io/publication/sci_rank_minimization/</link>
+      <link>/publication/sci_rank_minimization/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/sci_rank_minimization/</guid>
+      <guid>/publication/sci_rank_minimization/</guid>
       <description>
 
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Qionghai Dai](http://media.au.tsinghua.edu.cn)&lt;sup&gt;✉&lt;/sup&gt; | Yang Liu</title>
+    <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cnsup/sup/</link>
+      <atom:link href="/authors/qionghai-daihttp/media.au.tsinghua.edu.cnsup/sup/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Qionghai Dai](http://media.au.tsinghua.edu.cn)&lt;sup&gt;✉&lt;/sup&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Qionghai Dai](http://media.au.tsinghua.edu.cn)&lt;sup&gt;✉&lt;/sup&gt;</title>
+      <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cnsup/sup/</link>
+    </image>
+    
+    <item>
+      <title>Rank Minimization for Snapshot Compressive Imaging</title>
+      <link>/publication/sci_rank_minimization/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_rank_minimization/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu19DeSCI,
+   author    = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
+   title     = {Rank Minimization for Snapshot Compressive Imaging},
+   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   doi       = {10.1109/TPAMI.2018.2873587},
+   year      = {2019},
+   month     = {12},
+   volume    = {41},
+   number    = {12},
+   pages     = {2990 -- 3006},
+   url       = {https://doi.org/10.1109/TPAMI.2018.2873587},
+   publisher = {IEEE},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

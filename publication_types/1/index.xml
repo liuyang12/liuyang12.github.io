@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Yang Liu</title>
-    <link>https://liuyang12.github.io/publication_types/1/</link>
-      <atom:link href="https://liuyang12.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication_types/1/</link>
+      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>1</title>
-      <link>https://liuyang12.github.io/publication_types/1/</link>
+      <link>/publication_types/1/</link>
     </image>
     
     <item>
       <title>Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging</title>
-      <link>https://liuyang12.github.io/publication/sci_pnp/</link>
+      <link>/publication/sci_pnp/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/sci_pnp/</guid>
+      <guid>/publication/sci_pnp/</guid>
       <description>
 
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
@@ -40,9 +40,9 @@
     
     <item>
       <title>Snapshot Compressive Volumetric Light-sheet Microscopy</title>
-      <link>https://liuyang12.github.io/publication/sci_light-sheet/</link>
+      <link>/publication/sci_light-sheet/</link>
       <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/sci_light-sheet/</guid>
+      <guid>/publication/sci_light-sheet/</guid>
       <description>
 
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
@@ -62,9 +62,9 @@
     
     <item>
       <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
-      <link>https://liuyang12.github.io/publication/spi_fluo_qpi/</link>
+      <link>/publication/spi_fluo_qpi/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/spi_fluo_qpi/</guid>
+      <guid>/publication/spi_fluo_qpi/</guid>
       <description>
 
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Yang Liu</title>
-    <link>https://liuyang12.github.io/categories/</link>
-      <atom:link href="https://liuyang12.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/</link>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Categories</title>
-      <link>https://liuyang12.github.io/categories/</link>
+      <link>/categories/</link>
     </image>
     
   </channel>

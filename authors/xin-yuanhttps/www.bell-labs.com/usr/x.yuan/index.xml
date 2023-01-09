@@ -2,44 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan) | Yang Liu</title>
-    <link>https://liuyang12.github.io/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/</link>
-      <atom:link href="https://liuyang12.github.io/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/</link>
+      <atom:link href="/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/index.xml" rel="self" type="application/rss+xml" />
     <description>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>[Xin Yuan](https://www.bell-labs.com/usr/x.yuan)</title>
-      <link>https://liuyang12.github.io/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/</link>
+      <link>/authors/xin-yuanhttps/www.bell-labs.com/usr/x.yuan/</link>
     </image>
     
     <item>
-      <title>Deep Plug-and-Play Priors for Spectral Snapshot Compressive Imaging</title>
-      <link>https://liuyang12.github.io/publication/sci_pnp_spectral/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/sci_pnp_spectral/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Zheng20PnPCASSI,
-   author    = {Zheng, Siming and Liu, Yang and Meng, Ziyi and Qiao, Mu and Tong, Zhishen and Yang, Xiaoyu and Han, Shensheng and Yuan, Xin},
-   title     = {Deep Plug-and-Play Priors for Spectral Snapshot Compressive Imaging},
-   journal   = {Photonics Research},
-   doi       = {10.1364/PRJ.411745},
-   year      = {2020},
-   url       = {https://doi.org/10.1364/PRJ.411745},
-   publisher = {Optical Society of America},
-   type      = {Journal Article}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging</title>
-      <link>https://liuyang12.github.io/publication/sci_pnp/</link>
+      <link>/publication/sci_pnp/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/sci_pnp/</guid>
+      <guid>/publication/sci_pnp/</guid>
       <description>
 
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;

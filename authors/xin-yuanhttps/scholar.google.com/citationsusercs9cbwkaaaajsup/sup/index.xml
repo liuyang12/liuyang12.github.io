@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Xin Yuan](https://scholar.google.com/citations?user=cS9CbWkAAAAJ)&lt;sup&gt;†&lt;/sup&gt; | Yang Liu</title>
+    <link>/authors/xin-yuanhttps/scholar.google.com/citationsusercs9cbwkaaaajsup/sup/</link>
+      <atom:link href="/authors/xin-yuanhttps/scholar.google.com/citationsusercs9cbwkaaaajsup/sup/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Xin Yuan](https://scholar.google.com/citations?user=cS9CbWkAAAAJ)&lt;sup&gt;†&lt;/sup&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Xin Yuan](https://scholar.google.com/citations?user=cS9CbWkAAAAJ)&lt;sup&gt;†&lt;/sup&gt;</title>
+      <link>/authors/xin-yuanhttps/scholar.google.com/citationsusercs9cbwkaaaajsup/sup/</link>
+    </image>
+    
+    <item>
+      <title>Plug-and-Play Algorithms for Video Snapshot Compressive Imaging</title>
+      <link>/publication/sci_pnp_video/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_pnp_video/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Yuan21PnPvideo,
+   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Durand, Fr{\&#39;e}do and Dai, Qionghai},
+   title     = {Plug-and-Play Algorithms for Video
+Snapshot Compressive Imaging},
+   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   doi       = {10.1109/TPAMI.2021.3099035},
+   year      = {2022},
+   month     = {10},
+   volume    = {44},
+   number    = {10},
+   pages     = {7093 -- 7111},
+   url       = {https://doi.org/10.1109/TPAMI.2021.3099035},
+   publisher = {IEEE},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rank Minimization for Snapshot Compressive Imaging</title>
+      <link>/publication/sci_rank_minimization/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_rank_minimization/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu19DeSCI,
+   author    = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
+   title     = {Rank Minimization for Snapshot Compressive Imaging},
+   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   doi       = {10.1109/TPAMI.2018.2873587},
+   year      = {2019},
+   month     = {12},
+   volume    = {41},
+   number    = {12},
+   pages     = {2990 -- 3006},
+   url       = {https://doi.org/10.1109/TPAMI.2018.2873587},
+   publisher = {IEEE},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

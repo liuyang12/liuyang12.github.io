@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xiaoyu Yang | Yang Liu</title>
-    <link>https://liuyang12.github.io/authors/xiaoyu-yang/</link>
-      <atom:link href="https://liuyang12.github.io/authors/xiaoyu-yang/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/xiaoyu-yang/</link>
+      <atom:link href="/authors/xiaoyu-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaoyu Yang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Xiaoyu Yang</title>
-      <link>https://liuyang12.github.io/authors/xiaoyu-yang/</link>
+      <link>/authors/xiaoyu-yang/</link>
     </image>
     
     <item>
       <title>Deep Plug-and-Play Priors for Spectral Snapshot Compressive Imaging</title>
-      <link>https://liuyang12.github.io/publication/sci_pnp_spectral/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication/sci_pnp_spectral/</guid>
+      <link>/publication/sci_pnp_spectral/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_pnp_spectral/</guid>
       <description>
 
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
@@ -26,7 +26,10 @@
    title     = {Deep Plug-and-Play Priors for Spectral Snapshot Compressive Imaging},
    journal   = {Photonics Research},
    doi       = {10.1364/PRJ.411745},
-   year      = {2020},
+   volume    = {9},
+   number    = {2},
+   pages     = {B18--B29},
+   year      = {2021},
    url       = {https://doi.org/10.1364/PRJ.411745},
    publisher = {Optical Society of America},
    type      = {Journal Article}

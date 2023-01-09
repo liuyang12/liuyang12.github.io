@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Yang Liu</title>
-    <link>https://liuyang12.github.io/publication_types/</link>
-      <atom:link href="https://liuyang12.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication_types/</link>
+      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2020 Y. Liu</copyright><lastBuildDate>Mon, 23 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://liuyang12.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Publication_types</title>
-      <link>https://liuyang12.github.io/publication_types/</link>
+      <link>/publication_types/</link>
     </image>
     
     <item>
       <title>2</title>
-      <link>https://liuyang12.github.io/publication_types/2/</link>
-      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication_types/2/</guid>
+      <link>/publication_types/2/</link>
+      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>/publication_types/2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>1</title>
-      <link>https://liuyang12.github.io/publication_types/1/</link>
+      <link>/publication_types/1/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://liuyang12.github.io/publication_types/1/</guid>
+      <guid>/publication_types/1/</guid>
       <description></description>
     </item>
     

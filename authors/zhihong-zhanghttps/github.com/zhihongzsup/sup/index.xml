@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Zhihong Zhang](https://github.com/zhihongz)&lt;sup&gt;†&lt;/sup&gt; | Yang Liu</title>
+    <link>/authors/zhihong-zhanghttps/github.com/zhihongzsup/sup/</link>
+      <atom:link href="/authors/zhihong-zhanghttps/github.com/zhihongzsup/sup/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Zhihong Zhang](https://github.com/zhihongz)&lt;sup&gt;†&lt;/sup&gt;</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Zhihong Zhang](https://github.com/zhihongz)&lt;sup&gt;†&lt;/sup&gt;</title>
+      <link>/authors/zhihong-zhanghttps/github.com/zhihongzsup/sup/</link>
+    </image>
+    
+    <item>
+      <title>Ten-Mega-Pixel Snapshot Compressive Imaging with a Hybrid Coded Aperture</title>
+      <link>/publication/sci_hybrid/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_hybrid/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Li21SPY,
+   author    = {Zhang, Zhihong and Deng, Chao and Liu, Yang and Yuan, Xin and Suo, Jinli and Dai, Qionghai},
+   title     = {Ten-mega-pixel snapshot compressive imaging with a hybrid coded aperture},
+   journal   = {Photonics Research},
+   doi       = {10.1364/PRJ.435256},
+   year      = {2021},
+   month     = {11},
+   volume    = {9},
+   number    = {11},
+   pages     = {2277--2287},
+   url       = {https://doi.org/10.1364/PRJ.435256},
+   publisher = {Optica Publishing Group},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
