@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,32 +15,8 @@
     <item>
       <title>[__Yang Liu__](https://yangliu.mit.edu/)&lt;sup&gt;†&lt;/sup&gt;</title>
       <link>/authors/__yang-liu__https/yangliu.mit.edu/sup/sup/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <guid>/authors/__yang-liu__https/yangliu.mit.edu/sup/sup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Frédo Durand](http://people.csail.mit.edu/fredo/)&lt;sup&gt;✉&lt;/sup&gt;</title>
-      <link>/authors/fredo-durandhttp/people.csail.mit.edu/fredo/sup/sup/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>/authors/fredo-durandhttp/people.csail.mit.edu/fredo/sup/sup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Gregory W. Wornell](http://allegro.mit.edu/~gww/)</title>
-      <link>/authors/gregory-w.-wornellhttp/allegro.mit.edu/~gww/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>/authors/gregory-w.-wornellhttp/allegro.mit.edu/~gww/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[William T. Freeman](https://billf.mit.edu/)</title>
-      <link>/authors/william-t.-freemanhttps/billf.mit.edu/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>/authors/william-t.-freemanhttps/billf.mit.edu/</guid>
       <description></description>
     </item>
     
@@ -117,102 +93,6 @@
     </item>
     
     <item>
-      <title>[Andrew Maiden](https://www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden)</title>
-      <link>/authors/andrew-maidenhttps/www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/andrew-maidenhttps/www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Guoan Zheng](https://smartimaging.uconn.edu/)</title>
-      <link>/authors/guoan-zhenghttps/smartimaging.uconn.edu/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/guoan-zhenghttps/smartimaging.uconn.edu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Liheng Bian](https://bianlab.github.io/)&lt;sup&gt;✉&lt;/sup&gt;</title>
-      <link>/authors/liheng-bianhttps/bianlab.github.io/sup/sup/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/liheng-bianhttps/bianlab.github.io/sup/sup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Meng Li](https://bianlab.github.io/members.html)</title>
-      <link>/authors/meng-lihttps/bianlab.github.io/members.html/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/meng-lihttps/bianlab.github.io/members.html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Yiming Li](https://bianlab.github.io/members.html)</title>
-      <link>/authors/yiming-lihttps/bianlab.github.io/members.html/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/yiming-lihttps/bianlab.github.io/members.html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jun Zhang</title>
-      <link>/authors/jun-zhang/</link>
-      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/jun-zhang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Mu Qiao](https://scholar.google.com/citations?user=-QMH8oAAAAAJ)</title>
-      <link>/authors/mu-qiaohttps/scholar.google.com/citationsuser-qmh8oaaaaaj/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/mu-qiaohttps/scholar.google.com/citationsuser-qmh8oaaaaaj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Siming Zheng](https://github.com/zsm1211)&lt;sup&gt;†&lt;/sup&gt;</title>
-      <link>/authors/siming-zhenghttps/github.com/zsm1211sup/sup/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/siming-zhenghttps/github.com/zsm1211sup/sup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Ziyi Meng](https://scholar.google.com/citations?user=hfEq8gYAAAAJ)</title>
-      <link>/authors/ziyi-menghttps/scholar.google.com/citationsuserhfeq8gyaaaaj/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/ziyi-menghttps/scholar.google.com/citationsuserhfeq8gyaaaaj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shensheng Han</title>
-      <link>/authors/shensheng-han/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/shensheng-han/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xiaoyu Yang</title>
-      <link>/authors/xiaoyu-yang/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/xiaoyu-yang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zhishen Tong</title>
-      <link>/authors/zhishen-tong/</link>
-      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/authors/zhishen-tong/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>[David J. Brady](https://www.optics.arizona.edu/person/david-brady)</title>
       <link>/authors/david-j.-bradyhttps/www.optics.arizona.edu/person/david-brady/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
@@ -225,30 +105,6 @@
       <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cnsup/sup/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/authors/qionghai-daihttp/media.au.tsinghua.edu.cnsup/sup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Xiaofei Han](https://xiaofeitsinghua.github.io/)</title>
-      <link>/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</link>
-      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xukang Wang</title>
-      <link>/authors/xukang-wang/</link>
-      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/xukang-wang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</title>
-      <link>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
-      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</guid>
       <description></description>
     </item>
     
@@ -281,9 +137,9 @@
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+      <description>&lt;p&gt;Yang Liu is a PhD student working on computational photography and synthetic image generation with Prof. Frédo Durand at MIT EECS. He deploys optimization tools for efficient and flexible image/video post-processing.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+&lt;p&gt;Prior to this, he spent a wonderful time working on optimization tools for computational photography with Prof. Qionghai Dai at Tsinghua University and received bachelor&amp;rsquo;s and master&amp;rsquo;s degrees in 2016 and 2019, respectively.&lt;/p&gt;
 </description>
     </item>
     
@@ -292,40 +148,9 @@
       <link>/authors/yliu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/yliu/</guid>
-      <description>&lt;p&gt;Yang Liu is a fourth-year PhD student working on computational imaging/photography with Prof. &lt;a href=&#34;http://people.csail.mit.edu/fredo/&#34;&gt;Frédo Durand&lt;/a&gt; at &lt;a href=&#34;https://mit.edu/&#34;&gt;MIT&lt;/a&gt; &lt;a href=&#34;https://www.eecs.mit.edu/&#34;&gt;EECS&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;CSAIL&lt;/a&gt;. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques. Typical topics that he is currently enthusiastic about are high-dimensional visual computing from low-dimensional samplings, such as high-throughput imaging, and single-pixel imaging, and non-line-of-sight imaging. Prior to this, he received his bachelor’s and master’s degrees from &lt;a href=&#34;https://www.tsinghua.edu.cn/&#34;&gt;Tsinghua University&lt;/a&gt; in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=CHAajY4AAAAJ&#34; title=&#34;member of CAE&#34;&gt;Qionghai Dai&lt;/a&gt; and working closely with Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=e4lel8QAAAAJ&#34;&gt;Jinli Suo&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Yang Liu is a PhD student working on computational photography and synthetic image generation with Prof. Frédo Durand at MIT EECS. He deploys optimization tools for efficient and flexible image/video post-processing.&lt;/p&gt;
 
-&lt;p&gt;He is broadly interested in artificial intelligence for accelerating scientific discovery and meeting social needs. He also worked on &lt;a href=&#34;/publication/privacy_dual_imaging/&#34;&gt;revealing the imaging threat&lt;/a&gt; of &lt;a href=&#34;https://en.wikipedia.org/wiki/Ambient_light_sensor&#34;&gt;ambient light sensors&lt;/a&gt; on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and designing a privacy-preserving intradermal barcode and a robust recognition system as vaccine record and beyond (general on-patient medical record). &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;[Spotlight by MIT CSAIL]&lt;/a&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;News  &amp;ensp;  [&lt;em&gt;check out my &lt;a href=&#34;https://yliu12.notion.site/&#34;&gt;notion site&lt;/a&gt; for latest updates and &lt;a href=&#34;https://scholar.google.com/citations?user=QRRaWikAAAAJ&#34;&gt;google scholar&lt;/a&gt; for papers&lt;/em&gt;]&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Organizing graphics side of &lt;a href=&#34;https://sites.google.com/view/visionseminar&#34;&gt;MIT Vision and Graphics Seminar&lt;/a&gt;. Shoot me an &lt;a href=&#34;mailto:yliu@csail.mit.edu&#34;&gt;email&lt;/a&gt; if you are interested!&lt;/td&gt;
-&lt;td&gt;2022&amp;ndash;2023&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Taking &lt;a href=&#34;https://fab.cba.mit.edu/classes/MAS.863/&#34;&gt;MAS.863 How-to-Make&lt;/a&gt; class making my &lt;a href=&#34;https://fab.cba.mit.edu/classes/863.22/EECS/people/Yang/&#34;&gt;own content creation&lt;/a&gt; for fun!&lt;/td&gt;
-&lt;td&gt;2022 Fall&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Received &lt;a href=&#34;https://mittakedaprogram.mit.edu/round-2-fellows/&#34;&gt;Takeda Fellowship&lt;/a&gt; (2022-2023) from &lt;a href=&#34;https://mittakedaprogram.mit.edu/&#34;&gt;MIT-Takeda Program&lt;/a&gt;. Thanks Takeda!&lt;/td&gt;
-&lt;td&gt;2022.06&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;Research Spotlight&lt;/a&gt; by &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt;. Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/matthew-busekroos&#34;&gt;Matt&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/nathan-caldwell&#34;&gt;Nate&lt;/a&gt; for neat production!&lt;/td&gt;
-&lt;td&gt;2022.04&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;Prior to this, he spent a wonderful time working on optimization tools for computational photography with Prof. Qionghai Dai at Tsinghua University and received bachelor&amp;rsquo;s and master&amp;rsquo;s degrees in 2016 and 2019, respectively.&lt;/p&gt;
 </description>
     </item>
     
