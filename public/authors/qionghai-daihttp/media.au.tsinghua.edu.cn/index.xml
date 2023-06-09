@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Qionghai Dai](http://media.au.tsinghua.edu.cn) | Yang Liu</title>
+    <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
+      <atom:link href="/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Qionghai Dai](http://media.au.tsinghua.edu.cn)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Qionghai Dai](http://media.au.tsinghua.edu.cn)</title>
+      <link>/authors/qionghai-daihttp/media.au.tsinghua.edu.cn/</link>
+    </image>
+    
+    <item>
+      <title>Plug-and-Play Algorithms for Video Snapshot Compressive Imaging</title>
+      <link>/publication/sci_pnp_video/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_pnp_video/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Yuan21PnPvideo,
+   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Durand, Fr{\&#39;e}do and Dai, Qionghai},
+   title     = {Plug-and-Play Algorithms for Video
+Snapshot Compressive Imaging},
+   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   doi       = {10.1109/TPAMI.2021.3099035},
+   year      = {2022},
+   month     = {10},
+   volume    = {44},
+   number    = {10},
+   pages     = {7093 -- 7111},
+   url       = {https://doi.org/10.1109/TPAMI.2021.3099035},
+   publisher = {IEEE},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ten-Mega-Pixel Snapshot Compressive Imaging with a Hybrid Coded Aperture</title>
+      <link>/publication/sci_hybrid/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_hybrid/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Li21SPY,
+   author    = {Zhang, Zhihong and Deng, Chao and Liu, Yang and Yuan, Xin and Suo, Jinli and Dai, Qionghai},
+   title     = {Ten-mega-pixel snapshot compressive imaging with a hybrid coded aperture},
+   journal   = {Photonics Research},
+   doi       = {10.1364/PRJ.435256},
+   year      = {2021},
+   month     = {11},
+   volume    = {9},
+   number    = {11},
+   pages     = {2277--2287},
+   url       = {https://doi.org/10.1364/PRJ.435256},
+   publisher = {Optica Publishing Group},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-Pixel Ptychography</title>
+      <link>/publication/spi_ptychography/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/spi_ptychography/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Li21SPY,
+   author    = {Li, Meng and Bian, Liheng and Zheng, Guoan and Maiden, Andrew and Liu, Yang and Li, Yiming and Suo, Jinli and Dai, Qionghai and Zhang, Jun},
+   title     = {Single-pixel ptychography},
+   journal   = {Optics Letters},
+   doi       = {10.1364/OL.417039},
+   year      = {2021},
+   month     = {4},
+   volume    = {46},
+   number    = {7},
+   pages     = {1624--1627},
+   url       = {https://doi.org/10.1364/OL.417039},
+   publisher = {Optica Publishing Group},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging</title>
+      <link>/publication/sci_pnp/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_pnp/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Yuan20PnPSCI,
+   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Dai, Qionghai},
+   title     = {Plug-and-Play Algorithms for Large-scale Snapshot Compressive Imaging},
+   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+   doi       = {10.1109/CVPR42600.2020.00152},
+   year      = {2020},
+   month     = {6},
+   pages     = {1447 -- 1457},
+   arxiv     = {2003.13654},
+   url       = {https://doi.org/10.1109/CVPR42600.2020.00152},
+   publisher = {IEEE/CVF},
+   type      = {Conference Proceedings}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Snapshot Compressive Volumetric Light-sheet Microscopy</title>
+      <link>/publication/sci_light-sheet/</link>
+      <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/sci_light-sheet/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Wang19Snapshot,
+  author       = {Wang, Xukang and Liu, Yang and Han, Xiaofei and Suo, Jinli and Dai, Qionghai},
+  title        = {Snapshot Compressive Volumetric Light-sheet Microscopy},
+  booktitle    = {OSA Biophotonics Congress},
+  volume       = {Bio-Optics: Design and Application (BODA)},
+  pages        = {JW5A.5},
+  year         = {2019},
+  organization = {Optical Society of America}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-pixel phase and fluorescence microscope</title>
+      <link>/publication/spi_qfm/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/spi_qfm/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu18Singlepixel,
+   author    = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+   title     = {Single-pixel phase and fluorescence microscope},
+   journal   = {Optics Express},
+   doi       = {10.1364/OE.26.032451},
+   year      = {2018},
+   month     = {12},
+   volume    = {26},
+   number    = {25},
+   pages     = {32451 -- 32462},
+   url       = {https://doi.org/10.1364/OE.26.032451},
+   publisher = {Optical Society of America},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
+      <link>/publication/spi_fluo_qpi/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/spi_fluo_qpi/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Liu18Simultaneous,
+  author       = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+  title        = {Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors},
+  booktitle    = {Proc. SPIE, Quantitative Phase Imaging IV},
+  volume       = {10503},
+  pages        = {105032K},
+  year         = {2018},
+  organization = {International Society for Optics and Photonics}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High-speed computational ghost imaging via spatial sweeping</title>
+      <link>/publication/spi_high_speed/</link>
+      <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/spi_high_speed/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Wang17Highspeed,
+   author    = {Wang, Yuwang and Liu, Yang and Suo, Jinli and Situ, Guohai and Qiao, Chang and Dai, Qionghai},
+   title     = {High Speed Computational Ghost Imaging via Spatial Sweeping},
+   journal   = {Scientific Reports},
+   doi       = {10.1038/srep45325},
+   year      = {2017},
+   month     = {3},
+   volume    = {7},
+   pages     = {45325},
+   url       = {https://doi.org/10.1038/srep45325},
+   publisher = {Nature Publishing Group},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

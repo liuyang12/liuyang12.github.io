@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp) | Yang Liu</title>
+    <link>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
+      <atom:link href="/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</title>
+      <link>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
+    </image>
+    
+    <item>
+      <title>Single-pixel phase and fluorescence microscope</title>
+      <link>/publication/spi_qfm/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/spi_qfm/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu18Singlepixel,
+   author    = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+   title     = {Single-pixel phase and fluorescence microscope},
+   journal   = {Optics Express},
+   doi       = {10.1364/OE.26.032451},
+   year      = {2018},
+   month     = {12},
+   volume    = {26},
+   number    = {25},
+   pages     = {32451 -- 32462},
+   url       = {https://doi.org/10.1364/OE.26.032451},
+   publisher = {Optical Society of America},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
+      <link>/publication/spi_fluo_qpi/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/spi_fluo_qpi/</guid>
+      <description>
+
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Liu18Simultaneous,
+  author       = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+  title        = {Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors},
+  booktitle    = {Proc. SPIE, Quantitative Phase Imaging IV},
+  volume       = {10503},
+  pages        = {105032K},
+  year         = {2018},
+  organization = {International Society for Optics and Photonics}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
