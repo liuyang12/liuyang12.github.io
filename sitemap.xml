@@ -3,18 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/proj/sci_pnp_video/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <loc>/proj/privacy_dual_imaging/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/proj/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2023-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/proj/sci_pnp_video/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/proj/sci_hybrid/</loc>
@@ -84,6 +87,10 @@
   </url><url>
     <loc>/authors/fredo-durandhttp/people.csail.mit.edu/fredo/</loc>
   </url><url>
+    <loc>/authors/fredo-durandhttp/people.csail.mit.edu/fredo/sup/sup/</loc>
+  </url><url>
+    <loc>/authors/gregory-w.-wornellhttp/allegro.mit.edu/~gww/</loc>
+  </url><url>
     <loc>/authors/guoan-zhenghttps/smartimaging.uconn.edu/</loc>
   </url><url>
     <loc>/authors/guohai-situhttp/www.escience.cn/people/situ/</loc>
@@ -103,6 +110,8 @@
     <loc>/authors/qionghai-daihttp/media.au.tsinghua.edu.cnsup/sup/</loc>
   </url><url>
     <loc>/authors/siming-zhenghttps/github.com/zsm1211sup/sup/</loc>
+  </url><url>
+    <loc>/authors/william-t.-freemanhttps/billf.mit.edu/</loc>
   </url><url>
     <loc>/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</loc>
   </url><url>

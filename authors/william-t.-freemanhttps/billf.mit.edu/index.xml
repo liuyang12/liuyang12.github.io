@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[William T. Freeman](https://billf.mit.edu/) | Yang Liu</title>
+    <link>/authors/william-t.-freemanhttps/billf.mit.edu/</link>
+      <atom:link href="/authors/william-t.-freemanhttps/billf.mit.edu/index.xml" rel="self" type="application/rss+xml" />
+    <description>[William T. Freeman](https://billf.mit.edu/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[William T. Freeman](https://billf.mit.edu/)</title>
+      <link>/authors/william-t.-freemanhttps/billf.mit.edu/</link>
+    </image>
+    
+    <item>
+      <title>Imaging Privacy Threats from an Ambient Light Sensor</title>
+      <link>/proj/privacy_dual_imaging/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>/proj/privacy_dual_imaging/</guid>
+      <description>&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+&lt;p&gt;Initial Poster video at &lt;a href=&#34;https://iccp2021.iccp-conference.org/&#34;&gt;ICCP 2021&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;highlight&#34;&gt;Highlight&lt;/h2&gt;
+&lt;p&gt;Research &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;Spotlight&lt;/a&gt; by &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt; in April 2022. Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/matthew-busekroos&#34;&gt;Matt&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/nathan-caldwell&#34;&gt;Nate&lt;/a&gt; for neat production!&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
+&lt;p&gt;This work was supported in part by the DARPA REVEAL program (HR0011-16-C-0030) and MIT Stata Family Presidential Fellowship (Y.L.). &lt;br&gt;
+We thank L. Murmann, P. Sharma, A. Yedidia, V. K. Goyal, J. H. Shapiro, F. N. C. Wong, C. Saunders, S. P. Bangaru, T.-M. Li, X. Yuan, J. Suo, A. Kaspar, R. Spreitzer, F. Asim for discussions, and L. Anderson, T. Rubio for proofreading.&lt;/p&gt;
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Liu23PDI,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author  = {Liu, Yang and Wornell, Gregory W. and Freeman, William T. and Durand, Fr{\&amp;#39;e}do},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title   = {Imaging Privacy Threats from an Ambient Light Sensor},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal = {Science Advances},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year    = {2023},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi     = {10.1126/sciadv.adj3608},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type    = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
