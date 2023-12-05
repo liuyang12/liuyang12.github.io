@@ -5,7 +5,7 @@
     <link>/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/</link>
       <atom:link href="/authors/xiaofei-hanhttps/xiaofeitsinghua.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>[Xiaofei Han](https://xiaofeitsinghua.github.io/)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sun, 14 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>[Xiaofei Han](https://xiaofeitsinghua.github.io/)</title>
@@ -14,24 +14,20 @@
     
     <item>
       <title>Snapshot Compressive Volumetric Light-sheet Microscopy</title>
-      <link>/publication/sci_light-sheet/</link>
+      <link>/proj/sci_light-sheet/</link>
       <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_light-sheet/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Wang19Snapshot,
-  author       = {Wang, Xukang and Liu, Yang and Han, Xiaofei and Suo, Jinli and Dai, Qionghai},
-  title        = {Snapshot Compressive Volumetric Light-sheet Microscopy},
-  booktitle    = {OSA Biophotonics Congress},
-  volume       = {Bio-Optics: Design and Application (BODA)},
-  pages        = {JW5A.5},
-  year         = {2019},
-  organization = {Optical Society of America}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/sci_light-sheet/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@inproceedings{Wang19Snapshot,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  author       = {Wang, Xukang and Liu, Yang and Han, Xiaofei and Suo, Jinli and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  title        = {Snapshot Compressive Volumetric Light-sheet Microscopy},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  booktitle    = {OSA Biophotonics Congress},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  volume       = {Bio-Optics: Design and Application (BODA)},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  pages        = {JW5A.5},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  year         = {2019},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  organization = {Optical Society of America}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

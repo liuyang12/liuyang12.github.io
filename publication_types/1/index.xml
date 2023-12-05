@@ -14,72 +14,60 @@
     
     <item>
       <title>Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging</title>
-      <link>/publication/sci_pnp/</link>
+      <link>/proj/sci_pnp/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_pnp/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Yuan20PnPSCI,
-   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Dai, Qionghai},
-   title     = {Plug-and-Play Algorithms for Large-scale Snapshot Compressive Imaging},
-   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-   doi       = {10.1109/CVPR42600.2020.00152},
-   year      = {2020},
-   month     = {6},
-   pages     = {1447 -- 1457},
-   arxiv     = {2003.13654},
-   url       = {https://doi.org/10.1109/CVPR42600.2020.00152},
-   publisher = {IEEE/CVF},
-   type      = {Conference Proceedings}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/sci_pnp/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@inproceedings{Yuan20PnPSCI,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Plug-and-Play Algorithms for Large-scale Snapshot Compressive Imaging},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1109/CVPR42600.2020.00152},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2020},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {6},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {1447 -- 1457},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   arxiv     = {2003.13654},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1109/CVPR42600.2020.00152},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {IEEE/CVF},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Conference Proceedings}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Snapshot Compressive Volumetric Light-sheet Microscopy</title>
-      <link>/publication/sci_light-sheet/</link>
+      <link>/proj/sci_light-sheet/</link>
       <pubDate>Sun, 14 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_light-sheet/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Wang19Snapshot,
-  author       = {Wang, Xukang and Liu, Yang and Han, Xiaofei and Suo, Jinli and Dai, Qionghai},
-  title        = {Snapshot Compressive Volumetric Light-sheet Microscopy},
-  booktitle    = {OSA Biophotonics Congress},
-  volume       = {Bio-Optics: Design and Application (BODA)},
-  pages        = {JW5A.5},
-  year         = {2019},
-  organization = {Optical Society of America}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/sci_light-sheet/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@inproceedings{Wang19Snapshot,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  author       = {Wang, Xukang and Liu, Yang and Han, Xiaofei and Suo, Jinli and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  title        = {Snapshot Compressive Volumetric Light-sheet Microscopy},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  booktitle    = {OSA Biophotonics Congress},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  volume       = {Bio-Optics: Design and Application (BODA)},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  pages        = {JW5A.5},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  year         = {2019},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  organization = {Optical Society of America}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
-      <link>/publication/spi_fluo_qpi/</link>
+      <link>/proj/spi_fluo_qpi/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_fluo_qpi/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Liu18Simultaneous,
-  author       = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
-  title        = {Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors},
-  booktitle    = {Proc. SPIE, Quantitative Phase Imaging IV},
-  volume       = {10503},
-  pages        = {105032K},
-  year         = {2018},
-  organization = {International Society for Optics and Photonics}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/spi_fluo_qpi/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@inproceedings{Liu18Simultaneous,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  author       = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  title        = {Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  booktitle    = {Proc. SPIE, Quantitative Phase Imaging IV},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  volume       = {10503},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  pages        = {105032K},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  year         = {2018},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  organization = {International Society for Optics and Photonics}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

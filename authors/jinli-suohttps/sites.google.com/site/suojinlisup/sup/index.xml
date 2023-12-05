@@ -5,7 +5,7 @@
     <link>/authors/jinli-suohttps/sites.google.com/site/suojinlisup/sup/</link>
       <atom:link href="/authors/jinli-suohttps/sites.google.com/site/suojinlisup/sup/index.xml" rel="self" type="application/rss+xml" />
     <description>[Jinli Suo](https://sites.google.com/site/suojinli)&lt;sup&gt;✉&lt;/sup&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>[Jinli Suo](https://sites.google.com/site/suojinli)&lt;sup&gt;✉&lt;/sup&gt;</title>
@@ -14,29 +14,25 @@
     
     <item>
       <title>Ten-Mega-Pixel Snapshot Compressive Imaging with a Hybrid Coded Aperture</title>
-      <link>/publication/sci_hybrid/</link>
+      <link>/proj/sci_hybrid/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_hybrid/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Li21SPY,
-   author    = {Zhang, Zhihong and Deng, Chao and Liu, Yang and Yuan, Xin and Suo, Jinli and Dai, Qionghai},
-   title     = {Ten-mega-pixel snapshot compressive imaging with a hybrid coded aperture},
-   journal   = {Photonics Research},
-   doi       = {10.1364/PRJ.435256},
-   year      = {2021},
-   month     = {11},
-   volume    = {9},
-   number    = {11},
-   pages     = {2277--2287},
-   url       = {https://doi.org/10.1364/PRJ.435256},
-   publisher = {Optica Publishing Group},
-   type      = {Journal Article}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/sci_hybrid/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Li21SPY,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Zhang, Zhihong and Deng, Chao and Liu, Yang and Yuan, Xin and Suo, Jinli and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Ten-mega-pixel snapshot compressive imaging with a hybrid coded aperture},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {Photonics Research},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1364/PRJ.435256},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2021},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {11},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {9},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   number    = {11},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {2277--2287},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1364/PRJ.435256},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {Optica Publishing Group},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

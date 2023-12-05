@@ -5,7 +5,7 @@
     <link>/authors/guoan-zhenghttps/smartimaging.uconn.edu/</link>
       <atom:link href="/authors/guoan-zhenghttps/smartimaging.uconn.edu/index.xml" rel="self" type="application/rss+xml" />
     <description>[Guoan Zheng](https://smartimaging.uconn.edu/)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>[Guoan Zheng](https://smartimaging.uconn.edu/)</title>
@@ -14,29 +14,25 @@
     
     <item>
       <title>Single-Pixel Ptychography</title>
-      <link>/publication/spi_ptychography/</link>
+      <link>/proj/spi_ptychography/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_ptychography/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Li21SPY,
-   author    = {Li, Meng and Bian, Liheng and Zheng, Guoan and Maiden, Andrew and Liu, Yang and Li, Yiming and Suo, Jinli and Dai, Qionghai and Zhang, Jun},
-   title     = {Single-pixel ptychography},
-   journal   = {Optics Letters},
-   doi       = {10.1364/OL.417039},
-   year      = {2021},
-   month     = {4},
-   volume    = {46},
-   number    = {7},
-   pages     = {1624--1627},
-   url       = {https://doi.org/10.1364/OL.417039},
-   publisher = {Optica Publishing Group},
-   type      = {Journal Article}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/spi_ptychography/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Li21SPY,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Li, Meng and Bian, Liheng and Zheng, Guoan and Maiden, Andrew and Liu, Yang and Li, Yiming and Suo, Jinli and Dai, Qionghai and Zhang, Jun},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Single-pixel ptychography},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {Optics Letters},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1364/OL.417039},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2021},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {4},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {46},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   number    = {7},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {1624--1627},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1364/OL.417039},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {Optica Publishing Group},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

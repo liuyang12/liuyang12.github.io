@@ -5,7 +5,7 @@
     <link>/authors/xin-yuanhttps/scholar.google.com/citationsusercs9cbwkaaaajsup/sup/</link>
       <atom:link href="/authors/xin-yuanhttps/scholar.google.com/citationsusercs9cbwkaaaajsup/sup/index.xml" rel="self" type="application/rss+xml" />
     <description>[Xin Yuan](https://scholar.google.com/citations?user=cS9CbWkAAAAJ)&lt;sup&gt;†&lt;/sup&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>[Xin Yuan](https://scholar.google.com/citations?user=cS9CbWkAAAAJ)&lt;sup&gt;†&lt;/sup&gt;</title>
@@ -14,57 +14,49 @@
     
     <item>
       <title>Plug-and-Play Algorithms for Video Snapshot Compressive Imaging</title>
-      <link>/publication/sci_pnp_video/</link>
+      <link>/proj/sci_pnp_video/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_pnp_video/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Yuan21PnPvideo,
-   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Durand, Fr{\&#39;e}do and Dai, Qionghai},
-   title     = {Plug-and-Play Algorithms for Video
-Snapshot Compressive Imaging},
-   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-   doi       = {10.1109/TPAMI.2021.3099035},
-   year      = {2022},
-   month     = {10},
-   volume    = {44},
-   number    = {10},
-   pages     = {7093 -- 7111},
-   url       = {https://doi.org/10.1109/TPAMI.2021.3099035},
-   publisher = {IEEE},
-   type      = {Journal Article}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/sci_pnp_video/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Yuan21PnPvideo,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Yuan, Xin and Liu, Yang and Suo, Jinli and Durand, Fr{\&amp;#39;e}do and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Plug-and-Play Algorithms for Video
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Snapshot Compressive Imaging},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1109/TPAMI.2021.3099035},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2022},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {10},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {44},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   number    = {10},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {7093 -- 7111},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1109/TPAMI.2021.3099035},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {IEEE},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Rank Minimization for Snapshot Compressive Imaging</title>
-      <link>/publication/sci_rank_minimization/</link>
+      <link>/proj/sci_rank_minimization/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/sci_rank_minimization/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu19DeSCI,
-   author    = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
-   title     = {Rank Minimization for Snapshot Compressive Imaging},
-   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-   doi       = {10.1109/TPAMI.2018.2873587},
-   year      = {2019},
-   month     = {12},
-   volume    = {41},
-   number    = {12},
-   pages     = {2990 -- 3006},
-   url       = {https://doi.org/10.1109/TPAMI.2018.2873587},
-   publisher = {IEEE},
-   type      = {Journal Article}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/sci_rank_minimization/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Liu19DeSCI,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Liu, Yang and Yuan, Xin and Suo, Jinli and Brady, David J. and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Rank Minimization for Snapshot Compressive Imaging},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1109/TPAMI.2018.2873587},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2019},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {12},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {41},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   number    = {12},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {2990 -- 3006},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1109/TPAMI.2018.2873587},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {IEEE},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

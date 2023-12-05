@@ -5,7 +5,7 @@
     <link>/authors/guohai-situhttp/www.escience.cn/people/situ/</link>
       <atom:link href="/authors/guohai-situhttp/www.escience.cn/people/situ/index.xml" rel="self" type="application/rss+xml" />
     <description>[Guohai Situ](http://www.escience.cn/people/situ/)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Thu, 30 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>[Guohai Situ](http://www.escience.cn/people/situ/)</title>
@@ -14,28 +14,24 @@
     
     <item>
       <title>High-speed computational ghost imaging via spatial sweeping</title>
-      <link>/publication/spi_high_speed/</link>
+      <link>/proj/spi_high_speed/</link>
       <pubDate>Thu, 30 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_high_speed/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Wang17Highspeed,
-   author    = {Wang, Yuwang and Liu, Yang and Suo, Jinli and Situ, Guohai and Qiao, Chang and Dai, Qionghai},
-   title     = {High Speed Computational Ghost Imaging via Spatial Sweeping},
-   journal   = {Scientific Reports},
-   doi       = {10.1038/srep45325},
-   year      = {2017},
-   month     = {3},
-   volume    = {7},
-   pages     = {45325},
-   url       = {https://doi.org/10.1038/srep45325},
-   publisher = {Nature Publishing Group},
-   type      = {Journal Article}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/spi_high_speed/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Wang17Highspeed,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Wang, Yuwang and Liu, Yang and Suo, Jinli and Situ, Guohai and Qiao, Chang and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {High Speed Computational Ghost Imaging via Spatial Sweeping},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {Scientific Reports},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1038/srep45325},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2017},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {3},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {7},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {45325},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1038/srep45325},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {Nature Publishing Group},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

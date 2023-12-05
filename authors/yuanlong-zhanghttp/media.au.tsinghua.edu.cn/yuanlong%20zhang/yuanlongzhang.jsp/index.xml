@@ -5,7 +5,7 @@
     <link>/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/</link>
       <atom:link href="/authors/yuanlong-zhanghttp/media.au.tsinghua.edu.cn/yuanlong%20zhang/yuanlongzhang.jsp/index.xml" rel="self" type="application/rss+xml" />
     <description>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>[Yuanlong Zhang](http://media.au.tsinghua.edu.cn/Yuanlong%20Zhang/YuanlongZhang.jsp)</title>
@@ -14,51 +14,43 @@
     
     <item>
       <title>Single-pixel phase and fluorescence microscope</title>
-      <link>/publication/spi_qfm/</link>
+      <link>/proj/spi_qfm/</link>
       <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_qfm/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Liu18Singlepixel,
-   author    = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
-   title     = {Single-pixel phase and fluorescence microscope},
-   journal   = {Optics Express},
-   doi       = {10.1364/OE.26.032451},
-   year      = {2018},
-   month     = {12},
-   volume    = {26},
-   number    = {25},
-   pages     = {32451 -- 32462},
-   url       = {https://doi.org/10.1364/OE.26.032451},
-   publisher = {Optical Society of America},
-   type      = {Journal Article}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/spi_qfm/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Liu18Singlepixel,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Single-pixel phase and fluorescence microscope},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {Optics Express},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1364/OE.26.032451},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2018},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {12},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {26},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   number    = {25},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {32451 -- 32462},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1364/OE.26.032451},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {Optical Society of America},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors</title>
-      <link>/publication/spi_fluo_qpi/</link>
+      <link>/proj/spi_fluo_qpi/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/spi_fluo_qpi/</guid>
-      <description>
-
-&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@inproceedings{Liu18Simultaneous,
-  author       = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
-  title        = {Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors},
-  booktitle    = {Proc. SPIE, Quantitative Phase Imaging IV},
-  volume       = {10503},
-  pages        = {105032K},
-  year         = {2018},
-  organization = {International Society for Optics and Photonics}
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <guid>/proj/spi_fluo_qpi/</guid>
+      <description>&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@inproceedings{Liu18Simultaneous,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  author       = {Liu, Yang and Suo, Jinli and Zhang, Yuanlong and Dai, Qionghai},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  title        = {Simultaneous fluorescence and quantitative phase microscopy with single-pixel detectors},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  booktitle    = {Proc. SPIE, Quantitative Phase Imaging IV},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  volume       = {10503},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  pages        = {105032K},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  year         = {2018},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  organization = {International Society for Optics and Photonics}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
