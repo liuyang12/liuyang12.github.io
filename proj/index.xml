@@ -5,7 +5,7 @@
     <link>/proj/</link>
       <atom:link href="/proj/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2024 Y. Liu</copyright><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Publications</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Imaging Privacy Threats from an Ambient Light Sensor</title>
       <link>/proj/privacy_dual_imaging/</link>
-      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/proj/privacy_dual_imaging/</guid>
       <description>&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
 &lt;p&gt;Initial Poster video at &lt;a href=&#34;https://iccp2021.iccp-conference.org/&#34;&gt;ICCP 2021&lt;/a&gt;.&lt;/p&gt;
@@ -23,17 +23,25 @@
 &lt;h2 id=&#34;highlight&#34;&gt;Highlight&lt;/h2&gt;
 &lt;p&gt;Research &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;Spotlight&lt;/a&gt; by &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt; in April 2022. Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/matthew-busekroos&#34;&gt;Matt&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/nathan-caldwell&#34;&gt;Nate&lt;/a&gt; for neat production!&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;press-coverage&#34;&gt;Press Coverage&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://news.mit.edu/2024/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk-0129&#34;&gt;MIT News&lt;/a&gt;, &lt;a href=&#34;https://www.forbes.com/sites/daveywinder/2024/01/19/could-this-crazy-new-smartphone-hack-turn-2024-into-1984/&#34;&gt;Forbes&lt;/a&gt;, &lt;a href=&#34;https://spectrum.ieee.org/ambient-light-sensor-cybersecurity-risk&#34;&gt;IEEE Spectrum&lt;/a&gt;, &lt;a href=&#34;https://arstechnica.com/security/2024/01/ambient-light-sensors-can-reveal-your-device-activity-how-big-a-threat-is-it/&#34;&gt;Ars Technica&lt;/a&gt;, and &lt;a href=&#34;https://www.csail.mit.edu/news/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk&#34;&gt;more&lt;/a&gt; (30+).&lt;/p&gt;
 &lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
 &lt;p&gt;This work was supported in part by the DARPA REVEAL program (HR0011-16-C-0030) and MIT Stata Family Presidential Fellowship (Y.L.). &lt;br&gt;
 We thank L. Murmann, P. Sharma, A. Yedidia, V. K. Goyal, J. H. Shapiro, F. N. C. Wong, C. Saunders, S. P. Bangaru, T.-M. Li, X. Yuan, J. Suo, A. Kaspar, R. Spreitzer, F. Asim for discussions, and L. Anderson, T. Rubio for proofreading.&lt;/p&gt;
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Liu23PDI,
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author  = {Liu, Yang and Wornell, Gregory W. and Freeman, William T. and Durand, Fr{\&amp;#39;e}do},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title   = {Imaging Privacy Threats from an Ambient Light Sensor},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal = {Science Advances},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year    = {2023},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi     = {10.1126/sciadv.adj3608},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type    = {Journal Article}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Liu24PDI,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Liu, Yang and Wornell, Gregory W. and Freeman, William T. and Durand, Fr{\&amp;#39;e}do},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Imaging Privacy Threats from an Ambient Light Sensor},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {Science Advances},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2024},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {1},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {10},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   number    = {2},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {eadj3608},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   url       = {https://doi.org/10.1126/sciadv.adj3608},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   publisher = {AAAS},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1126/sciadv.adj3608},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>

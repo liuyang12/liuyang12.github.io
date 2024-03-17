@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2023 Y. Liu</copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2024 Y. Liu</copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -112,6 +112,14 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Joining Meta &lt;a href=&#34;https://about.meta.com/realitylabs/&#34;&gt;Reality Labs&lt;/a&gt; at Sausalito, CA for summer 2024 internship.&lt;/td&gt;
+&lt;td&gt;2024.03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;Privacy Dual Imaging&lt;/a&gt; is &lt;a href=&#34;https://doi.org/10.1126/sciadv.adj3608&#34;&gt;online&lt;/a&gt; and &lt;a href=&#34;http://localhost:4321/proj/privacy_dual_imaging/#press-coverage&#34;&gt;covered&lt;/a&gt; by &lt;a href=&#34;https://news.mit.edu/2024/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk-0129&#34;&gt;MIT News&lt;/a&gt;, &lt;a href=&#34;https://www.forbes.com/sites/daveywinder/2024/01/19/could-this-crazy-new-smartphone-hack-turn-2024-into-1984/&#34;&gt;Forbes&lt;/a&gt;, &lt;a href=&#34;https://spectrum.ieee.org/ambient-light-sensor-cybersecurity-risk&#34;&gt;IEEE Spectrum&lt;/a&gt;, &lt;a href=&#34;https://arstechnica.com/security/2024/01/ambient-light-sensors-can-reveal-your-device-activity-how-big-a-threat-is-it/&#34;&gt;Ars Technica&lt;/a&gt;, and &lt;a href=&#34;https://www.csail.mit.edu/news/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk&#34;&gt;more&lt;/a&gt; (30+). Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/alex-shipps&#34;&gt;Alex&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/rachel-gordon&#34;&gt;Rachel&lt;/a&gt; for &lt;a href=&#34;https://www.csail.mit.edu/news/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk&#34;&gt;initial post&lt;/a&gt;!&lt;/td&gt;
+&lt;td&gt;2024.01&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Paper &lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;Privacy Dual Imaging&lt;/a&gt; has been accepted by &lt;a href=&#34;https://www.science.org/journal/sciadv&#34;&gt;Science Advances&lt;/a&gt;!&lt;/td&gt;
 &lt;td&gt;2023.12&lt;/td&gt;
