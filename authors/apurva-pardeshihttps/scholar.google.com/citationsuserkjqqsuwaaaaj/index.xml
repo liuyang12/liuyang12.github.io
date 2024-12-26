@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Apurva Pardeshi](https://scholar.google.com/citations?user=kJqQSUwAAAAJ) | Yang Liu</title>
+    <link>/authors/apurva-pardeshihttps/scholar.google.com/citationsuserkjqqsuwaaaaj/</link>
+      <atom:link href="/authors/apurva-pardeshihttps/scholar.google.com/citationsuserkjqqsuwaaaaj/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Apurva Pardeshi](https://scholar.google.com/citations?user=kJqQSUwAAAAJ)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2024 Y. Liu</copyright>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>[Apurva Pardeshi](https://scholar.google.com/citations?user=kJqQSUwAAAAJ)</title>
+      <link>/authors/apurva-pardeshihttps/scholar.google.com/citationsuserkjqqsuwaaaaj/</link>
+    </image>
+    
+    <item>
+      <title>Deep Learning-assisted On-patient Medical Record and mRNA Therapeutics Delivery using Microneedles</title>
+      <link>/proj/ecc_microneedle/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/proj/ecc_microneedle/</guid>
+      <description>&lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
+&lt;p&gt;This work was also supported in part by the Koch Institute Support (core) Grant P30-CA14051 from the National Cancer Institute. We would like to thank the Bill &amp;amp; Melinda Gates Foundation (BMGF) for (INV-007842) supporting this project. This work was supported, in whole or in part, by the Bill &amp;amp; Melinda Gates Foundation [INV-007842; A.J., R.L.], and Takeda Fellowship from MIT-Takeda Program [Y.L.].&lt;/p&gt;
+&lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Liu24PDI,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Liu, Yang and Wornell, Gregory W. and Freeman, William T. and Durand, Fr{\&amp;#39;e}do},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {Deep Learning-assisted On-patient Medical Record and mRNA Therapeutics Delivery using Microneedles},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {Nature Materials},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2024},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {12},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

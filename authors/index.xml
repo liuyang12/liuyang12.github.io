@@ -5,12 +5,76 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2024 Y. Liu</copyright><lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2024 Y. Liu</copyright><lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>Ari Karchin</title>
+      <link>/authors/ari-karchin/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/ari-karchin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Behnaz Eshaghi</title>
+      <link>/authors/behnaz-eshaghi/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/behnaz-eshaghi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brandon Folk</title>
+      <link>/authors/brandon-folk/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/brandon-folk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linzixuan Zhang</title>
+      <link>/authors/linzixuan-zhang/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/linzixuan-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lisa Tostanoski</title>
+      <link>/authors/lisa-tostanoski/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/lisa-tostanoski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sebastian Carrasco</title>
+      <link>/authors/sebastian-carrasco/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/sebastian-carrasco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shahad Alsaiari</title>
+      <link>/authors/shahad-alsaiari/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/shahad-alsaiari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sydney Pyon</title>
+      <link>/authors/sydney-pyon/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/authors/sydney-pyon/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Jun Zhang</title>
@@ -101,9 +165,10 @@
       <link>/authors/yliu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/yliu/</guid>
-      <description>&lt;p&gt;Yang Liu is a fifth-year PhD student working on generative image synthesis and computational imaging/photography with Prof. &lt;a href=&#34;http://people.csail.mit.edu/fredo/&#34;&gt;Frédo Durand&lt;/a&gt; at &lt;a href=&#34;https://mit.edu/&#34;&gt;MIT&lt;/a&gt; &lt;a href=&#34;https://www.eecs.mit.edu/&#34;&gt;EECS&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;CSAIL&lt;/a&gt;. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on structured diffusion image synthesis, imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.&lt;/p&gt;
+      <description>&lt;p&gt;Yang Liu is a final-year PhD student working on computational imaging, generative AI, and AI for health with Prof. &lt;a href=&#34;http://people.csail.mit.edu/fredo/&#34;&gt;Frédo Durand&lt;/a&gt; at &lt;a href=&#34;https://mit.edu/&#34;&gt;MIT&lt;/a&gt; &lt;a href=&#34;https://www.eecs.mit.edu/&#34;&gt;EECS&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;CSAIL&lt;/a&gt;. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on structured diffusion image synthesis, imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.&lt;/p&gt;
 &lt;p&gt;Prior to this, he received his bachelor’s and master’s degrees from &lt;a href=&#34;https://www.tsinghua.edu.cn/&#34;&gt;Tsinghua University&lt;/a&gt; in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=CHAajY4AAAAJ&#34; title=&#34;member of CAE&#34;&gt;Qionghai Dai&lt;/a&gt; and working closely with Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=e4lel8QAAAAJ&#34;&gt;Jinli Suo&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;He is broadly interested in artificial intelligence for accelerating scientific discovery and meeting social needs. He also worked on &lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;revealing the imaging threat&lt;/a&gt; of &lt;a href=&#34;https://en.wikipedia.org/wiki/Ambient_light_sensor&#34;&gt;ambient light sensors&lt;/a&gt; on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and designing a privacy-preserving intradermal barcode and a robust recognition system as vaccine record and beyond (general on-patient medical record). &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;[Spotlight by MIT CSAIL]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;He is broadly interested in artificial intelligence for accelerating scientific discovery and meeting social needs. He also worked on &lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;revealing the imaging threat&lt;/a&gt; of &lt;a href=&#34;https://en.wikipedia.org/wiki/Ambient_light_sensor&#34;&gt;ambient light sensors&lt;/a&gt; on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and &lt;a href=&#34;/proj/ecc_microneedle/&#34;&gt;designing a privacy-preserving intradermal barcode&lt;/a&gt; and a robust recognition system as vaccine record and beyond (general on-patient medical record). &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;[Spotlight by MIT CSAIL]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I am on the job market of 2024-2025!&lt;/strong&gt; Please reach out if you find any position(s) that fit me. &lt;a href=&#34;https://drive.google.com/drive/folders/1xAerowGQB-8Vo-GnArXS-Ku34WnAZGff?usp=sharing&#34;&gt;[My research package]&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -113,6 +178,10 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;Paper &lt;a href=&#34;/proj/ecc_microneedle/&#34;&gt;AI for on-patient medical record and mRNA therapeutics using intradermal microneedles&lt;/a&gt; has been accepted by &lt;a href=&#34;https://www.nature.com/nmat/&#34;&gt;&lt;strong&gt;Nature Materials&lt;/strong&gt;&lt;/a&gt;!&lt;/td&gt;
+&lt;td&gt;2024.12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;Joining Meta &lt;a href=&#34;https://about.meta.com/realitylabs/&#34;&gt;Reality Labs&lt;/a&gt; at Sausalito, CA for summer 2024 internship.&lt;/td&gt;
 &lt;td&gt;2024.03&lt;/td&gt;
 &lt;/tr&gt;
@@ -121,7 +190,7 @@
 &lt;td&gt;2024.01&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Paper &lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;Privacy Dual Imaging&lt;/a&gt; has been accepted by &lt;a href=&#34;https://www.science.org/journal/sciadv&#34;&gt;Science Advances&lt;/a&gt;!&lt;/td&gt;
+&lt;td&gt;Paper &lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;Privacy Dual Imaging&lt;/a&gt; has been accepted by &lt;a href=&#34;https://www.science.org/doi/10.1126/sciadv.adj3608&#34;&gt;&lt;strong&gt;Science Advances&lt;/strong&gt;&lt;/a&gt;!&lt;/td&gt;
 &lt;td&gt;2023.12&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -162,6 +231,14 @@
     </item>
     
     <item>
+      <title>[Ana Jaklenec](https://jaklenecgroup.mit.edu/)&lt;sup&gt;✉&lt;/sup&gt;</title>
+      <link>/authors/ana-jaklenechttps/jaklenecgroup.mit.edu/sup/sup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/ana-jaklenechttps/jaklenecgroup.mit.edu/sup/sup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[Andrew Maiden](https://www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden)</title>
       <link>/authors/andrew-maidenhttps/www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -170,10 +247,34 @@
     </item>
     
     <item>
+      <title>[Apurva Pardeshi](https://scholar.google.com/citations?user=kJqQSUwAAAAJ)</title>
+      <link>/authors/apurva-pardeshihttps/scholar.google.com/citationsuserkjqqsuwaaaaj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/apurva-pardeshihttps/scholar.google.com/citationsuserkjqqsuwaaaaj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[Chao Deng](https://scholar.google.com/citations?user=GkAO16kAAAAJ)&lt;sup&gt;†&lt;/sup&gt;</title>
       <link>/authors/chao-denghttps/scholar.google.com/citationsusergkao16kaaaajsup/sup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/chao-denghttps/scholar.google.com/citationsusergkao16kaaaajsup/sup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Collin Perkinson](https://scholar.google.com/citations?user=3IGaG0cAAAAJ)</title>
+      <link>/authors/collin-perkinsonhttps/scholar.google.com/citationsuser3igag0caaaaj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/collin-perkinsonhttps/scholar.google.com/citationsuser3igag0caaaaj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Dan Barouch](https://cvvr.hms.harvard.edu/lab/barouch-laboratory/)</title>
+      <link>/authors/dan-barouchhttps/cvvr.hms.harvard.edu/lab/barouch-laboratory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/dan-barouchhttps/cvvr.hms.harvard.edu/lab/barouch-laboratory/</guid>
       <description></description>
     </item>
     
@@ -242,6 +343,22 @@
     </item>
     
     <item>
+      <title>[John Daristotle](https://jld.netlify.app/)</title>
+      <link>/authors/john-daristotlehttps/jld.netlify.app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/john-daristotlehttps/jld.netlify.app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Jooli Han](https://scholar.google.com/citations?user=icbfr74AAAAJ)&lt;sup&gt;†&lt;/sup&gt;</title>
+      <link>/authors/jooli-hanhttps/scholar.google.com/citationsusericbfr74aaaajsup/sup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/jooli-hanhttps/scholar.google.com/citationsusericbfr74aaaajsup/sup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[Liheng Bian](https://bianlab.github.io/)&lt;sup&gt;✉&lt;/sup&gt;</title>
       <link>/authors/liheng-bianhttps/bianlab.github.io/sup/sup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -250,10 +367,34 @@
     </item>
     
     <item>
+      <title>[Lukas Murmann](http://lmurmann.net/)</title>
+      <link>/authors/lukas-murmannhttp/lmurmann.net/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/lukas-murmannhttp/lmurmann.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Maria Kanelli](https://scholar.google.com/citations?user=2tj2O1sAAAAJ)†</title>
+      <link>/authors/maria-kanellihttps/scholar.google.com/citationsuser2tj2o1saaaaj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/maria-kanellihttps/scholar.google.com/citationsuser2tj2o1saaaaj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[Meng Li](https://bianlab.github.io/members.html)</title>
       <link>/authors/meng-lihttps/bianlab.github.io/members.html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/meng-lihttps/bianlab.github.io/members.html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Moungi Bawendi](https://nanocluster.mit.edu/)</title>
+      <link>/authors/moungi-bawendihttps/nanocluster.mit.edu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/moungi-bawendihttps/nanocluster.mit.edu/</guid>
       <description></description>
     </item>
     
@@ -282,10 +423,26 @@
     </item>
     
     <item>
+      <title>[Robert Langer](https://langerlab.mit.edu/)&lt;sup&gt;✉&lt;/sup&gt;</title>
+      <link>/authors/robert-langerhttps/langerlab.mit.edu/sup/sup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/robert-langerhttps/langerlab.mit.edu/sup/sup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[Siming Zheng](https://github.com/zsm1211)&lt;sup&gt;†&lt;/sup&gt;</title>
       <link>/authors/siming-zhenghttps/github.com/zsm1211sup/sup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/siming-zhenghttps/github.com/zsm1211sup/sup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Timothy Forster](https://jaklenecgroup.mit.edu/current-members)</title>
+      <link>/authors/timothy-forsterhttps/jaklenecgroup.mit.edu/current-members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/timothy-forsterhttps/jaklenecgroup.mit.edu/current-members/</guid>
       <description></description>
     </item>
     

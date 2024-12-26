@@ -3,18 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/publication_types/2/</loc>
-    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/proj/privacy_dual_imaging/</loc>
-    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
+    <loc>/authors/ari-karchin/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/behnaz-eshaghi/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/brandon-folk/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/proj/ecc_microneedle/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/linzixuan-zhang/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/lisa-tostanoski/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
-    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/proj/</loc>
-    <lastmod>2024-01-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/sebastian-carrasco/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/shahad-alsaiari/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/sydney-pyon/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2024-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/proj/privacy_dual_imaging/</loc>
     <lastmod>2024-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/proj/sci_pnp_video/</loc>
@@ -22,9 +52,6 @@
   </url><url>
     <loc>/proj/sci_hybrid/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/jun-zhang/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
@@ -79,9 +106,17 @@
   </url><url>
     <loc>/authors/__yang-liu__https/yangliu.mit.edu/sup/sup/</loc>
   </url><url>
+    <loc>/authors/ana-jaklenechttps/jaklenecgroup.mit.edu/sup/sup/</loc>
+  </url><url>
     <loc>/authors/andrew-maidenhttps/www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden/</loc>
   </url><url>
+    <loc>/authors/apurva-pardeshihttps/scholar.google.com/citationsuserkjqqsuwaaaaj/</loc>
+  </url><url>
     <loc>/authors/chao-denghttps/scholar.google.com/citationsusergkao16kaaaajsup/sup/</loc>
+  </url><url>
+    <loc>/authors/collin-perkinsonhttps/scholar.google.com/citationsuser3igag0caaaaj/</loc>
+  </url><url>
+    <loc>/authors/dan-barouchhttps/cvvr.hms.harvard.edu/lab/barouch-laboratory/</loc>
   </url><url>
     <loc>/authors/david-j.-bradyhttps/www.optics.arizona.edu/person/david-brady/</loc>
   </url><url>
@@ -99,9 +134,19 @@
   </url><url>
     <loc>/authors/jinli-suohttps/sites.google.com/site/suojinlisup/sup/</loc>
   </url><url>
+    <loc>/authors/john-daristotlehttps/jld.netlify.app/</loc>
+  </url><url>
+    <loc>/authors/jooli-hanhttps/scholar.google.com/citationsusericbfr74aaaajsup/sup/</loc>
+  </url><url>
     <loc>/authors/liheng-bianhttps/bianlab.github.io/sup/sup/</loc>
   </url><url>
+    <loc>/authors/lukas-murmannhttp/lmurmann.net/</loc>
+  </url><url>
+    <loc>/authors/maria-kanellihttps/scholar.google.com/citationsuser2tj2o1saaaaj/</loc>
+  </url><url>
     <loc>/authors/meng-lihttps/bianlab.github.io/members.html/</loc>
+  </url><url>
+    <loc>/authors/moungi-bawendihttps/nanocluster.mit.edu/</loc>
   </url><url>
     <loc>/authors/mu-qiaohttps/scholar.google.com/citationsuser-qmh8oaaaaaj/</loc>
   </url><url>
@@ -109,7 +154,11 @@
   </url><url>
     <loc>/authors/qionghai-daihttp/media.au.tsinghua.edu.cnsup/sup/</loc>
   </url><url>
+    <loc>/authors/robert-langerhttps/langerlab.mit.edu/sup/sup/</loc>
+  </url><url>
     <loc>/authors/siming-zhenghttps/github.com/zsm1211sup/sup/</loc>
+  </url><url>
+    <loc>/authors/timothy-forsterhttps/jaklenecgroup.mit.edu/current-members/</loc>
   </url><url>
     <loc>/authors/william-t.-freemanhttps/billf.mit.edu/</loc>
   </url><url>
