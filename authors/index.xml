@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2024 Y. Liu</copyright><lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2025 Y. Liu</copyright><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Alicia Lau</title>
+      <link>/authors/alicia-lau/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/alicia-lau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ari Karchin</title>
       <link>/authors/ari-karchin/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>/authors/ari-karchin/</guid>
       <description></description>
     </item>
@@ -23,7 +31,7 @@
     <item>
       <title>Behnaz Eshaghi</title>
       <link>/authors/behnaz-eshaghi/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>/authors/behnaz-eshaghi/</guid>
       <description></description>
     </item>
@@ -31,47 +39,87 @@
     <item>
       <title>Brandon Folk</title>
       <link>/authors/brandon-folk/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>/authors/brandon-folk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charles Sloane</title>
+      <link>/authors/charles-sloane/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/charles-sloane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erika Yan Wang</title>
+      <link>/authors/erika-yan-wang/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/erika-yan-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Khanh Tran</title>
+      <link>/authors/khanh-tran/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/khanh-tran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lauren Levy</title>
+      <link>/authors/lauren-levy/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/lauren-levy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linzixuan Zhang</title>
       <link>/authors/linzixuan-zhang/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>/authors/linzixuan-zhang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Lisa Tostanoski</title>
-      <link>/authors/lisa-tostanoski/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/authors/lisa-tostanoski/</guid>
+      <title>Lisa H. Tostanoski</title>
+      <link>/authors/lisa-h.-tostanoski/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/lisa-h.-tostanoski/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sebastian Carrasco</title>
-      <link>/authors/sebastian-carrasco/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/authors/sebastian-carrasco/</guid>
+      <title>Sebastian E. Carrasco</title>
+      <link>/authors/sebastian-e.-carrasco/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/sebastian-e.-carrasco/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Shahad Alsaiari</title>
-      <link>/authors/shahad-alsaiari/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>/authors/shahad-alsaiari/</guid>
+      <title>Shahad K. Alsaiari</title>
+      <link>/authors/shahad-k.-alsaiari/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/shahad-k.-alsaiari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stacey Qiaohui Lin</title>
+      <link>/authors/stacey-qiaohui-lin/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>/authors/stacey-qiaohui-lin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sydney Pyon</title>
       <link>/authors/sydney-pyon/</link>
-      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>/authors/sydney-pyon/</guid>
       <description></description>
     </item>
@@ -165,10 +213,10 @@
       <link>/authors/yliu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/yliu/</guid>
-      <description>&lt;p&gt;Yang Liu is a final-year PhD student working on computational imaging, generative AI, and AI for health with Prof. &lt;a href=&#34;http://people.csail.mit.edu/fredo/&#34;&gt;Frédo Durand&lt;/a&gt; at &lt;a href=&#34;https://mit.edu/&#34;&gt;MIT&lt;/a&gt; &lt;a href=&#34;https://www.eecs.mit.edu/&#34;&gt;EECS&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;CSAIL&lt;/a&gt;. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on structured diffusion image synthesis, imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.&lt;/p&gt;
-&lt;p&gt;Prior to this, he received his bachelor’s and master’s degrees from &lt;a href=&#34;https://www.tsinghua.edu.cn/&#34;&gt;Tsinghua University&lt;/a&gt; in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=CHAajY4AAAAJ&#34; title=&#34;member of CAE&#34;&gt;Qionghai Dai&lt;/a&gt; and working closely with Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=e4lel8QAAAAJ&#34;&gt;Jinli Suo&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;He is broadly interested in artificial intelligence for accelerating scientific discovery and meeting social needs. He also worked on &lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;revealing the imaging threat&lt;/a&gt; of &lt;a href=&#34;https://en.wikipedia.org/wiki/Ambient_light_sensor&#34;&gt;ambient light sensors&lt;/a&gt; on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and &lt;a href=&#34;/proj/ecc_microneedle/&#34;&gt;designing a privacy-preserving intradermal barcode&lt;/a&gt; and a robust recognition system as vaccine record and beyond (general on-patient medical record). &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;[Spotlight by MIT CSAIL]&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I am on the job market of 2024-2025!&lt;/strong&gt; Please reach out if you find any position(s) that fit me. &lt;a href=&#34;https://drive.google.com/drive/folders/1xAerowGQB-8Vo-GnArXS-Ku34WnAZGff?usp=sharing&#34;&gt;[My research package]&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Yang Liu is a postdoc scholar working on computational imaging, generative AI, and AI for science hosted by Prof. &lt;a href=&#34;https://users.cms.caltech.edu/~klbouman/&#34;&gt;Katie Bouman&lt;/a&gt; at &lt;a href=&#34;https://www.caltech.edu/&#34;&gt;Caltech&lt;/a&gt; &lt;a href=&#34;https://www.cms.caltech.edu/&#34;&gt;CMS&lt;/a&gt;. He received a PhD degree in computer science and was fortunate to be advised by Prof. &lt;a href=&#34;http://people.csail.mit.edu/fredo/&#34;&gt;Frédo Durand&lt;/a&gt; at &lt;a href=&#34;https://mit.edu/&#34;&gt;MIT&lt;/a&gt; &lt;a href=&#34;https://www.eecs.mit.edu/&#34;&gt;EECS&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;CSAIL&lt;/a&gt;. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on structured diffusion image synthesis, imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.&lt;/p&gt;
+&lt;p&gt;Prior to this, he received bachelor’s and master’s degrees from &lt;a href=&#34;https://www.tsinghua.edu.cn/&#34;&gt;Tsinghua University&lt;/a&gt; in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=CHAajY4AAAAJ&#34; title=&#34;member of CAE&#34;&gt;Qionghai Dai&lt;/a&gt; and working closely with Prof. &lt;a href=&#34;https://scholar.google.com/citations?user=e4lel8QAAAAJ&#34;&gt;Jinli Suo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;He is broadly interested in AI for meeting social needs and accelerating scientific discovery. He also worked on &lt;a href=&#34;/proj/privacy_dual_imaging/&#34;&gt;revealing the imaging threat&lt;/a&gt; of &lt;a href=&#34;https://en.wikipedia.org/wiki/Ambient_light_sensor&#34;&gt;ambient light sensors&lt;/a&gt; on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and &lt;a href=&#34;/proj/ecc_microneedle/&#34;&gt;designing a privacy-preserving intradermal barcode&lt;/a&gt; and a robust recognition system as vaccine record and beyond (general on-patient medical record). &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;[Spotlight by MIT CSAIL]&lt;/a&gt;&lt;/p&gt;
+&lt;!-- **I am on the job market of 2024-2025!** Please reach out if you find any position(s) that fit me. [[My research package]](https://drive.google.com/drive/folders/1xAerowGQB-8Vo-GnArXS-Ku34WnAZGff?usp=sharing) --&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -178,7 +226,19 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Paper &lt;a href=&#34;/proj/ecc_microneedle/&#34;&gt;AI for on-patient medical record and mRNA therapeutics using intradermal microneedles&lt;/a&gt; has been accepted by &lt;a href=&#34;https://www.nature.com/nmat/&#34;&gt;&lt;strong&gt;Nature Materials&lt;/strong&gt;&lt;/a&gt;!&lt;/td&gt;
+&lt;td&gt;Joining Caltech as a postdoc and working with &lt;a href=&#34;https://www.cms.caltech.edu/people/klbouman&#34;&gt;Katie&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;https://computationalcameras.org/&#34;&gt;Computational Cameras Group&lt;/a&gt;!&lt;/td&gt;
+&lt;td&gt;2025.09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;/img/defense_committee.jpg&#34;&gt;Defended&lt;/a&gt; my PhD thesis! Thanks &lt;a href=&#34;https://people.csail.mit.edu/fredo/&#34;&gt;Frédo&lt;/a&gt;, &lt;a href=&#34;https://billf.mit.edu/&#34;&gt;Bill&lt;/a&gt;, &lt;a href=&#34;https://people.csail.mit.edu/kaiming/&#34;&gt;Kaiming&lt;/a&gt;, and everyone throughout my PhD journey!&lt;/td&gt;
+&lt;td&gt;2025.07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Co-organizing the first &lt;a href=&#34;https://responsible-imaging.github.io/&#34;&gt;ICCV 2025 Workshop on Responsible Imaging&lt;/a&gt;! See you in Hawaii, Honolulu!&lt;/td&gt;
+&lt;td&gt;2025.03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Paper &lt;a href=&#34;/proj/ecc_microneedle/&#34;&gt;AI for on-patient medical record and mRNA therapeutics using intradermal microneedles&lt;/a&gt; has been accepted by &lt;a href=&#34;https://www.nature.com/nmat/&#34;&gt;&lt;strong&gt;Nature Materials&lt;/strong&gt;&lt;/a&gt;! The &lt;a href=&#34;https://www.nature.com/articles/s41563-024-02115-4&#34;&gt;paper&lt;/a&gt; and &lt;a href=&#34;https://github.com/liuyang12/ecc-microneedle&#34;&gt;code&lt;/a&gt; are publicly accessible.&lt;/td&gt;
 &lt;td&gt;2024.12&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -263,18 +323,18 @@
     </item>
     
     <item>
-      <title>[Collin Perkinson](https://scholar.google.com/citations?user=3IGaG0cAAAAJ)</title>
-      <link>/authors/collin-perkinsonhttps/scholar.google.com/citationsuser3igag0caaaaj/</link>
+      <title>[Collin F. Perkinson](https://scholar.google.com/citations?user=3IGaG0cAAAAJ)</title>
+      <link>/authors/collin-f.-perkinsonhttps/scholar.google.com/citationsuser3igag0caaaaj/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/collin-perkinsonhttps/scholar.google.com/citationsuser3igag0caaaaj/</guid>
+      <guid>/authors/collin-f.-perkinsonhttps/scholar.google.com/citationsuser3igag0caaaaj/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>[Dan Barouch](https://cvvr.hms.harvard.edu/lab/barouch-laboratory/)</title>
-      <link>/authors/dan-barouchhttps/cvvr.hms.harvard.edu/lab/barouch-laboratory/</link>
+      <title>[Dan H. Barouch](https://cvvr.hms.harvard.edu/lab/barouch-laboratory/)</title>
+      <link>/authors/dan-h.-barouchhttps/cvvr.hms.harvard.edu/lab/barouch-laboratory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/dan-barouchhttps/cvvr.hms.harvard.edu/lab/barouch-laboratory/</guid>
+      <guid>/authors/dan-h.-barouchhttps/cvvr.hms.harvard.edu/lab/barouch-laboratory/</guid>
       <description></description>
     </item>
     
@@ -343,10 +403,10 @@
     </item>
     
     <item>
-      <title>[John Daristotle](https://jld.netlify.app/)</title>
-      <link>/authors/john-daristotlehttps/jld.netlify.app/</link>
+      <title>[John L. Daristotle](https://jld.netlify.app/)</title>
+      <link>/authors/john-l.-daristotlehttps/jld.netlify.app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/john-daristotlehttps/jld.netlify.app/</guid>
+      <guid>/authors/john-l.-daristotlehttps/jld.netlify.app/</guid>
       <description></description>
     </item>
     
@@ -375,10 +435,10 @@
     </item>
     
     <item>
-      <title>[Maria Kanelli](https://scholar.google.com/citations?user=2tj2O1sAAAAJ)†</title>
-      <link>/authors/maria-kanellihttps/scholar.google.com/citationsuser2tj2o1saaaaj/</link>
+      <title>[Maria Kanelli](https://scholar.google.com/citations?user=2tj2O1sAAAAJ)&lt;sup&gt;†&lt;/sup&gt;</title>
+      <link>/authors/maria-kanellihttps/scholar.google.com/citationsuser2tj2o1saaaajsup/sup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/maria-kanellihttps/scholar.google.com/citationsuser2tj2o1saaaaj/</guid>
+      <guid>/authors/maria-kanellihttps/scholar.google.com/citationsuser2tj2o1saaaajsup/sup/</guid>
       <description></description>
     </item>
     
@@ -391,10 +451,10 @@
     </item>
     
     <item>
-      <title>[Moungi Bawendi](https://nanocluster.mit.edu/)</title>
-      <link>/authors/moungi-bawendihttps/nanocluster.mit.edu/</link>
+      <title>[Moungi G. Bawendi](https://nanocluster.mit.edu/)</title>
+      <link>/authors/moungi-g.-bawendihttps/nanocluster.mit.edu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/moungi-bawendihttps/nanocluster.mit.edu/</guid>
+      <guid>/authors/moungi-g.-bawendihttps/nanocluster.mit.edu/</guid>
       <description></description>
     </item>
     
@@ -439,10 +499,10 @@
     </item>
     
     <item>
-      <title>[Timothy Forster](https://jaklenecgroup.mit.edu/current-members)</title>
-      <link>/authors/timothy-forsterhttps/jaklenecgroup.mit.edu/current-members/</link>
+      <title>[Timothy A. Forster](https://jaklenecgroup.mit.edu/current-members)</title>
+      <link>/authors/timothy-a.-forsterhttps/jaklenecgroup.mit.edu/current-members/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/timothy-forsterhttps/jaklenecgroup.mit.edu/current-members/</guid>
+      <guid>/authors/timothy-a.-forsterhttps/jaklenecgroup.mit.edu/current-members/</guid>
       <description></description>
     </item>
     

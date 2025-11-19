@@ -5,7 +5,7 @@
     <link>/authors/__yang-liu__https/yangliu.mit.edu/sup/sup/</link>
       <atom:link href="/authors/__yang-liu__https/yangliu.mit.edu/sup/sup/index.xml" rel="self" type="application/rss+xml" />
     <description>[__Yang Liu__](https://yangliu.mit.edu/)&lt;sup&gt;✉&lt;/sup&gt;</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2024 Y. Liu</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2025 Y. Liu</copyright>
     <image>
       <url>/img/icon-192.png</url>
       <title>[__Yang Liu__](https://yangliu.mit.edu/)&lt;sup&gt;✉&lt;/sup&gt;</title>
@@ -18,11 +18,19 @@
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/proj/privacy_dual_imaging/</guid>
       <description>&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;Initial Poster video at &lt;a href=&#34;https://iccp2021.iccp-conference.org/&#34;&gt;ICCP 2021&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Initial Poster video at &lt;a href=&#34;https://iccp2021.iccp-conference.org/&#34;&gt;ICCP 2021&lt;/a&gt;.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/PoEFci3csLc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;highlight&#34;&gt;Highlight&lt;/h2&gt;
-&lt;p&gt;Research &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;Spotlight&lt;/a&gt; by &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt; in April 2022. Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/matthew-busekroos&#34;&gt;Matt&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/nathan-caldwell&#34;&gt;Nate&lt;/a&gt; for neat production!&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Research &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;Spotlight&lt;/a&gt; by &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt; in April 2022. Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/matthew-busekroos&#34;&gt;Matt&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/nathan-caldwell&#34;&gt;Nate&lt;/a&gt; for neat production!&lt;br&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8-cyA-LJB4A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;press-coverage&#34;&gt;Press Coverage&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://news.mit.edu/2024/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk-0129&#34;&gt;MIT News&lt;/a&gt;, &lt;a href=&#34;https://www.forbes.com/sites/daveywinder/2024/01/19/could-this-crazy-new-smartphone-hack-turn-2024-into-1984/&#34;&gt;Forbes&lt;/a&gt;, &lt;a href=&#34;https://spectrum.ieee.org/ambient-light-sensor-cybersecurity-risk&#34;&gt;IEEE Spectrum&lt;/a&gt;, &lt;a href=&#34;https://arstechnica.com/security/2024/01/ambient-light-sensors-can-reveal-your-device-activity-how-big-a-threat-is-it/&#34;&gt;Ars Technica&lt;/a&gt;, and &lt;a href=&#34;https://www.csail.mit.edu/news/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk&#34;&gt;more&lt;/a&gt; (30+).&lt;/p&gt;
 &lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
@@ -52,11 +60,19 @@ We thank L. Murmann, P. Sharma, A. Yedidia, V. K. Goyal, J. H. Shapiro, F. N. C.
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       <guid>/proj/privacy_dual_imaging/</guid>
       <description>&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
-&lt;p&gt;Initial Poster video at &lt;a href=&#34;https://iccp2021.iccp-conference.org/&#34;&gt;ICCP 2021&lt;/a&gt;.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Initial Poster video at &lt;a href=&#34;https://iccp2021.iccp-conference.org/&#34;&gt;ICCP 2021&lt;/a&gt;.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/PoEFci3csLc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;highlight&#34;&gt;Highlight&lt;/h2&gt;
-&lt;p&gt;Research &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;Spotlight&lt;/a&gt; by &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt; in April 2022. Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/matthew-busekroos&#34;&gt;Matt&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/nathan-caldwell&#34;&gt;Nate&lt;/a&gt; for neat production!&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Research &lt;a href=&#34;https://cap.csail.mit.edu/engage/spotlights/yang-liu&#34;&gt;Spotlight&lt;/a&gt; by &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt; in April 2022. Thanks &lt;a href=&#34;https://www.csail.mit.edu/person/matthew-busekroos&#34;&gt;Matt&lt;/a&gt; and &lt;a href=&#34;https://www.csail.mit.edu/person/nathan-caldwell&#34;&gt;Nate&lt;/a&gt; for neat production!&lt;br&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8-cyA-LJB4A&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;h2 id=&#34;press-coverage&#34;&gt;Press Coverage&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://news.mit.edu/2024/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk-0129&#34;&gt;MIT News&lt;/a&gt;, &lt;a href=&#34;https://www.forbes.com/sites/daveywinder/2024/01/19/could-this-crazy-new-smartphone-hack-turn-2024-into-1984/&#34;&gt;Forbes&lt;/a&gt;, &lt;a href=&#34;https://spectrum.ieee.org/ambient-light-sensor-cybersecurity-risk&#34;&gt;IEEE Spectrum&lt;/a&gt;, &lt;a href=&#34;https://arstechnica.com/security/2024/01/ambient-light-sensors-can-reveal-your-device-activity-how-big-a-threat-is-it/&#34;&gt;Ars Technica&lt;/a&gt;, and &lt;a href=&#34;https://www.csail.mit.edu/news/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk&#34;&gt;more&lt;/a&gt; (30+).&lt;/p&gt;
 &lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;

@@ -115,7 +115,7 @@
   <meta property="og:description" content="PhD student at MIT CSAIL"><meta property="og:image" content="/img/icon-192.png">
   <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-12-20T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2025-02-24T00:00:00&#43;00:00">
   
 
   
@@ -143,6 +143,33 @@
   
 
 
+
+
+  
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+
+
+
+  
+  
+  
+    
+    
+      
+      <link rel="icon" type="image/png" href="/authors/admin/avatar_hu4ce06a431c88daf8902bcdea1fb657b7_1742294_32x32_fill_q90_lanczos_center.jpg">
+    
+  
 
 
 
@@ -463,23 +490,225 @@
 
 
 
+
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
+      <style>
+        .profile-credit {
+          font-size: 0.6rem;
+          color: #888;
+          margin-top: 5px;
+          text-align: center;
+          transition: all 0.3s ease;
+          cursor: pointer;
+        }
+        .profile-credit:hover {
+          font-size: 0.8rem;
+          transform: scale(1.05);
+        }
+        .profile-credit a {
+          color: inherit;
+          text-decoration: none;
+        }
+        .profile-credit a:hover {
+          text-decoration: underline;
+        }
+        #profile-avatar {
+          cursor: pointer;
+        }
+      </style>
+      <img class="portrait" id="profile-avatar" src="/authors/yliu/avatar.jpg" alt="Avatar" style="object-fit: cover; width: 250px; height: 250px;">
+      <div id="profile-credit" class="profile-credit"></div>
       
-      <img class="portrait" src="/authors/yliu/avatar_hu4ce06a431c88daf8902bcdea1fb657b7_1742294_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <script>
+        (function() {
+          var avatars = [
+            
+              {
+                src: "\/authors\/yliu\/avatar.jpg",
+                name: "avatar.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_Caltech_Postdoc_Association.jpg",
+                name: "avatar_Caltech_Postdoc_Association.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_F._Durand_(defense).jpg",
+                name: "avatar_F._Durand_(defense).jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_J._Guo.jpg",
+                name: "avatar_J._Guo.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_P._Wang.jpg",
+                name: "avatar_P._Wang.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_S._Zhang.jpg",
+                name: "avatar_S._Zhang.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_X._Fu.jpg",
+                name: "avatar_X._Fu.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_Y._Liu_(zoom).jpg",
+                name: "avatar_Y._Liu_(zoom).jpg"
+              },
+            
+          ];
+
+          
+          
+          var creditLinks = {
+            "fredo": "http://people.csail.mit.edu/fredo/",
+            "f. durand": "http://people.csail.mit.edu/fredo/",
+            "x. fu": "https://xiangfu.co/",
+            "caltech postdoc association": "https://cpa.caltech.edu/",
+            "s. zhang": "https://syzhang092218-source.github.io/",
+            "p. wang": "https://people.csail.mit.edu/wpq/",
+            "y. liu": "https://yangliu.mit.edu/",
+            "j. guo": "https://jialiangguodesign.com/"
+          };
+          
+          function getCreditHtml(name) {
+            
+            if (name === "avatar.jpg") {
+              return 'photo credit: <a href="https://cpa.caltech.edu/" target="_blank">Caltech Postdoc Association</a>';
+            }
+            var base = name.substring(0, name.lastIndexOf('.'));
+            if (base.startsWith('avatar_')) {
+              var creditName = base.substring(7);
+              
+              creditName = creditName.replace(/_\d+$/, '');
+              
+              creditName = creditName.replace(/_/g, ' ');
+              
+              var displayText = "photo credit: " + creditName;
+              
+              
+              
+              var matchName = creditName.replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
+              
+              
+              for (var key in creditLinks) {
+                if (matchName.includes(key.toLowerCase())) {
+                   var linkText = creditName;
+                   var suffix = "";
+                   var parenIndex = creditName.indexOf('(');
+                   if (parenIndex > -1) {
+                     linkText = creditName.substring(0, parenIndex).trim();
+                     suffix = " " + creditName.substring(parenIndex); 
+                     
+                     
+                     
+                     
+                     suffix = creditName.substring(parenIndex);
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     if (!suffix.startsWith(' ')) suffix = ' ' + suffix;
+                     
+                     
+                     if (suffix.includes('defense')) {
+                       suffix = suffix.replace('defense', '<a href="img/defense_fredo.jpg" target="_blank">defense</a>');
+                     }
+                   }
+                   
+                   return 'photo credit: <a href="' + creditLinks[key] + '" target="_blank">' + linkText + '</a>' + suffix;
+                }
+              }
+              
+              return displayText;
+            }
+            return "";
+          }
+
+          var avatarImg = document.getElementById('profile-avatar');
+          var creditDiv = document.getElementById('profile-credit');
+
+          function toggleCredit(e) {
+            
+            if (e.target.tagName === 'A') return;
+            
+            if (creditDiv.style.visibility === 'hidden') {
+              creditDiv.style.visibility = 'visible';
+            } else {
+              creditDiv.style.visibility = 'hidden';
+            }
+          }
+
+          if (avatarImg) {
+            avatarImg.addEventListener('click', toggleCredit);
+          }
+          if (creditDiv) {
+            creditDiv.addEventListener('click', toggleCredit);
+          }
+
+          
+          var isSessionStart = !sessionStorage.getItem('avatar_session_started');
+
+          if (avatars.length > 0) {
+            var selected;
+            
+            if (isSessionStart) {
+              
+              sessionStorage.setItem('avatar_session_started', 'true');
+              selected = avatars.find(function(a) { return a.name === 'avatar.jpg'; });
+              
+              if (!selected) selected = avatars[0];
+            } else {
+              
+              
+              
+              
+              var randomIndex = Math.floor(Math.random() * avatars.length);
+              selected = avatars[randomIndex];
+            }
+
+            if (selected) {
+              if (avatarImg) avatarImg.src = selected.src;
+              if (creditDiv) {
+                creditDiv.innerHTML = getCreditHtml(selected.name);
+                if (selected.name === "avatar.jpg") {
+                  creditDiv.style.visibility = 'hidden';
+                } else {
+                  creditDiv.style.visibility = 'visible';
+                }
+              }
+            }
+          }
+        })();
+      </script>
+
       
 
       <div class="portrait-title">
         <h2>Yang Liu</h2>
-        <h3>PhD student</h3>
+        <h3>Postdoc Scholar</h3>
 
         
         <h3>
-          <a href="https://www.mit.edu/" target="_blank" rel="noopener">
-          <span>MIT EECS &amp; CSAIL</span>
+          <a href="https://www.caltech.edu/" target="_blank" rel="noopener">
+          <span>Caltech CMS</span>
           </a>
         </h3>
         
@@ -577,10 +806,10 @@
     
     <h1>Biography</h1>
 
-    <p>Yang Liu is a final-year PhD student working on computational imaging, generative AI, and AI for health with Prof. <a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a> at <a href="https://mit.edu/">MIT</a> <a href="https://www.eecs.mit.edu/">EECS</a> &amp; <a href="https://www.csail.mit.edu/">CSAIL</a>. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on structured diffusion image synthesis, imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.</p>
-<p>Prior to this, he received his bachelor’s and master’s degrees from <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a> in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ" title="member of CAE">Qionghai Dai</a> and working closely with Prof. <a href="https://scholar.google.com/citations?user=e4lel8QAAAAJ">Jinli Suo</a>.</p>
-<p>He is broadly interested in artificial intelligence for accelerating scientific discovery and meeting social needs. He also worked on <a href="/proj/privacy_dual_imaging/">revealing the imaging threat</a> of <a href="https://en.wikipedia.org/wiki/Ambient_light_sensor">ambient light sensors</a> on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and <a href="/proj/ecc_microneedle/">designing a privacy-preserving intradermal barcode</a> and a robust recognition system as vaccine record and beyond (general on-patient medical record). <a href="https://cap.csail.mit.edu/engage/spotlights/yang-liu">[Spotlight by MIT CSAIL]</a></p>
-<p><strong>I am on the job market of 2024-2025!</strong> Please reach out if you find any position(s) that fit me. <a href="https://drive.google.com/drive/folders/1xAerowGQB-8Vo-GnArXS-Ku34WnAZGff?usp=sharing">[My research package]</a></p>
+    <p>Yang Liu is a postdoc scholar working on computational imaging, generative AI, and AI for science hosted by Prof. <a href="https://users.cms.caltech.edu/~klbouman/">Katie Bouman</a> at <a href="https://www.caltech.edu/">Caltech</a> <a href="https://www.cms.caltech.edu/">CMS</a>. He received a PhD degree in computer science and was fortunate to be advised by Prof. <a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a> at <a href="https://mit.edu/">MIT</a> <a href="https://www.eecs.mit.edu/">EECS</a> &amp; <a href="https://www.csail.mit.edu/">CSAIL</a>. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on structured diffusion image synthesis, imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.</p>
+<p>Prior to this, he received bachelor’s and master’s degrees from <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a> in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ" title="member of CAE">Qionghai Dai</a> and working closely with Prof. <a href="https://scholar.google.com/citations?user=e4lel8QAAAAJ">Jinli Suo</a>.</p>
+<p>He is broadly interested in AI for meeting social needs and accelerating scientific discovery. He also worked on <a href="/proj/privacy_dual_imaging/">revealing the imaging threat</a> of <a href="https://en.wikipedia.org/wiki/Ambient_light_sensor">ambient light sensors</a> on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and <a href="/proj/ecc_microneedle/">designing a privacy-preserving intradermal barcode</a> and a robust recognition system as vaccine record and beyond (general on-patient medical record). <a href="https://cap.csail.mit.edu/engage/spotlights/yang-liu">[Spotlight by MIT CSAIL]</a></p>
+<!-- **I am on the job market of 2024-2025!** Please reach out if you find any position(s) that fit me. [[My research package]](https://drive.google.com/drive/folders/1xAerowGQB-8Vo-GnArXS-Ku34WnAZGff?usp=sharing) -->
 <table>
 <thead>
 <tr>
@@ -590,7 +819,19 @@
 </thead>
 <tbody>
 <tr>
-<td>Paper <a href="/proj/ecc_microneedle/">AI for on-patient medical record and mRNA therapeutics using intradermal microneedles</a> has been accepted by <a href="https://www.nature.com/nmat/"><strong>Nature Materials</strong></a>!</td>
+<td>Joining Caltech as a postdoc and working with <a href="https://www.cms.caltech.edu/people/klbouman">Katie</a>&rsquo;s <a href="https://computationalcameras.org/">Computational Cameras Group</a>!</td>
+<td>2025.09</td>
+</tr>
+<tr>
+<td><a href="/img/defense_committee.jpg">Defended</a> my PhD thesis! Thanks <a href="https://people.csail.mit.edu/fredo/">Frédo</a>, <a href="https://billf.mit.edu/">Bill</a>, <a href="https://people.csail.mit.edu/kaiming/">Kaiming</a>, and everyone throughout my PhD journey!</td>
+<td>2025.07</td>
+</tr>
+<tr>
+<td>Co-organizing the first <a href="https://responsible-imaging.github.io/">ICCV 2025 Workshop on Responsible Imaging</a>! See you in Hawaii, Honolulu!</td>
+<td>2025.03</td>
+</tr>
+<tr>
+<td>Paper <a href="/proj/ecc_microneedle/">AI for on-patient medical record and mRNA therapeutics using intradermal microneedles</a> has been accepted by <a href="https://www.nature.com/nmat/"><strong>Nature Materials</strong></a>! The <a href="https://www.nature.com/articles/s41563-024-02115-4">paper</a> and <a href="https://github.com/liuyang12/ecc-microneedle">code</a> are publicly accessible.</td>
 <td>2024.12</td>
 </tr>
 <tr>
@@ -654,7 +895,7 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD in Electrical Engineering and Computer Science, 2019 - present</p>
+              <p class="course">PhD in Electrical Engineering and Computer Science, 2019 - 2025</p>
               <p class="institution">Massachusetts Institute of Technology, Cambridge, MA, USA</p>
             </div>
           </li>
@@ -770,8 +1011,12 @@
   </div>
   <div class="col-12 col-lg-8">
 
-    <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+    <!-- <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="/proj/">filtering publications</a>.
+  </div>
+</div>
+ -->
 
 
     
@@ -787,12 +1032,12 @@
 
 
 
-  <span><a href="https://scholar.google.com/citations?user=icbfr74AAAAJ">Jooli Han</a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://scholar.google.com/citations?user=2tj2O1sAAAAJ">Maria Kanelli</a>†</span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a></span>, <span><a href="https://jld.netlify.app/">John Daristotle</a></span>, <span><a href="https://scholar.google.com/citations?user=kJqQSUwAAAAJ">Apurva Pardeshi</a></span>, <span><a href="https://jaklenecgroup.mit.edu/current-members">Timothy Forster</a></span>, <span><a href="/authors/ari-karchin/">Ari Karchin</a></span>, <span><a href="/authors/brandon-folk/">Brandon Folk</a></span>, <span><a href="http://lmurmann.net/">Lukas Murmann</a></span>, <span><a href="/authors/lisa-tostanoski/">Lisa Tostanoski</a></span>, <span><a href="/authors/sebastian-carrasco/">Sebastian Carrasco</a></span>, <span><a href="/authors/linzixuan-zhang/">Linzixuan Zhang</a></span>, <span><a href="/authors/behnaz-eshaghi/">Behnaz Eshaghi</a></span>, <span><a href="/authors/shahad-alsaiari/">Shahad Alsaiari</a></span>, <span><a href="/authors/sydney-pyon/">Sydney Pyon</a></span>, <span><a href="https://scholar.google.com/citations?user=3IGaG0cAAAAJ">Collin Perkinson</a></span>, <span><a href="https://nanocluster.mit.edu/">Moungi Bawendi</a></span>, <span><a href="https://cvvr.hms.harvard.edu/lab/barouch-laboratory/">Dan Barouch</a></span>, <span><a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a></span>, <span><a href="https://langerlab.mit.edu/">Robert Langer</a><!-- raw HTML omitted -->✉<!-- raw HTML omitted --></span>, <span><a href="https://jaklenecgroup.mit.edu/">Ana Jaklenec</a><!-- raw HTML omitted -->✉<!-- raw HTML omitted --></span>
+  <span><a href="https://scholar.google.com/citations?user=icbfr74AAAAJ">Jooli Han</a><sup>†</sup></span>, <span><a href="https://scholar.google.com/citations?user=2tj2O1sAAAAJ">Maria Kanelli</a><sup>†</sup></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a></span>, <span><a href="https://jld.netlify.app/">John L. Daristotle</a></span>, <span><a href="https://scholar.google.com/citations?user=kJqQSUwAAAAJ">Apurva Pardeshi</a></span>, <span><a href="https://jaklenecgroup.mit.edu/current-members">Timothy A. Forster</a></span>, <span><a href="/authors/ari-karchin/">Ari Karchin</a></span>, <span><a href="/authors/brandon-folk/">Brandon Folk</a></span>, <span><a href="http://lmurmann.net/">Lukas Murmann</a></span>, <span><a href="/authors/lisa-h.-tostanoski/">Lisa H. Tostanoski</a></span>, <span><a href="/authors/sebastian-e.-carrasco/">Sebastian E. Carrasco</a></span>, <span><a href="/authors/shahad-k.-alsaiari/">Shahad K. Alsaiari</a></span>, <span><a href="/authors/erika-yan-wang/">Erika Yan Wang</a></span>, <span><a href="/authors/khanh-tran/">Khanh Tran</a></span>, <span><a href="/authors/linzixuan-zhang/">Linzixuan Zhang</a></span>, <span><a href="/authors/behnaz-eshaghi/">Behnaz Eshaghi</a></span>, <span><a href="/authors/lauren-levy/">Lauren Levy</a></span>, <span><a href="/authors/sydney-pyon/">Sydney Pyon</a></span>, <span><a href="/authors/charles-sloane/">Charles Sloane</a></span>, <span><a href="/authors/stacey-qiaohui-lin/">Stacey Qiaohui Lin</a></span>, <span><a href="/authors/alicia-lau/">Alicia Lau</a></span>, <span><a href="https://scholar.google.com/citations?user=3IGaG0cAAAAJ">Collin F. Perkinson</a></span>, <span><a href="https://nanocluster.mit.edu/">Moungi G. Bawendi</a></span>, <span><a href="https://cvvr.hms.harvard.edu/lab/barouch-laboratory/">Dan H. Barouch</a></span>, <span><a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a></span>, <span><a href="https://langerlab.mit.edu/">Robert Langer</a><sup>✉</sup></span>, <span><a href="https://jaklenecgroup.mit.edu/">Ana Jaklenec</a><sup>✉</sup></span>
 
   </span>
-  (2024).
-  <a href="/proj/ecc_microneedle/">Deep Learning-assisted On-patient Medical Record and mRNA Therapeutics Delivery using Microneedles</a>.
-  <strong>Nature Materials</strong> [<em>accepted</em>].
+  (2025).
+  <a href="/proj/ecc_microneedle/">On-patient medical record and mRNA therapeutics using intradermal microneedles</a>.
+  <strong>Nature Materials</strong>, <strong>24</strong>, 794&ndash;803.
   
   <p>
 
@@ -852,9 +1097,57 @@
   
     
   
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41563-024-02115-4.pdf" target="_blank" rel="noopener">
+    
+    pdf
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/liuyang12/ecc-microneedle" target="_blank" rel="noopener">
     
     code
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41563-024-02115-4" target="_blank" rel="noopener">
+    
+    doi
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://static-content.springer.com/esm/art%3A10.1038%2Fs41563-024-02115-4/MediaObjects/41563_2024_2115_MOESM1_ESM.pdf" target="_blank" rel="noopener">
+    
+    supp
   </a>
 
   
@@ -896,7 +1189,7 @@
 
 
 
-  <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><!-- raw HTML omitted -->✉<!-- raw HTML omitted --></span>, <span><a href="http://allegro.mit.edu/~gww/">Gregory W. Wornell</a></span>, <span><a href="https://billf.mit.edu/">William T. Freeman</a></span>, <span><a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a><!-- raw HTML omitted -->✉<!-- raw HTML omitted --></span>
+  <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><sup>✉</sup></span>, <span><a href="http://allegro.mit.edu/~gww/">Gregory W. Wornell</a></span>, <span><a href="https://billf.mit.edu/">William T. Freeman</a></span>, <span><a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a><sup>✉</sup></span>
 
   </span>
   (2024).
@@ -1142,7 +1435,7 @@
 
 
 
-  <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a></span>, <span><a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a></span>
+  <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a><sup>†</sup></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><sup>†</sup></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a></span>, <span><a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a></span>
 
   </span>
   (2022).
@@ -1299,7 +1592,7 @@
 
 
 
-  <span><a href="https://github.com/zhihongz">Zhihong Zhang</a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://scholar.google.com/citations?user=GkAO16kAAAAJ">Chao Deng</a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a></span>, <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a><!-- raw HTML omitted -->✉<!-- raw HTML omitted --></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a></span>
+  <span><a href="https://github.com/zhihongz">Zhihong Zhang</a><sup>†</sup></span>, <span><a href="https://scholar.google.com/citations?user=GkAO16kAAAAJ">Chao Deng</a><sup>†</sup></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a></span>, <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a><sup>✉</sup></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a></span>
 
   </span>
   (2021).
@@ -1456,7 +1749,7 @@
 
 
 
-  <span><a href="https://bianlab.github.io/members.html">Meng Li</a></span>, <span><a href="https://bianlab.github.io/">Liheng Bian</a><!-- raw HTML omitted -->✉<!-- raw HTML omitted --></span>, <span><a href="https://smartimaging.uconn.edu/">Guoan Zheng</a></span>, <span><a href="https://www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden">Andrew Maiden</a></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a></span>, <span><a href="https://bianlab.github.io/members.html">Yiming Li</a></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a></span>, <span><a href="/authors/jun-zhang/">Jun Zhang</a></span>
+  <span><a href="https://bianlab.github.io/members.html">Meng Li</a></span>, <span><a href="https://bianlab.github.io/">Liheng Bian</a><sup>✉</sup></span>, <span><a href="https://smartimaging.uconn.edu/">Guoan Zheng</a></span>, <span><a href="https://www.sheffield.ac.uk/eee/people/academic-staff/andrew-maiden">Andrew Maiden</a></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a></span>, <span><a href="https://bianlab.github.io/members.html">Yiming Li</a></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a></span>, <span><a href="/authors/jun-zhang/">Jun Zhang</a></span>
 
   </span>
   (2021).
@@ -1629,7 +1922,7 @@
 
 
 
-  <span><a href="https://github.com/zsm1211">Siming Zheng</a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://scholar.google.com/citations?user=hfEq8gYAAAAJ">Ziyi Meng</a></span>, <span><a href="https://scholar.google.com/citations?user=-QMH8oAAAAAJ">Mu Qiao</a></span>, <span><a href="/authors/zhishen-tong/">Zhishen Tong</a></span>, <span><a href="/authors/xiaoyu-yang/">Xiaoyu Yang</a></span>, <span><a href="/authors/shensheng-han/">Shensheng Han</a></span>, <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a></span>
+  <span><a href="https://github.com/zsm1211">Siming Zheng</a><sup>†</sup></span>, <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><sup>†</sup></span>, <span><a href="https://scholar.google.com/citations?user=hfEq8gYAAAAJ">Ziyi Meng</a></span>, <span><a href="https://scholar.google.com/citations?user=-QMH8oAAAAAJ">Mu Qiao</a></span>, <span><a href="/authors/zhishen-tong/">Zhishen Tong</a></span>, <span><a href="/authors/xiaoyu-yang/">Xiaoyu Yang</a></span>, <span><a href="/authors/shensheng-han/">Shensheng Han</a></span>, <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a></span>
 
   </span>
   (2021).
@@ -1943,7 +2236,7 @@
 
 
 
-  <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a><!-- raw HTML omitted -->†<!-- raw HTML omitted --></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a></span>, <span><a href="https://www.optics.arizona.edu/person/david-brady">David J. Brady</a></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a><!-- raw HTML omitted -->✉<!-- raw HTML omitted --></span>
+  <span><a href="https://yangliu.mit.edu/"><strong>Yang Liu</strong></a><sup>†</sup></span>, <span><a href="https://scholar.google.com/citations?user=cS9CbWkAAAAJ">Xin Yuan</a><sup>†</sup></span>, <span><a href="https://sites.google.com/site/suojinli">Jinli Suo</a></span>, <span><a href="https://www.optics.arizona.edu/person/david-brady">David J. Brady</a></span>, <span><a href="http://media.au.tsinghua.edu.cn">Qionghai Dai</a><sup>✉</sup></span>
 
   </span>
   (2019).
@@ -2878,6 +3171,10 @@
 </thead>
 <tbody>
 <tr>
+<td>Co-Organizer of the <strong>first <a href="https://responsible-imaging.github.io/">ICCV 2025 Workshop on Responsible Imaging</a></strong>.</td>
+<td>2025.10</td>
+</tr>
+<tr>
 <td>Co-Organizer of MIT Graphics Seminars (weekly lunch format).</td>
 <td>2023&ndash;2024</td>
 </tr>
@@ -2890,11 +3187,11 @@
 <td>2021.02</td>
 </tr>
 <tr>
-<td>Invited Reviewer for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</a>, Transactions on Computational Imaging (TCI; 10×), Transactions on Neural Networks and Learning Systems (TNNLS), Journal of Selected Topics in Signal Processing (JSTSP), and Optica Publishing Group (previously known as OSA; 14×) <a href="https://opg.optica.org/optica">Optica</a>, Photonics Research, Optics Express (OE), Optics Letters (OL), Biomedical Optics Express (BOE), Applied Optics (AO).</td>
+<td><strong>Invited Reviewer</strong> for <strong><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</a></strong>, Transactions on Computational Imaging (TCI; 12×), Transactions on Neural Networks and Learning Systems (TNNLS), Journal of Selected Topics in Signal Processing (JSTSP); Optica Publishing Group (previously known as OSA; 17×) <strong><a href="https://opg.optica.org/optica/">Optica</a></strong>, Photonics Research, Optics Express (OE), Optics Letters (OL), Biomedical Optics Express (BOE), Applied Optics (AO); <strong><a href="https://s2025.siggraph.org/">ACM SIGGRAPH 2025</a></strong>.</td>
 <td></td>
 </tr>
 <tr>
-<td>Student Participation for MIT EECS Faculty Search Committee (2022 &amp; 2023), MIT CSAIL <a href="https://www.csail.mit.edu/meteor">METEOR Postdoctoral Fellowship</a> Review Committee (2022), MIT EECS PhD Application Review Committee (2021).</td>
+<td><strong>Student Participation</strong> for MIT EECS Faculty Search Committee (2022 &amp; 2023), MIT CSAIL <a href="https://www.csail.mit.edu/meteor">METEOR Postdoctoral Fellowship</a> Review Committee (2022), MIT EECS PhD Application Review Committee (2021).</td>
 <td></td>
 </tr>
 </tbody>
@@ -3024,14 +3321,11 @@
 
   
   <div class="container">
-    <footer class="site-footer">
+    <footer class="site-footer" style="margin-top: -1rem; margin-bottom: 0; padding-bottom: 0;">
   
 
-  <p class="powered-by">
-    © 2018-2024 Y. Liu &middot; 
-
-    Powered by the
-    <a href="https://academic-demo.netlify.app/" target="_blank" rel="noopener">Academic theme</a>.
+  <p class="powered-by" style="margin-bottom: 0;">
+    © 2018-2025 Y. Liu
 
     
     <span class="float-right" aria-hidden="true">
@@ -3042,6 +3336,30 @@
       </a>
     </span>
     
+  </p>
+  
+  <style>
+    .footer-tribute {
+      font-size: 0.6rem;
+      color: #888;
+      margin-top: 0;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+    .footer-tribute:hover {
+      font-size: 0.8rem;
+      transform: scale(1.05);
+    }
+    .footer-tribute a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .footer-tribute a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <p class="footer-tribute">
+    {randomizing avatars inspired by my PhD advisor <a href="http://people.csail.mit.edu/fredo/" target="_blank">Fredo</a>}
   </p>
 </footer>
 

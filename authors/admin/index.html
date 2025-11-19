@@ -131,6 +131,33 @@
 
 
 
+  
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+
+
+
+  
+  
+  
+    
+    
+      
+      <link rel="icon" type="image/png" href="/authors/admin/avatar_hu4ce06a431c88daf8902bcdea1fb657b7_1742294_32x32_fill_q90_lanczos_center.jpg">
+    
+  
+
+
 
   <title> | Yang Liu</title>
 
@@ -399,13 +426,180 @@
 
 
 
+
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
+      <style>
+        .profile-credit {
+          font-size: 0.6rem;
+          color: #888;
+          margin-top: 5px;
+          text-align: center;
+          transition: all 0.3s ease;
+          cursor: pointer;
+        }
+        .profile-credit:hover {
+          font-size: 0.8rem;
+          transform: scale(1.05);
+        }
+        .profile-credit a {
+          color: inherit;
+          text-decoration: none;
+        }
+        .profile-credit a:hover {
+          text-decoration: underline;
+        }
+        #profile-avatar {
+          cursor: pointer;
+        }
+      </style>
+      <img class="portrait" id="profile-avatar" src="/authors/admin/avatar.jpg" alt="Avatar" style="object-fit: cover; width: 250px; height: 250px;">
+      <div id="profile-credit" class="profile-credit"></div>
       
-      <img class="portrait" src="/authors/admin/avatar_hu4ce06a431c88daf8902bcdea1fb657b7_1742294_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <script>
+        (function() {
+          var avatars = [
+            
+              {
+                src: "\/authors\/admin\/avatar.jpg",
+                name: "avatar.jpg"
+              },
+            
+          ];
+
+          
+          
+          var creditLinks = {
+            "fredo": "http://people.csail.mit.edu/fredo/",
+            "f. durand": "http://people.csail.mit.edu/fredo/",
+            "x. fu": "https://xiangfu.co/",
+            "caltech postdoc association": "https://cpa.caltech.edu/",
+            "s. zhang": "https://syzhang092218-source.github.io/",
+            "p. wang": "https://people.csail.mit.edu/wpq/",
+            "y. liu": "https://yangliu.mit.edu/",
+            "j. guo": "https://jialiangguodesign.com/"
+          };
+          
+          function getCreditHtml(name) {
+            
+            if (name === "avatar.jpg") {
+              return 'photo credit: <a href="https://cpa.caltech.edu/" target="_blank">Caltech Postdoc Association</a>';
+            }
+            var base = name.substring(0, name.lastIndexOf('.'));
+            if (base.startsWith('avatar_')) {
+              var creditName = base.substring(7);
+              
+              creditName = creditName.replace(/_\d+$/, '');
+              
+              creditName = creditName.replace(/_/g, ' ');
+              
+              var displayText = "photo credit: " + creditName;
+              
+              
+              
+              var matchName = creditName.replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
+              
+              
+              for (var key in creditLinks) {
+                if (matchName.includes(key.toLowerCase())) {
+                   var linkText = creditName;
+                   var suffix = "";
+                   var parenIndex = creditName.indexOf('(');
+                   if (parenIndex > -1) {
+                     linkText = creditName.substring(0, parenIndex).trim();
+                     suffix = " " + creditName.substring(parenIndex); 
+                     
+                     
+                     
+                     
+                     suffix = creditName.substring(parenIndex);
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     if (!suffix.startsWith(' ')) suffix = ' ' + suffix;
+                     
+                     
+                     if (suffix.includes('defense')) {
+                       suffix = suffix.replace('defense', '<a href="img/defense_fredo.jpg" target="_blank">defense</a>');
+                     }
+                   }
+                   
+                   return 'photo credit: <a href="' + creditLinks[key] + '" target="_blank">' + linkText + '</a>' + suffix;
+                }
+              }
+              
+              return displayText;
+            }
+            return "";
+          }
+
+          var avatarImg = document.getElementById('profile-avatar');
+          var creditDiv = document.getElementById('profile-credit');
+
+          function toggleCredit(e) {
+            
+            if (e.target.tagName === 'A') return;
+            
+            if (creditDiv.style.visibility === 'hidden') {
+              creditDiv.style.visibility = 'visible';
+            } else {
+              creditDiv.style.visibility = 'hidden';
+            }
+          }
+
+          if (avatarImg) {
+            avatarImg.addEventListener('click', toggleCredit);
+          }
+          if (creditDiv) {
+            creditDiv.addEventListener('click', toggleCredit);
+          }
+
+          
+          var isSessionStart = !sessionStorage.getItem('avatar_session_started');
+
+          if (avatars.length > 0) {
+            var selected;
+            
+            if (isSessionStart) {
+              
+              sessionStorage.setItem('avatar_session_started', 'true');
+              selected = avatars.find(function(a) { return a.name === 'avatar.jpg'; });
+              
+              if (!selected) selected = avatars[0];
+            } else {
+              
+              
+              
+              
+              var randomIndex = Math.floor(Math.random() * avatars.length);
+              selected = avatars[randomIndex];
+            }
+
+            if (selected) {
+              if (avatarImg) avatarImg.src = selected.src;
+              if (creditDiv) {
+                creditDiv.innerHTML = getCreditHtml(selected.name);
+                if (selected.name === "avatar.jpg") {
+                  creditDiv.style.visibility = 'hidden';
+                } else {
+                  creditDiv.style.visibility = 'visible';
+                }
+              }
+            }
+          }
+        })();
+      </script>
+
       
 
       <div class="portrait-title">
@@ -740,14 +934,11 @@
 
   
   <div class="container">
-    <footer class="site-footer">
+    <footer class="site-footer" style="margin-top: -1rem; margin-bottom: 0; padding-bottom: 0;">
   
 
-  <p class="powered-by">
-    © 2018-2024 Y. Liu &middot; 
-
-    Powered by the
-    <a href="https://academic-demo.netlify.app/" target="_blank" rel="noopener">Academic theme</a>.
+  <p class="powered-by" style="margin-bottom: 0;">
+    © 2018-2025 Y. Liu
 
     
     <span class="float-right" aria-hidden="true">
@@ -758,6 +949,30 @@
       </a>
     </span>
     
+  </p>
+  
+  <style>
+    .footer-tribute {
+      font-size: 0.6rem;
+      color: #888;
+      margin-top: 0;
+      transition: all 0.3s ease;
+      text-align: center;
+    }
+    .footer-tribute:hover {
+      font-size: 0.8rem;
+      transform: scale(1.05);
+    }
+    .footer-tribute a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .footer-tribute a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <p class="footer-tribute">
+    {randomizing avatars inspired by my PhD advisor <a href="http://people.csail.mit.edu/fredo/" target="_blank">Fredo</a>}
   </p>
 </footer>
 
