@@ -5,7 +5,7 @@
     <link>/authors/shahad-k.-alsaiari/</link>
       <atom:link href="/authors/shahad-k.-alsaiari/index.xml" rel="self" type="application/rss+xml" />
     <description>Shahad K. Alsaiari</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2025 Y. Liu</copyright><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2026 Y. Liu</copyright><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Shahad K. Alsaiari</title>
@@ -17,22 +17,29 @@
       <link>/proj/ecc_microneedle/</link>
       <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
       <guid>/proj/ecc_microneedle/</guid>
-      <description>&lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
+      <description>
+
+&lt;h2 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h2&gt;
+
 &lt;p&gt;This work was also supported in part by the Koch Institute Support (core) Grant P30-CA14051 from the National Cancer Institute. We would like to thank the Bill &amp;amp; Melinda Gates Foundation (BMGF) for (INV-007842) supporting this project. This work was supported, in whole or in part, by the Bill &amp;amp; Melinda Gates Foundation [INV-007842; A.J., R.L.], and Takeda Fellowship from MIT-Takeda Program [Y.L.].&lt;/p&gt;
+
 &lt;p&gt;The authors would like to thank &lt;a href=&#34;https://a-lancho.github.io/&#34;&gt;Alejandro Lancho&lt;/a&gt; and &lt;a href=&#34;https://alexfengler.github.io/&#34;&gt;Alexander Fengler&lt;/a&gt; for discussion about error-correction codes.&lt;/p&gt;
+
 &lt;h2 id=&#34;bibtex&#34;&gt;bibtex&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@article{Han25OPMR,
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   author    = {Han, Jooli and Kanelli, Maria and Liu, Yang and Daristotle, John L. and Pardeshi, Apurva and Forster, Timothy A. and Karchin, Ari and Folk, Brandon and Murmann, Lukas and Tostanoski, Lisa H. and Carrasco, Sebastian E. and Alsaiari, Shahad K. and Wang, Erika Yan and Tran, Khanh and Zhang, Linzixuan and Eshaghi, Behnaz and Levy, Lauren and Pyon, Sydney and Sloane, Charles and Lin, Stacey Qiaohui and Lau, Alicia and Perkinson, Collin F. and Bawendi, Moungi G. and Barouch, Dan H. and Durand, Fr{\\&amp;#39;e}do and Langer, Robert and Jaklenec, Ana},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   title     = {On-patient medical record and mRNA therapeutics using intradermal microneedles},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   journal   = {Nature Materials},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   year      = {2025},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   month     = {2},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   volume    = {24},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   pages     = {794--803},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   doi       = {10.1038/s41563-024-02115-4},
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   type      = {Journal Article}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@article{Han25OPMR,
+   author    = {Han, Jooli and Kanelli, Maria and Liu, Yang and Daristotle, John L. and Pardeshi, Apurva and Forster, Timothy A. and Karchin, Ari and Folk, Brandon and Murmann, Lukas and Tostanoski, Lisa H. and Carrasco, Sebastian E. and Alsaiari, Shahad K. and Wang, Erika Yan and Tran, Khanh and Zhang, Linzixuan and Eshaghi, Behnaz and Levy, Lauren and Pyon, Sydney and Sloane, Charles and Lin, Stacey Qiaohui and Lau, Alicia and Perkinson, Collin F. and Bawendi, Moungi G. and Barouch, Dan H. and Durand, Fr{\\&#39;e}do and Langer, Robert and Jaklenec, Ana},
+   title     = {On-patient medical record and mRNA therapeutics using intradermal microneedles},
+   journal   = {Nature Materials},
+   year      = {2025},
+   month     = {2},
+   volume    = {24},
+   pages     = {794--803},
+   doi       = {10.1038/s41563-024-02115-4},
+   type      = {Journal Article}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>

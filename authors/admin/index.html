@@ -75,14 +75,26 @@
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
-  
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.0a6bdaafe4948e76c4da4a98585c5451.css">
+  <link rel="stylesheet" href="/css/academic.min.a79f1c7dc305f312b325f60e3ec3220f.css">
 
+  
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.d6f5b169a3a07f18e35e51a20f6204d3.css">
   
 
   
@@ -128,6 +140,13 @@
 
   
 
+  
+    <link rel="preload" href="/fonts/libertinus-sans/5.3.0/libertinus-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+
+
+
+
 
 
 
@@ -163,7 +182,11 @@
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents">
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -198,7 +221,8 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+    
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main" data-autohide-delay="3000">
   <div class="container">
 
     
@@ -400,6 +424,7 @@
   </div>
 </nav>
 
+  
 
   
 
@@ -480,7 +505,9 @@
             "s. zhang": "https://syzhang092218-source.github.io/",
             "p. wang": "https://people.csail.mit.edu/wpq/",
             "y. liu": "https://yangliu.mit.edu/",
-            "j. guo": "https://jialiangguodesign.com/"
+            "j. guo": "https://jialiangguodesign.com/",
+            "j. lam": "https://jack-lam.com/",
+            "y. duan": "https://sophiaonpoint.github.io/"
           };
           
           function getCreditHtml(name) {
@@ -501,6 +528,12 @@
               
               
               var matchName = creditName.replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
+
+              
+              if (matchName === "hku and photobi.hk") {
+                return 'photo credit: <a href="https://www.hku.hk/" target="_blank" rel="noopener">HKU</a>' +
+                  ' and <a href="https://photobi.hk/" target="_blank" rel="noopener">PHOTOBI.HK</a>';
+              }
               
               
               for (var key in creditLinks) {
@@ -565,27 +598,51 @@
           }
 
           
-          var isSessionStart = !sessionStorage.getItem('avatar_session_started');
+          var recentAvatars = [];
+          var isSessionStart = true;
+          try {
+            isSessionStart = !sessionStorage.getItem('avatar_session_started');
+            var savedHistory = JSON.parse(sessionStorage.getItem('avatar_recent_history') || '[]');
+            if (Array.isArray(savedHistory)) {
+              recentAvatars = savedHistory.filter(function(name) {
+                return typeof name === 'string';
+              }).slice(-5);
+            }
+          } catch (e) {
+            
+            isSessionStart = false;
+          }
 
           if (avatars.length > 0) {
             var selected;
             
             if (isSessionStart) {
               
-              sessionStorage.setItem('avatar_session_started', 'true');
               selected = avatars.find(function(a) { return a.name === 'avatar.jpg'; });
               
               if (!selected) selected = avatars[0];
             } else {
-              
-              
-              
-              
-              var randomIndex = Math.floor(Math.random() * avatars.length);
-              selected = avatars[randomIndex];
+              var excluded = recentAvatars.slice();
+              var candidates = [];
+              while (!candidates.length) {
+                candidates = avatars.filter(function(avatar) {
+                  return excluded.indexOf(avatar.name) === -1;
+                });
+                
+                if (!candidates.length) excluded.shift();
+              }
+              var randomIndex = Math.floor(Math.random() * candidates.length);
+              selected = candidates[randomIndex];
             }
 
             if (selected) {
+              try {
+                sessionStorage.setItem('avatar_session_started', 'true');
+                sessionStorage.setItem('avatar_recent_history',
+                  JSON.stringify(recentAvatars.concat(selected.name).slice(-5)));
+              } catch (e) {
+                
+              }
               if (avatarImg) avatarImg.src = selected.src;
               if (creditDiv) {
                 creditDiv.innerHTML = getCreditHtml(selected.name);
@@ -725,27 +782,33 @@
     
 
     <p>Yang Liu is a fifth-year PhD student working on computational imaging/photography with Prof. <a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a> at <a href="https://mit.edu/">MIT</a> <a href="https://www.eecs.mit.edu/">EECS</a> &amp; <a href="https://www.csail.mit.edu/">CSAIL</a>. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques. Typical topics that he is currently enthusiastic about are high-dimensional visual computing from low-dimensional samplings, such as high-throughput imaging, and single-pixel imaging, and non-line-of-sight imaging. Prior to this, he received his bachelor’s and master’s degrees from <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a> in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ" title="member of CAE">Qionghai Dai</a> and working closely with Prof. <a href="https://scholar.google.com/citations?user=e4lel8QAAAAJ">Jinli Suo</a>.</p>
+
 <p>He is broadly interested in artificial intelligence for accelerating scientific discovery and meeting social needs. He also worked on <a href="/proj/privacy_dual_imaging/">revealing the imaging threat</a> of <a href="https://en.wikipedia.org/wiki/Ambient_light_sensor">ambient light sensors</a> on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and designing a privacy-preserving intradermal barcode and a robust recognition system as vaccine record and beyond (general on-patient medical record). <a href="https://cap.csail.mit.edu/engage/spotlights/yang-liu">[Spotlight by MIT CSAIL]</a></p>
+
 <table>
 <thead>
 <tr>
-<th>News   	[<em>check out my <a href="https://yliu12.notion.site/">notion site</a> for latest updates and <a href="https://scholar.google.com/citations?user=QRRaWikAAAAJ">google scholar</a> for papers</em>]</th>
+<th>News  &ensp;  [<em>check out my <a href="https://yliu12.notion.site/">notion site</a> for latest updates and <a href="https://scholar.google.com/citations?user=QRRaWikAAAAJ">google scholar</a> for papers</em>]</th>
 <th></th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
 <td>Organizing graphics side of <a href="https://sites.google.com/view/visionseminar">MIT Vision and Graphics Seminar</a>. Shoot me an <a href="mailto:yliu@csail.mit.edu">email</a> if you are interested!</td>
 <td>2022&ndash;2023</td>
 </tr>
+
 <tr>
 <td>Taking <a href="https://fab.cba.mit.edu/classes/MAS.863/">MAS.863 How-to-Make</a> class making my <a href="https://fab.cba.mit.edu/classes/863.22/EECS/people/Yang/">own content creation</a> for fun!</td>
 <td>2022 Fall</td>
 </tr>
+
 <tr>
 <td>Received <a href="https://mittakedaprogram.mit.edu/round-2-fellows/">Takeda Fellowship</a> (2022-2023) from <a href="https://mittakedaprogram.mit.edu/">MIT-Takeda Program</a>. Thanks Takeda!</td>
 <td>2022.06</td>
 </tr>
+
 <tr>
 <td><a href="https://cap.csail.mit.edu/engage/spotlights/yang-liu">Research Spotlight</a> by <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. Thanks <a href="https://www.csail.mit.edu/person/matthew-busekroos">Matt</a> and <a href="https://www.csail.mit.edu/person/nathan-caldwell">Nate</a> for neat production!</td>
 <td>2022.04</td>
@@ -921,9 +984,11 @@
       
     
     
+      
     
     
-    <script src="/js/academic.min.46afa28a73c62149a20374af231fe07d.js"></script>
+    
+    <script src="/js/academic.min.dc8c20cad35d4396103b7fd691c503a5.js"></script>
 
     
 
@@ -938,7 +1003,7 @@
   
 
   <p class="powered-by" style="margin-bottom: 0;">
-    © 2018-2025 Y. Liu
+    &copy; 2018-2026 Y. Liu
 
     
     <span class="float-right" aria-hidden="true">

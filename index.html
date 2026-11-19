@@ -75,14 +75,26 @@
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
-  
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.0a6bdaafe4948e76c4da4a98585c5451.css">
+  <link rel="stylesheet" href="/css/academic.min.a79f1c7dc305f312b325f60e3ec3220f.css">
 
+  
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.d6f5b169a3a07f18e35e51a20f6204d3.css">
   
 
   
@@ -142,6 +154,13 @@
 
   
 
+  
+    <link rel="preload" href="/fonts/libertinus-sans/5.3.0/libertinus-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+
+
+
+
 
 
 
@@ -177,7 +196,11 @@
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main">
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -212,7 +235,8 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+    
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main" data-autohide-delay="3000">
   <div class="container">
 
     
@@ -414,6 +438,7 @@
   </div>
 </nav>
 
+  
 
   
 
@@ -543,8 +568,23 @@
               },
             
               {
+                src: "\/authors\/yliu\/avatar_HKU_and_PHOTOBI.HK.jpg",
+                name: "avatar_HKU_and_PHOTOBI.HK.jpg"
+              },
+            
+              {
                 src: "\/authors\/yliu\/avatar_J._Guo.jpg",
                 name: "avatar_J._Guo.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_J._Lam.jpg",
+                name: "avatar_J._Lam.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_M._Lin.jpg",
+                name: "avatar_M._Lin.jpg"
               },
             
               {
@@ -560,6 +600,11 @@
               {
                 src: "\/authors\/yliu\/avatar_X._Fu.jpg",
                 name: "avatar_X._Fu.jpg"
+              },
+            
+              {
+                src: "\/authors\/yliu\/avatar_Y._Duan.jpg",
+                name: "avatar_Y._Duan.jpg"
               },
             
               {
@@ -579,7 +624,9 @@
             "s. zhang": "https://syzhang092218-source.github.io/",
             "p. wang": "https://people.csail.mit.edu/wpq/",
             "y. liu": "https://yangliu.mit.edu/",
-            "j. guo": "https://jialiangguodesign.com/"
+            "j. guo": "https://jialiangguodesign.com/",
+            "j. lam": "https://jack-lam.com/",
+            "y. duan": "https://sophiaonpoint.github.io/"
           };
           
           function getCreditHtml(name) {
@@ -600,6 +647,12 @@
               
               
               var matchName = creditName.replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
+
+              
+              if (matchName === "hku and photobi.hk") {
+                return 'photo credit: <a href="https://www.hku.hk/" target="_blank" rel="noopener">HKU</a>' +
+                  ' and <a href="https://photobi.hk/" target="_blank" rel="noopener">PHOTOBI.HK</a>';
+              }
               
               
               for (var key in creditLinks) {
@@ -664,27 +717,51 @@
           }
 
           
-          var isSessionStart = !sessionStorage.getItem('avatar_session_started');
+          var recentAvatars = [];
+          var isSessionStart = true;
+          try {
+            isSessionStart = !sessionStorage.getItem('avatar_session_started');
+            var savedHistory = JSON.parse(sessionStorage.getItem('avatar_recent_history') || '[]');
+            if (Array.isArray(savedHistory)) {
+              recentAvatars = savedHistory.filter(function(name) {
+                return typeof name === 'string';
+              }).slice(-5);
+            }
+          } catch (e) {
+            
+            isSessionStart = false;
+          }
 
           if (avatars.length > 0) {
             var selected;
             
             if (isSessionStart) {
               
-              sessionStorage.setItem('avatar_session_started', 'true');
               selected = avatars.find(function(a) { return a.name === 'avatar.jpg'; });
               
               if (!selected) selected = avatars[0];
             } else {
-              
-              
-              
-              
-              var randomIndex = Math.floor(Math.random() * avatars.length);
-              selected = avatars[randomIndex];
+              var excluded = recentAvatars.slice();
+              var candidates = [];
+              while (!candidates.length) {
+                candidates = avatars.filter(function(avatar) {
+                  return excluded.indexOf(avatar.name) === -1;
+                });
+                
+                if (!candidates.length) excluded.shift();
+              }
+              var randomIndex = Math.floor(Math.random() * candidates.length);
+              selected = candidates[randomIndex];
             }
 
             if (selected) {
+              try {
+                sessionStorage.setItem('avatar_session_started', 'true');
+                sessionStorage.setItem('avatar_recent_history',
+                  JSON.stringify(recentAvatars.concat(selected.name).slice(-5)));
+              } catch (e) {
+                
+              }
               if (avatarImg) avatarImg.src = selected.src;
               if (creditDiv) {
                 creditDiv.innerHTML = getCreditHtml(selected.name);
@@ -703,13 +780,13 @@
 
       <div class="portrait-title">
         <h2>Yang Liu</h2>
-        <h3>Postdoc Scholar</h3>
+        <h3>Assistant Professor</h3>
 
         
         <h3>
-          <a href="https://www.caltech.edu/" target="_blank" rel="noopener">
-          <span>Caltech CMS</span>
-          </a>
+          
+          <span><a href="https://www.hku.hk/">HKU</a> <a href="https://ece.hku.hk/">ECE</a></span>
+          
         </h3>
         
       </div>
@@ -806,64 +883,101 @@
     
     <h1>Biography</h1>
 
-    <p>Yang Liu is a postdoc scholar working on computational imaging, generative AI, and AI for science hosted by Prof. <a href="https://users.cms.caltech.edu/~klbouman/">Katie Bouman</a> at <a href="https://www.caltech.edu/">Caltech</a> <a href="https://www.cms.caltech.edu/">CMS</a>. He received a PhD degree in computer science and was fortunate to be advised by Prof. <a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a> at <a href="https://mit.edu/">MIT</a> <a href="https://www.eecs.mit.edu/">EECS</a> &amp; <a href="https://www.csail.mit.edu/">CSAIL</a>. He is excited about seeing, making, and connecting (almost) anything. He emphasizes on structured diffusion image synthesis, imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.</p>
+    <p>Yang Liu is an assistant professor at the <a href="https://www.hku.hk/">University of Hong Kong (HKU)</a>. He works on computational imaging, physical AI, and AI for science. He received a PhD degree in computer science from <a href="https://mit.edu/">MIT</a>, where he was fortunate to be advised by Prof. <a href="http://people.csail.mit.edu/fredo/">Frédo Durand</a> in <a href="https://www.eecs.mit.edu/">EECS</a> &amp; <a href="https://www.csail.mit.edu/">CSAIL</a>. He spent a year as a postdoc scholar working on agentic AI for scientific imaging, hosted by Prof. <a href="https://users.cms.caltech.edu/~klbouman/">Katie Bouman</a> at <a href="https://www.caltech.edu/">Caltech</a> <a href="https://www.cms.caltech.edu/">CMS</a>. He is excited about seeing, making, and connecting (almost) anything. He emphasizes agentic physical intelligence, structured diffusion image synthesis, and imaging and sensing beyond human vision (in terms of dimensionality and visibility) by combining optical imaging systems with compressive sensing and machine learning techniques.</p>
+
 <p>Prior to this, he received bachelor’s and master’s degrees from <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a> in 2016 and 2019, respectively. He worked on computational imaging and microscopy, advised by Prof. <a href="https://scholar.google.com/citations?user=CHAajY4AAAAJ" title="member of CAE">Qionghai Dai</a> and working closely with Prof. <a href="https://scholar.google.com/citations?user=e4lel8QAAAAJ">Jinli Suo</a>.</p>
+
 <p>He is broadly interested in AI for meeting social needs and accelerating scientific discovery. He also worked on <a href="/proj/privacy_dual_imaging/">revealing the imaging threat</a> of <a href="https://en.wikipedia.org/wiki/Ambient_light_sensor">ambient light sensors</a> on everyday screens, which is capable of resolving an image of the scene in front of the screen without accessing the selfie camera, and <a href="/proj/ecc_microneedle/">designing a privacy-preserving intradermal barcode</a> and a robust recognition system as vaccine record and beyond (general on-patient medical record). <a href="https://cap.csail.mit.edu/engage/spotlights/yang-liu">[Spotlight by MIT CSAIL]</a></p>
+
 <!-- **I am on the job market of 2024-2025!** Please reach out if you find any position(s) that fit me. [[My research package]](https://drive.google.com/drive/folders/1xAerowGQB-8Vo-GnArXS-Ku34WnAZGff?usp=sharing) -->
-<table>
+
+
+<div class="news-panel">
+  <div class="news-scroll" data-visible-rows="10" tabindex="0" role="region" aria-label="News; scroll for older updates">
+    <table>
 <thead>
 <tr>
-<th>News   	[<em>check out my <a href="https://yliu12.notion.site/">notion site</a> for latest updates and <a href="https://scholar.google.com/citations?user=QRRaWikAAAAJ">google scholar</a> for papers</em>]</th>
+<th>News  &ensp;  [<em>check out my <a href="https://yliu12.notion.site/">notion site</a> for latest updates and <a href="https://scholar.google.com/citations?user=QRRaWikAAAAJ">google scholar</a> for papers</em>]</th>
 <th></th>
 </tr>
 </thead>
+
 <tbody>
+<tr>
+<td>Joining <a href="https://www.hku.hk/">HKU</a> as an <a href="https://ece.hku.hk/people/yliu12/">assistant professor</a>!</td>
+<td>2026.08</td>
+</tr>
+
+<tr>
+<td>Agentic AI for scientific imaging funded by <a href="https://www.anthropic.com/news/ai-for-science-program">Anthropic AI for Science Program</a>, <a href="https://ai.google.dev/gemini-api/docs/gemini-for-research#gemini-academic-program">Google Gemini Academic Program</a>, and <a href="https://openai.com/index/chatgpt-for-academic-researchers/">OpenAI ChatGPT for Academic Researchers</a>.</td>
+<td>2026.06</td>
+</tr>
+
+<tr>
+<td>Serving as a guest editor for the <strong><a href="https://link.springer.com/collections/ffbhjefiia">IJCV Special Issue on Responsible Imaging</a></strong>.</td>
+<td>2026.02</td>
+</tr>
+
 <tr>
 <td>Joining Caltech as a postdoc and working with <a href="https://www.cms.caltech.edu/people/klbouman">Katie</a>&rsquo;s <a href="https://computationalcameras.org/">Computational Cameras Group</a>!</td>
 <td>2025.09</td>
 </tr>
+
 <tr>
 <td><a href="/img/defense_committee.jpg">Defended</a> my PhD thesis! Thanks <a href="https://people.csail.mit.edu/fredo/">Frédo</a>, <a href="https://billf.mit.edu/">Bill</a>, <a href="https://people.csail.mit.edu/kaiming/">Kaiming</a>, and everyone throughout my PhD journey!</td>
 <td>2025.07</td>
 </tr>
+
 <tr>
 <td>Co-organizing the first <a href="https://responsible-imaging.github.io/">ICCV 2025 Workshop on Responsible Imaging</a>! See you in Hawaii, Honolulu!</td>
 <td>2025.03</td>
 </tr>
+
 <tr>
 <td>Paper <a href="/proj/ecc_microneedle/">AI for on-patient medical record and mRNA therapeutics using intradermal microneedles</a> has been accepted by <a href="https://www.nature.com/nmat/"><strong>Nature Materials</strong></a>! The <a href="https://www.nature.com/articles/s41563-024-02115-4">paper</a> and <a href="https://github.com/liuyang12/ecc-microneedle">code</a> are publicly accessible.</td>
 <td>2024.12</td>
 </tr>
+
 <tr>
 <td>Joining Meta <a href="https://about.meta.com/realitylabs/">Reality Labs</a> at Sausalito, CA for summer 2024 internship.</td>
 <td>2024.03</td>
 </tr>
+
 <tr>
 <td><a href="/proj/privacy_dual_imaging/">Privacy Dual Imaging</a> is <a href="https://doi.org/10.1126/sciadv.adj3608">online</a> and <a href="http://localhost:4321/proj/privacy_dual_imaging/#press-coverage">covered</a> by <a href="https://news.mit.edu/2024/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk-0129">MIT News</a>, <a href="https://www.forbes.com/sites/daveywinder/2024/01/19/could-this-crazy-new-smartphone-hack-turn-2024-into-1984/">Forbes</a>, <a href="https://spectrum.ieee.org/ambient-light-sensor-cybersecurity-risk">IEEE Spectrum</a>, <a href="https://arstechnica.com/security/2024/01/ambient-light-sensors-can-reveal-your-device-activity-how-big-a-threat-is-it/">Ars Technica</a>, and <a href="https://www.csail.mit.edu/news/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk">more</a> (30+). Thanks <a href="https://www.csail.mit.edu/person/alex-shipps">Alex</a> and <a href="https://www.csail.mit.edu/person/rachel-gordon">Rachel</a> for <a href="https://www.csail.mit.edu/news/study-smart-devices-ambient-light-sensors-pose-imaging-privacy-risk">initial post</a>!</td>
 <td>2024.01</td>
 </tr>
+
 <tr>
 <td>Paper <a href="/proj/privacy_dual_imaging/">Privacy Dual Imaging</a> has been accepted by <a href="https://www.science.org/doi/10.1126/sciadv.adj3608"><strong>Science Advances</strong></a>!</td>
 <td>2023.12</td>
 </tr>
+
 <tr>
 <td>Co-Organizing MIT Graphics Seminars (weekly lunch format) with <a href="https://people.csail.mit.edu/karima/home.html">Karima</a>. Shoot us an <a href="mailto:yliu@csail.mit.edu,karima@mit.edu">email</a> if you are interested!</td>
 <td>2023&ndash;2024</td>
 </tr>
+
 <tr>
 <td>Taking <a href="https://fab.cba.mit.edu/classes/MAS.863/">MAS.863 How-to-Make</a> class making my <a href="https://fab.cba.mit.edu/classes/863.22/EECS/people/Yang/">own content creation</a> for fun!</td>
 <td>2022 Fall</td>
 </tr>
+
 <tr>
 <td>Received <a href="https://mittakedaprogram.mit.edu/round-2-fellows/">Takeda Fellowship</a> (2022-2023) from <a href="https://mittakedaprogram.mit.edu/">MIT-Takeda Program</a>. Thanks Takeda!</td>
 <td>2022.06</td>
 </tr>
+
 <tr>
 <td><a href="https://cap.csail.mit.edu/engage/spotlights/yang-liu">Research Spotlight</a> by <a href="https://www.csail.mit.edu/">MIT CSAIL</a>. Thanks <a href="https://www.csail.mit.edu/person/matthew-busekroos">Matt</a> and <a href="https://www.csail.mit.edu/person/nathan-caldwell">Nate</a> for neat production!</td>
 <td>2022.04</td>
 </tr>
 </tbody>
 </table>
+  </div>
+  <p class="news-scroll-hint">Scroll for older news.</p>
+</div>
+
 
 
     <div class="row">
@@ -873,9 +987,11 @@
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Generative Image Synthesis</li>
-          
           <li>Computational Imaging</li>
+          
+          <li>AI for Scientific Imaging</li>
+          
+          <li>Generative Image Synthesis</li>
           
           <li>Computational Photography</li>
           
@@ -3037,71 +3153,88 @@
 <th></th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
 <td><strong><a href="https://mittakedaprogram.mit.edu/round-2-fellows/">Takeda Fellowship</a> (<a href="https://mittakedaprogram.mit.edu/">MIT-Takeda Program</a>; 2022-2023)</strong></td>
 <td>2022</td>
 </tr>
+
 <tr>
 <td><strong><a href="https://web.mit.edu/provost/presfellow/">MIT Stata Family Presidential Fellowship</a> (2019-2020)</strong></td>
 <td>2019</td>
 </tr>
+
 <tr>
 <td><strong>Outstanding Master’s Thesis of Tsinghua University</strong></td>
 <td>2019</td>
 </tr>
+
 <tr>
 <td>Outstanding Postgraduate of Tsinghua University</td>
 <td>2019</td>
 </tr>
+
 <tr>
 <td>Outstanding Postgraduate of Automation Department</td>
 <td>2019</td>
 </tr>
+
 <tr>
 <td><strong>Jiang Nanxiang Scholarship (finalist of Top-10 Graduate Scholarship of Tsinghua University; 30/∼30,000)</strong></td>
 <td>2018</td>
 </tr>
+
 <tr>
 <td>Special Honor of Automation Department for Postgraduate Students (3/∼600)</td>
 <td>2018</td>
 </tr>
+
 <tr>
 <td><strong>Outstanding Graduate of Beijing</strong></td>
 <td>2016</td>
 </tr>
+
 <tr>
 <td>Outstanding Graduate of Tsinghua University</td>
 <td>2016</td>
 </tr>
+
 <tr>
 <td><strong>National Endeavor Scholarship</strong></td>
 <td>2015</td>
 </tr>
+
 <tr>
 <td>Second Prize in the 33-th Challenge Cup of Tsinghua University</td>
 <td>2015</td>
 </tr>
+
 <tr>
 <td>Honorable Mention in Mathematical Contest in Modeling</td>
 <td>2015</td>
 </tr>
+
 <tr>
 <td><strong>Samvo-Chan Shung Fai Scholarship</strong></td>
 <td>2014</td>
 </tr>
+
 <tr>
 <td>Second Prize in Contemporary Undergraduate Mathematical Contest in Modeling</td>
 <td>2014</td>
 </tr>
+
 <tr>
 <td><strong>National Endeavor Scholarship</strong></td>
 <td>2013</td>
 </tr>
+
 <tr>
 <td><a href="https://www.cyrustangfoundation.org/">Cyrus Tang Scholarship</a></td>
 <td>2013-2015</td>
 </tr>
+
 <tr>
 <td>HAGE Scholarship</td>
 <td>2013-2015</td>
@@ -3165,31 +3298,42 @@
     <table>
 <thead>
 <tr>
-<th>Seminar/Workshop Organizer and Journal/Conference Reviewer</th>
+<th>Seminar/Workshop Organizer and Journal/Conference Editor/Reviewer</th>
 <th></th>
 </tr>
 </thead>
+
 <tbody>
+<tr>
+<td><strong>Guest Editor</strong> for <strong><a href="https://link.springer.com/collections/ffbhjefiia">IJCV Special Issue on Responsible Imaging</a></strong>.</td>
+<td>2026.02</td>
+</tr>
+
 <tr>
 <td>Co-Organizer of the <strong>first <a href="https://responsible-imaging.github.io/">ICCV 2025 Workshop on Responsible Imaging</a></strong>.</td>
 <td>2025.10</td>
 </tr>
+
 <tr>
 <td>Co-Organizer of MIT Graphics Seminars (weekly lunch format).</td>
 <td>2023&ndash;2024</td>
 </tr>
+
 <tr>
 <td>Organizer of <a href="https://sites.google.com/view/visionseminar">MIT Vision and Graphics Seminars</a> (bi-weekly graphics side).</td>
 <td>2022&ndash;2023</td>
 </tr>
+
 <tr>
 <td>Co-Organizer of the first <a href="http://vc-workshop.csail.mit.edu/">MIT Visual Computing Workshop</a>.</td>
 <td>2021.02</td>
 </tr>
+
 <tr>
 <td><strong>Invited Reviewer</strong> for <strong><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</a></strong>, Transactions on Computational Imaging (TCI; 12×), Transactions on Neural Networks and Learning Systems (TNNLS), Journal of Selected Topics in Signal Processing (JSTSP); Optica Publishing Group (previously known as OSA; 17×) <strong><a href="https://opg.optica.org/optica/">Optica</a></strong>, Photonics Research, Optics Express (OE), Optics Letters (OL), Biomedical Optics Express (BOE), Applied Optics (AO); <strong><a href="https://s2025.siggraph.org/">ACM SIGGRAPH 2025</a></strong>.</td>
 <td></td>
 </tr>
+
 <tr>
 <td><strong>Student Participation</strong> for MIT EECS Faculty Search Committee (2022 &amp; 2023), MIT CSAIL <a href="https://www.csail.mit.edu/meteor">METEOR Postdoctoral Fellowship</a> Review Committee (2022), MIT EECS PhD Application Review Committee (2021).</td>
 <td></td>
@@ -3308,9 +3452,11 @@
       
     
     
+      
     
     
-    <script src="/js/academic.min.46afa28a73c62149a20374af231fe07d.js"></script>
+    
+    <script src="/js/academic.min.dc8c20cad35d4396103b7fd691c503a5.js"></script>
 
     
 
@@ -3325,7 +3471,7 @@
   
 
   <p class="powered-by" style="margin-bottom: 0;">
-    © 2018-2025 Y. Liu
+    &copy; 2018-2026 Y. Liu
 
     
     <span class="float-right" aria-hidden="true">
