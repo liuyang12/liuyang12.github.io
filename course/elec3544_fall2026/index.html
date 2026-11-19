@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Yang Liu">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="ELEC3544 at HKU: data science foundations, machine learning, foundation models, and agentic AI.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/course/elec3544_fall2026/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.a79f1c7dc305f312b325f60e3ec3220f.css">
+
+  
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.cb5f65f25409d100b166359be9406b6b.css">
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="/authors/yliu/avatar_hu4857616c2b0df5cae45dbe9233280cb4_1472019_32x32_fill_q90_lanczos_center.jpg">
+<link rel="apple-touch-icon" type="image/jpeg" sizes="192x192" href="/authors/yliu/avatar_hu4857616c2b0df5cae45dbe9233280cb4_1472019_192x192_fill_q90_lanczos_center.jpg">
+
+
+  <link rel="canonical" href="/course/elec3544_fall2026/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Yang Liu">
+  <meta property="og:url" content="/course/elec3544_fall2026/">
+  <meta property="og:title" content="Data Science with Foundation Models | Yang Liu">
+  <meta property="og:description" content="ELEC3544 at HKU: data science foundations, machine learning, foundation models, and agentic AI."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+  
+    <link rel="preload" href="/fonts/libertinus-sans/5.3.0/libertinus-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+    
+    
+    
+  
+
+
+
+
+  <title>Data Science with Foundation Models | Yang Liu</title>
+
+</head>
+
+
+
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+    
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main" data-autohide-delay="3000">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Yang Liu</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#proj"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#accomplishments"><span>Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Services</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/yangliu_cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://accessibility.mit.edu/" target="_blank" rel="noopener"><span>[accessibility]</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+  
+
+  
+<article class="course-site">
+  <header class="course-hero" id="course-overview">
+    <div class="course-shell">
+      <p class="course-eyebrow">ELEC3544 · Fall 2026</p>
+      <h1>Data Science with Foundation Models</h1>
+      <p class="course-tagline">Interactive and efficient data science powered by modern agentic AI</p>
+      <p class="course-overview">This course develops the foundations and practical skills for turning data into reliable insights and predictive models. It combines mathematical intuition, statistical reasoning, Python demonstrations, and applications. Foundation models and AI agents support the workflow throughout, while students learn to verify generated code, assess evidence, and explain their decisions.</p>
+      <div class="course-details" aria-label="Class details">
+        <span>HKU</span>
+        <span>Wednesdays · 4:00–6:50 PM</span>
+        <span>CPD-1.21</span>
+      </div>
+      <nav class="course-navigation" aria-label="Course sections">
+        <a href="#course-staff">Staff</a>
+        <a href="#course-calendar">Schedule &amp; slides</a>
+        <a href="#course-structure">Syllabus</a>
+        <a href="#assessment">Assessment</a>
+        <a href="#group-project-milestones">Project</a>
+        <a href="#acknowledgments">Acknowledgments</a>
+      </nav>
+    </div>
+  </header>
+  <div class="course-shell">
+    <section class="course-staff" id="course-staff" aria-labelledby="course-staff-heading">
+      <p class="course-eyebrow">Course staff</p>
+      <h2 id="course-staff-heading">Meet the teaching team</h2>
+      <div class="course-staff-grid">
+        
+        <article class="course-staff-card">
+          <div class="course-initials" aria-hidden="true">YL</div>
+          <p class="course-role">Instructor</p>
+          <h3><a href="https://ece.hku.hk/people/yliu12/">Yang Liu</a></h3>
+          <p class="course-affiliation">Assistant Professor · HKU ECE</p>
+          <a class="course-email" href="mailto:yliu12@hku.hk">yliu12@hku.hk</a>
+        </article>
+        
+        <article class="course-staff-card">
+          <div class="course-initials" aria-hidden="true">ZH</div>
+          <p class="course-role">Teaching Assistant</p>
+          <h3>Zhenyang Hu</h3>
+          
+          <a class="course-email" href="mailto:u3010250@connect.hku.hk">u3010250@connect.hku.hk</a>
+        </article>
+        
+        <article class="course-staff-card">
+          <div class="course-initials" aria-hidden="true">LC</div>
+          <p class="course-role">Teaching Assistant</p>
+          <h3>Lulu Cai</h3>
+          
+          <a class="course-email" href="mailto:u3011209@connect.hku.hk">u3011209@connect.hku.hk</a>
+        </article>
+        
+        <article class="course-staff-card">
+          <div class="course-initials" aria-hidden="true">YD</div>
+          <p class="course-role">Teaching Assistant</p>
+          <h3>Yushi Du</h3>
+          
+          <a class="course-email" href="mailto:u3012725@connect.hku.hk">u3012725@connect.hku.hk</a>
+        </article>
+        
+        <article class="course-staff-card">
+          <div class="course-initials" aria-hidden="true">JD</div>
+          <p class="course-role">Teaching Assistant</p>
+          <h3>Jun Dai</h3>
+          
+          <a class="course-email" href="mailto:jundai332@connect.hku.hk">jundai332@connect.hku.hk</a>
+        </article>
+        
+      </div>
+    </section>
+    <div class="course-document">
+
+<h2 id="course-calendar">Course calendar</h2>
+
+<p>Nine lectures, one midterm, and two project-presentation sessions.</p>
+
+<div class="course-table course-table-schedule" tabindex="0" role="region" aria-label="Fall 2026 lecture schedule and materials; scroll horizontally on narrow screens">
+  <table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Topic and focus</th>
+<th>Materials</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>Sep 2</strong><br>Week 1 · L1</td>
+<td><strong>Introduction to Data Science and Foundation Models</strong><br>Data science workflows, data collection, exploratory analysis, visualization, AI prompting, and verification.</td>
+<td><a href="slides/lec01_intro.pdf">Slides (PDF)</a><br><span class="course-material-size">5.3 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Sep 9</strong><br>Week 2 · L2</td>
+<td><strong>Linear Algebra for Data Science</strong><br>Data matrices, similarity, covariance, eigenvectors, principal component analysis, and explained variance.</td>
+<td><a href="slides/lec02_algebra.pdf">Slides (PDF)</a><br><span class="course-material-size">5.6 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Sep 16</strong><br>Week 3 · L3</td>
+<td><strong>Probability and Statistics for Data Science</strong><br>Distributions, conditional probability, Bayes’ rule, confidence intervals, hypothesis testing, and p-values.</td>
+<td><a href="slides/lec03_stats.pdf">Slides (PDF)</a><br><span class="course-material-size">4.2 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Sep 23</strong><br>Week 4 · L4</td>
+<td><strong>Data Science Applications and Data Wrangling</strong><br>Problem formulation, data quality, missing data, cleaning, feature encoding, scaling, and reproducible preprocessing.</td>
+<td><a href="slides/lec04_data.pdf">Slides (PDF)</a><br><span class="course-material-size">5.2 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Sep 30</strong><br>Week 5 · L5</td>
+<td><strong>Regression: Predicting Continuous Outcomes</strong><br>Linear regression, coefficient interpretation, model evaluation, overfitting, the bias–variance tradeoff, and regularization.</td>
+<td><a href="slides/lec05_regression.pdf">Slides (PDF)</a><br><span class="course-material-size">6.0 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Oct 7</strong><br>Week 6 · L6</td>
+<td><strong>Classification: Predicting Categories</strong><br>Logistic regression, decision trees, thresholds, precision and recall, ROC-AUC, and class imbalance.</td>
+<td><a href="slides/lec06_classification.pdf">Slides (PDF)</a><br><span class="course-material-size">5.0 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Oct 14</strong><br>Week 7</td>
+<td><strong>Reading week</strong><br>No scheduled lecture.</td>
+<td>—</td>
+</tr>
+
+<tr>
+<td><strong>Oct 21</strong><br>Week 8 · Exam</td>
+<td><strong>Midterm exam</strong><br>In class; closed book.</td>
+<td>—</td>
+</tr>
+
+<tr>
+<td><strong>Oct 28</strong><br>Week 9 · L7</td>
+<td><strong>Unsupervised Learning and Embeddings</strong><br>Polynomial features, k-means clustering, learned embeddings, cosine similarity, semantic search, and transfer.</td>
+<td><a href="slides/lec07_unsupervised.pdf">Slides (PDF)</a><br><span class="course-material-size">3.8 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Nov 4</strong><br>Week 10 · L8</td>
+<td><strong>Deep Learning</strong><br>Neural networks and function approximation, backpropagation, automatic differentiation, optimizers, CNNs, and ResNet.</td>
+<td><a href="slides/lec08_deep_learning.pdf">Slides (PDF)</a><br><span class="course-material-size">11.3 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Nov 11</strong><br>Week 11 · L9</td>
+<td><strong>Foundation Models and Agentic Data Science (planned)</strong><br>Attention, pretraining, LLMs, and tool-using agents for data science workflows, with verification and evaluation.</td>
+<td><a href="slides/lec09_llm_agents.pdf">Slides (PDF)</a><br><span class="course-material-size">9.0 MB</span></td>
+</tr>
+
+<tr>
+<td><strong>Nov 18</strong><br>Week 12 · P1</td>
+<td><strong>Group project presentations</strong><br>First presentation session; approximately 10 minutes per group.</td>
+<td>—</td>
+</tr>
+
+<tr>
+<td><strong>Nov 25</strong><br>Week 13 · P2</td>
+<td><strong>Group project presentations</strong><br>Second presentation session; approximately 10 minutes per group.</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="course-table-hint">Scroll the schedule sideways on small screens to see the materials.</p>
+
+
+<h2 id="course-structure">Course structure</h2>
+
+<div class="course-table" tabindex="0" role="region" aria-label="Course structure">
+  <table>
+<thead>
+<tr>
+<th>Lectures</th>
+<th>Focus</th>
+<th>Topics</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>L1–L4</td>
+<td><strong>Foundations</strong></td>
+<td>The data science workflow, linear algebra, probability and statistics, applications, data quality, and preprocessing.</td>
+</tr>
+
+<tr>
+<td>L5–L7</td>
+<td><strong>Learning from data</strong></td>
+<td>Regression, classification, unsupervised learning, and embeddings, with emphasis on evaluation and generalization.</td>
+</tr>
+
+<tr>
+<td>L8–L9</td>
+<td><strong>Modern AI</strong></td>
+<td>Deep learning, foundation models, LLMs, and agentic systems for interactive data science applications.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+<h2 id="learning-outcomes">Learning outcomes</h2>
+
+<p>By the end of the course, students should be able to:</p>
+
+<ul>
+<li>Formulate a data science problem and build a reproducible analysis workflow.</li>
+<li>Prepare and visualize data, and interpret uncertainty and statistical evidence.</li>
+<li>Select, fit, and evaluate supervised and unsupervised models on unseen data.</li>
+<li>Explain learned representations and the core mechanisms of deep learning and foundation models.</li>
+<li>Use AI agents effectively, verify their outputs, and communicate and defend the results.</li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<div class="course-table" tabindex="0" role="region" aria-label="Assessment components and weights">
+  <table>
+<thead>
+<tr>
+<th>Weight</th>
+<th>Component</th>
+<th>Details</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><strong>10%</strong></td>
+<td>Attendance and participation</td>
+<td>Starting from Week 2.</td>
+</tr>
+
+<tr>
+<td><strong>35%</strong></td>
+<td>Homework assignments</td>
+<td>Approximately every two weeks; 3–4 assignments in total.</td>
+</tr>
+
+<tr>
+<td><strong>25%</strong></td>
+<td>Midterm exam</td>
+<td>October 21, 2026, in class. Closed book; approximately 1.5–2 hours. One A4 cheat sheet and a calculator permitted.</td>
+</tr>
+
+<tr>
+<td><strong>30%</strong></td>
+<td>Group project</td>
+<td>Three members per group. Collaborate with AI agents and evaluate the resulting work. Report and presentations in November.</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+<h2 id="group-project-milestones">Group project milestones</h2>
+
+<ul>
+<li><strong>Report deadline:</strong> November 17, 2026, at 11:59 PM.</li>
+<li><strong>Presentations:</strong> November 18 and November 25, approximately 10 minutes per group.</li>
+</ul>
+
+<p>Project resources:</p>
+
+<ul>
+<li><a href="https://drive.google.com/file/d/15F0dhNbyAtwiAOuP_p7K_4bgbqET3S3C/view?usp=drive_link">Group project assessment guide</a></li>
+<li><a href="https://drive.google.com/file/d/1aNxF5H8aBY3RLg311YGJ8xv4xu6lt5Dz/view?usp=sharing">Presentation guide</a></li>
+<li>Report templates (<a href="https://drive.google.com/file/d/1AjlVD4wb9qLdDLXKOH0TFwvlhzskgrDl/view?usp=drive_link">LaTeX</a>, <a href="https://docs.google.com/document/d/1rr_xZpbqc6wuPtwW_ObqhZ5rDcjBEU_s/edit?usp=drive_link&amp;ouid=113996638218265300056&amp;rtpof=true&amp;sd=true">Word</a>)</li>
+<li><a href="https://tinyurl.com/ELEC3544PeerReview">Peer review system</a></li>
+</ul>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<p>This course was originally created and taught by <a href="https://yanchaoyang.github.io/">Prof. Yanchao Yang</a> from 2024 through Spring 2026.</p>
+
+<p>The modern AI portions draw extensively on materials from <a href="https://deeplearning6-7960.github.io/">MIT 6.7960 Deep Learning</a>, <a href="https://georgiagkioxari.com/teaching/cs148/">Caltech EE/CS 148B Large Language &amp; Vision Models</a>, and <a href="https://themodernsoftware.dev/">Stanford CS146S The Modern Software Developer</a>.</p>
+</div>
+    <footer class="course-footer">
+      ELEC3544 · Data Science with Foundation Models · HKU
+    </footer>
+  </div>
+</article>
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/LaTeX.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/Markdown.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'proj' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+    
+    <script src="/js/academic.min.dc8c20cad35d4396103b7fd691c503a5.js"></script>
+
+    
+
+
+
+
+
+
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

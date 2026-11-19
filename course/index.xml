@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Yang Liu</title>
+    <link>/course/</link>
+      <atom:link href="/course/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2026 Y. Liu</copyright>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Courses</title>
+      <link>/course/</link>
+    </image>
+    
+    <item>
+      <title>Data Science with Foundation Models</title>
+      <link>/course/elec3544_fall2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/course/elec3544_fall2026/</guid>
+      <description>
+
+&lt;h2 id=&#34;course-calendar&#34;&gt;Course calendar&lt;/h2&gt;
+
+&lt;p&gt;Nine lectures, one midterm, and two project-presentation sessions.&lt;/p&gt;
+
+&lt;div class=&#34;course-table course-table-schedule&#34; tabindex=&#34;0&#34; role=&#34;region&#34; aria-label=&#34;Fall 2026 lecture schedule and materials; scroll horizontally on narrow screens&#34;&gt;
+  &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic and focus&lt;/th&gt;
+&lt;th&gt;Materials&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sep 2&lt;/strong&gt;&lt;br&gt;Week 1 · L1&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Introduction to Data Science and Foundation Models&lt;/strong&gt;&lt;br&gt;Data science workflows, data collection, exploratory analysis, visualization, AI prompting, and verification.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec01_intro.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;5.3 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sep 9&lt;/strong&gt;&lt;br&gt;Week 2 · L2&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Linear Algebra for Data Science&lt;/strong&gt;&lt;br&gt;Data matrices, similarity, covariance, eigenvectors, principal component analysis, and explained variance.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec02_algebra.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;5.6 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sep 16&lt;/strong&gt;&lt;br&gt;Week 3 · L3&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Probability and Statistics for Data Science&lt;/strong&gt;&lt;br&gt;Distributions, conditional probability, Bayes’ rule, confidence intervals, hypothesis testing, and p-values.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec03_stats.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;4.2 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sep 23&lt;/strong&gt;&lt;br&gt;Week 4 · L4&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Data Science Applications and Data Wrangling&lt;/strong&gt;&lt;br&gt;Problem formulation, data quality, missing data, cleaning, feature encoding, scaling, and reproducible preprocessing.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec04_data.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;5.2 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sep 30&lt;/strong&gt;&lt;br&gt;Week 5 · L5&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Regression: Predicting Continuous Outcomes&lt;/strong&gt;&lt;br&gt;Linear regression, coefficient interpretation, model evaluation, overfitting, the bias–variance tradeoff, and regularization.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec05_regression.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;6.0 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Oct 7&lt;/strong&gt;&lt;br&gt;Week 6 · L6&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Classification: Predicting Categories&lt;/strong&gt;&lt;br&gt;Logistic regression, decision trees, thresholds, precision and recall, ROC-AUC, and class imbalance.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec06_classification.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;5.0 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Oct 14&lt;/strong&gt;&lt;br&gt;Week 7&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Reading week&lt;/strong&gt;&lt;br&gt;No scheduled lecture.&lt;/td&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Oct 21&lt;/strong&gt;&lt;br&gt;Week 8 · Exam&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Midterm exam&lt;/strong&gt;&lt;br&gt;In class; closed book.&lt;/td&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Oct 28&lt;/strong&gt;&lt;br&gt;Week 9 · L7&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Unsupervised Learning and Embeddings&lt;/strong&gt;&lt;br&gt;Polynomial features, k-means clustering, learned embeddings, cosine similarity, semantic search, and transfer.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec07_unsupervised.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;3.8 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 4&lt;/strong&gt;&lt;br&gt;Week 10 · L8&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Deep Learning&lt;/strong&gt;&lt;br&gt;Neural networks and function approximation, backpropagation, automatic differentiation, optimizers, CNNs, and ResNet.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec08_deep_learning.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;11.3 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 11&lt;/strong&gt;&lt;br&gt;Week 11 · L9&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Foundation Models and Agentic Data Science (planned)&lt;/strong&gt;&lt;br&gt;Attention, pretraining, LLMs, and tool-using agents for data science workflows, with verification and evaluation.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;slides/lec09_llm_agents.pdf&#34;&gt;Slides (PDF)&lt;/a&gt;&lt;br&gt;&lt;span class=&#34;course-material-size&#34;&gt;9.0 MB&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 18&lt;/strong&gt;&lt;br&gt;Week 12 · P1&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Group project presentations&lt;/strong&gt;&lt;br&gt;First presentation session; approximately 10 minutes per group.&lt;/td&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nov 25&lt;/strong&gt;&lt;br&gt;Week 13 · P2&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Group project presentations&lt;/strong&gt;&lt;br&gt;Second presentation session; approximately 10 minutes per group.&lt;/td&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p class=&#34;course-table-hint&#34;&gt;Scroll the schedule sideways on small screens to see the materials.&lt;/p&gt;
+
+
+&lt;h2 id=&#34;course-structure&#34;&gt;Course structure&lt;/h2&gt;
+
+&lt;div class=&#34;course-table&#34; tabindex=&#34;0&#34; role=&#34;region&#34; aria-label=&#34;Course structure&#34;&gt;
+  &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lectures&lt;/th&gt;
+&lt;th&gt;Focus&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;L1–L4&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Foundations&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The data science workflow, linear algebra, probability and statistics, applications, data quality, and preprocessing.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;L5–L7&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Learning from data&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Regression, classification, unsupervised learning, and embeddings, with emphasis on evaluation and generalization.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;L8–L9&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Modern AI&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Deep learning, foundation models, LLMs, and agentic systems for interactive data science applications.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+
+
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning outcomes&lt;/h2&gt;
+
+&lt;p&gt;By the end of the course, students should be able to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Formulate a data science problem and build a reproducible analysis workflow.&lt;/li&gt;
+&lt;li&gt;Prepare and visualize data, and interpret uncertainty and statistical evidence.&lt;/li&gt;
+&lt;li&gt;Select, fit, and evaluate supervised and unsupervised models on unseen data.&lt;/li&gt;
+&lt;li&gt;Explain learned representations and the core mechanisms of deep learning and foundation models.&lt;/li&gt;
+&lt;li&gt;Use AI agents effectively, verify their outputs, and communicate and defend the results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assessment&#34;&gt;Assessment&lt;/h2&gt;
+
+&lt;div class=&#34;course-table&#34; tabindex=&#34;0&#34; role=&#34;region&#34; aria-label=&#34;Assessment components and weights&#34;&gt;
+  &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Weight&lt;/th&gt;
+&lt;th&gt;Component&lt;/th&gt;
+&lt;th&gt;Details&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;10%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Attendance and participation&lt;/td&gt;
+&lt;td&gt;Starting from Week 2.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;35%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Homework assignments&lt;/td&gt;
+&lt;td&gt;Approximately every two weeks; 3–4 assignments in total.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;25%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Midterm exam&lt;/td&gt;
+&lt;td&gt;October 21, 2026, in class. Closed book; approximately 1.5–2 hours. One A4 cheat sheet and a calculator permitted.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;30%&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Group project&lt;/td&gt;
+&lt;td&gt;Three members per group. Collaborate with AI agents and evaluate the resulting work. Report and presentations in November.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+
+
+&lt;h2 id=&#34;group-project-milestones&#34;&gt;Group project milestones&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Report deadline:&lt;/strong&gt; November 17, 2026, at 11:59 PM.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presentations:&lt;/strong&gt; November 18 and November 25, approximately 10 minutes per group.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Project resources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/15F0dhNbyAtwiAOuP_p7K_4bgbqET3S3C/view?usp=drive_link&#34;&gt;Group project assessment guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1aNxF5H8aBY3RLg311YGJ8xv4xu6lt5Dz/view?usp=sharing&#34;&gt;Presentation guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Report templates (&lt;a href=&#34;https://drive.google.com/file/d/1AjlVD4wb9qLdDLXKOH0TFwvlhzskgrDl/view?usp=drive_link&#34;&gt;LaTeX&lt;/a&gt;, &lt;a href=&#34;https://docs.google.com/document/d/1rr_xZpbqc6wuPtwW_ObqhZ5rDcjBEU_s/edit?usp=drive_link&amp;amp;ouid=113996638218265300056&amp;amp;rtpof=true&amp;amp;sd=true&#34;&gt;Word&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tinyurl.com/ELEC3544PeerReview&#34;&gt;Peer review system&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;p&gt;This course was originally created and taught by &lt;a href=&#34;https://yanchaoyang.github.io/&#34;&gt;Prof. Yanchao Yang&lt;/a&gt; from 2024 through Spring 2026.&lt;/p&gt;
+
+&lt;p&gt;The modern AI portions draw extensively on materials from &lt;a href=&#34;https://deeplearning6-7960.github.io/&#34;&gt;MIT 6.7960 Deep Learning&lt;/a&gt;, &lt;a href=&#34;https://georgiagkioxari.com/teaching/cs148/&#34;&gt;Caltech EE/CS 148B Large Language &amp;amp; Vision Models&lt;/a&gt;, and &lt;a href=&#34;https://themodernsoftware.dev/&#34;&gt;Stanford CS146S The Modern Software Developer&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,13 +5,13 @@
   "theme_color": "#2962ff",
   "background_color": "#2962ff",
   "icons": [{
-    "src": "img/icon-192.png",
+    "src": "/authors/yliu/avatar_hu4857616c2b0df5cae45dbe9233280cb4_1472019_192x192_fill_q90_lanczos_center.jpg",
     "sizes": "192x192",
-    "type": "image/png"
+    "type": "image/jpeg"
     }, {
-    "src": "img/icon-512.png",
+    "src": "/authors/yliu/avatar_hu4857616c2b0df5cae45dbe9233280cb4_1472019_512x512_fill_q90_lanczos_center.jpg",
     "sizes": "512x512",
-    "type": "image/png"
+    "type": "image/jpeg"
      }],
   "display": "standalone",
   "start_url": "/?utm_source=web_app_manifest"
